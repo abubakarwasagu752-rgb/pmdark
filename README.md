@@ -98,8 +98,8 @@ Code is MIT (`LICENSE`). Results, figures and tables are CC-BY-4.0.
 
 ## Contact
 
-nujarin.jon@kmutt.ac.th
+https://github.com/abubakarwasagu752-rgb/pmdark/issues
 
 ---
 
-Built from freeze `20261110T135621Z` on 2026-11-10.
+Built from freeze `20261110T143802Z` on 2026-11-10.

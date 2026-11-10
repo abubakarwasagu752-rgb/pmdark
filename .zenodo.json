@@ -1,0 +1,35 @@
+{
+  "title": "A structurally coherent, STAT-regulated dark proteome in Penaeus monodon hemocytes",
+  "upload_type": "software",
+  "description": "<p>Code and derived results for a calibrated protein-language-model approach to protein function annotation, evaluated under progressive withdrawal of homologous evidence and applied to the STAT-dependent uncharacterised fraction of the <i>Penaeus monodon</i> hemocyte proteome.</p><ul><li>Fmax, all benchmark queries (ESM-2, whitened): 0.815 [0.801, 0.829]</li><li>Benchmark queries: 1,087</li><li>Fmax on proteins with no BLAST-class hit: 0.664 [0.599, 0.732]</li><li>Proteins with no BLAST-class hit: 94</li><li>Fmax after iterative-profile hardening: 0.625 [0.542, 0.706]</li><li>Proteins with no hit from either search: 70</li><li>STAT-dependent uncharacterised targets annotated: 328</li><li>…of which have no reachable homologue: 190</li><li>Spearman |δ| vs expression decile: +0.84 (p = 0.002)</li></ul>",
+  "creators": [
+    {
+      "name": "Saadu, Abubakar",
+      "affiliation": "Department of Microbiology, Faculty of Science, King Mongkut's University of Technology Thonburi, Bangkok 10140, Thailand",
+      "orcid": "0009-0002-2116-9289"
+    },
+    {
+      "name": "Jongruja, Nujarin",
+      "affiliation": "Department of Microbiology, Faculty of Science, King Mongkut's University of Technology Thonburi, Bangkok 10140, Thailand",
+      "orcid": "0000-0002-8839-2568"
+    }
+  ],
+  "keywords": [
+    "protein language model",
+    "function annotation",
+    "dark proteome",
+    "Penaeus monodon",
+    "whitening",
+    "Gene Ontology"
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/abubakarwasagu752-rgb/pmdark",
+      "scheme": "url"
+    }
+  ]
+}

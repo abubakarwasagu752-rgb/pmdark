@@ -3,7 +3,7 @@
 # pass them again to change anything. No need to edit this by hand.
 
 github:
-  owner: Abubakarwasagu752-rgb
+  owner: abubakarwasagu752-rgb
   repo: pmdark
   private: false
   default_branch: main
@@ -31,4 +31,4 @@ authors:
   affiliation: Department of Microbiology, Faculty of Science, King Mongkut's University
     of Technology Thonburi, Bangkok 10140, Thailand
   orcid: 0000-0002-8839-2568
-corresponding: nujarin.jon@kmutt.ac.th
+corresponding: https://github.com/abubakarwasagu752-rgb/pmdark/issues
