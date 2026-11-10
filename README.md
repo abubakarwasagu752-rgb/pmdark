@@ -1,4 +1,4 @@
-# A structurally coherent, STAT-regulated dark proteome in Penaeus monodon hemocytes
+# A disorder-enriched, structurally heterogeneous dark proteome in Penaeus monodon hemocytes revealed by whitening-calibrated protein language models
 
 Calibrated protein-language-model function transfer, evaluated as homologous evidence is withdrawn, and applied to the STAT-dependent uncharacterised fraction of the *Penaeus monodon* hemocyte proteome.
 
@@ -102,4 +102,4 @@ https://github.com/abubakarwasagu752-rgb/pmdark/issues
 
 ---
 
-Built from freeze `20261110T143802Z` on 2026-11-10.
+Built from freeze `20261110T145215Z` on 2026-11-10.
