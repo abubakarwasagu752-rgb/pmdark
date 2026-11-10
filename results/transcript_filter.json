@@ -1,0 +1,27 @@
+{
+  "params": {
+    "long": 500,
+    "min_libraries": 3,
+    "min_frac": 0.5
+  },
+  "input_transcripts": 106776,
+  "kept_by_reason": {
+    "long": 41367,
+    "multi_exon": 7421,
+    "replicated": 10270
+  },
+  "total_kept": 59058,
+  "short_transcripts_retained": 17691,
+  "filtered_stats": {
+    "n_transcripts": 59058,
+    "n_loci": 46433,
+    "total_bp": 81966079,
+    "transcript_n50": 2619,
+    "mean_transcript": 1387.9,
+    "median_transcript": 700,
+    "max_transcript": 29058,
+    "min_transcript": 102,
+    "multi_exon": 32293,
+    "multi_exon_pct": 54.7
+  }
+}

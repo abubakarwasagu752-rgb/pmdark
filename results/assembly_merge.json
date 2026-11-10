@@ -1,0 +1,40 @@
+{
+  "n_input_gtfs": 24,
+  "merge_params": {
+    "min_tpm": 1.0,
+    "min_len": 200,
+    "reference_guided": false
+  },
+  "stats": {
+    "n_transcripts": 106776,
+    "n_loci": 94096,
+    "total_bp": 97121707,
+    "transcript_n50": 2004,
+    "mean_transcript": 909.6,
+    "median_transcript": 411,
+    "max_transcript": 29058,
+    "min_transcript": 102,
+    "multi_exon": 32293,
+    "multi_exon_pct": 30.2
+  },
+  "gates": {
+    "transcript_n50": {
+      "pass": true,
+      "detail": "2,004 vs target >1,200 (upstream 417)"
+    },
+    "n_loci": {
+      "pass": false,
+      "detail": "94,096 vs target 25,000-45,000 (upstream 586,928)"
+    },
+    "mean_transcript": {
+      "pass": true,
+      "detail": "909.6 vs target >900 (upstream 409)"
+    }
+  },
+  "upstream_comparison": {
+    "upstream_transcripts": 778680,
+    "upstream_unigenes": 586928,
+    "upstream_n50": 417,
+    "upstream_mean_length": 409
+  }
+}

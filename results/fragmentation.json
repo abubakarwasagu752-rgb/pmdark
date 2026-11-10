@@ -1,0 +1,54 @@
+{
+  "coding_genes": 24011,
+  "orf_on_exons": 12747,
+  "detected": 12505,
+  "complete": 9948,
+  "paralog_only_old_metric": 1508,
+  "thresholds": {
+    "identity": 70.0,
+    "detect_qcov": 10.0,
+    "complete_qcov": 80.0
+  },
+  "median_qcov": 100.0,
+  "median_length_ratio": 100.0,
+  "by_length_band": [
+    {
+      "band": "0-150 aa",
+      "genes": 3579,
+      "detected": 1382,
+      "complete": 1229,
+      "median_qcov": 100.0
+    },
+    {
+      "band": "150-300 aa",
+      "genes": 7252,
+      "detected": 3125,
+      "complete": 2616,
+      "median_qcov": 100.0
+    },
+    {
+      "band": "300-600 aa",
+      "genes": 7953,
+      "detected": 4452,
+      "complete": 3499,
+      "median_qcov": 100.0
+    },
+    {
+      "band": "600-1200 aa",
+      "genes": 3891,
+      "detected": 2606,
+      "complete": 1970,
+      "median_qcov": 100.0
+    },
+    {
+      "band": "1200+ aa",
+      "genes": 1336,
+      "detected": 940,
+      "complete": 634,
+      "median_qcov": 100.0
+    }
+  ],
+  "genes_with_multiple_orfs": 4585,
+  "bams_present": 0,
+  "bam_gb": 0.0
+}

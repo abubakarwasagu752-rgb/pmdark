@@ -1,0 +1,12 @@
+{
+  "min_aa": 70,
+  "homology_evidence": true,
+  "homology_source": "both",
+  "genome_gff3": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/transdecoder/merged_filtered.cDNA.fasta.transdecoder.genome.gff3",
+  "pep_file": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/transdecoder/merged_filtered.cDNA.fasta.transdecoder.pep",
+  "n_total": 25255,
+  "n_ge_70": 24859,
+  "n_ge_100": 22710,
+  "n_70_to_99_recovered": 2149,
+  "upstream_n_ge_100": 28423
+}

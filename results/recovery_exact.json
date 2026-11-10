@@ -1,0 +1,23 @@
+{
+  "coding_genes": 24011,
+  "min_bp_exonic": 30,
+  "thresholds": {
+    "identity": 70.0,
+    "qcov": 50.0
+  },
+  "transcript_span": 14575,
+  "transcript_exonic": 13411,
+  "orf_span": 12942,
+  "orf_exonic": 12747,
+  "sequence": 13373,
+  "sequence_check_ran": true,
+  "span_inflation_genes": 195,
+  "crosstab": {
+    "recovered": 13373,
+    "no_transcript": 8940,
+    "orf_no_sequence": 1128,
+    "transcript_no_orf": 570,
+    "recovered_unverified": 0
+  },
+  "proteins_no_exonic_overlap": 2792
+}

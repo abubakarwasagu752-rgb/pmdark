@@ -1,0 +1,157 @@
+{
+  "coding_genes": 24011,
+  "thresholds": {
+    "min_tpm": 1.0,
+    "min_libraries": 3,
+    "identity": 70.0,
+    "detect_qcov": 10.0,
+    "complete_qcov": 80.0
+  },
+  "libraries_used": [
+    "SRR28572172",
+    "SRR28572173",
+    "SRR28572174",
+    "SRR28572175",
+    "SRR28572176",
+    "SRR28572177",
+    "SRR28572178",
+    "SRR28572180",
+    "SRR28572181",
+    "SRR28572182",
+    "SRR28572183"
+  ],
+  "libraries_excluded": [
+    "SRR28572179"
+  ],
+  "expressed": 10959,
+  "detected_all": 12505,
+  "complete_all": 9948,
+  "detected_expressed": 10576,
+  "complete_expressed": 8466,
+  "detected_pct_expressed": 96.5,
+  "expressed_not_detected": 383,
+  "sensitivity_grid": [
+    {
+      "min_tpm": 0.5,
+      "min_libs": 1,
+      "expressed": 15179,
+      "detected_pct": 82.1,
+      "complete_pct": 65.4
+    },
+    {
+      "min_tpm": 0.5,
+      "min_libs": 3,
+      "expressed": 12346,
+      "detected_pct": 93.0,
+      "complete_pct": 74.2
+    },
+    {
+      "min_tpm": 0.5,
+      "min_libs": 6,
+      "expressed": 9834,
+      "detected_pct": 96.1,
+      "complete_pct": 76.0
+    },
+    {
+      "min_tpm": 1.0,
+      "min_libs": 1,
+      "expressed": 13610,
+      "detected_pct": 90.9,
+      "complete_pct": 72.8
+    },
+    {
+      "min_tpm": 1.0,
+      "min_libs": 3,
+      "expressed": 10959,
+      "detected_pct": 96.5,
+      "complete_pct": 77.3
+    },
+    {
+      "min_tpm": 1.0,
+      "min_libs": 6,
+      "expressed": 8965,
+      "detected_pct": 96.7,
+      "complete_pct": 76.5
+    },
+    {
+      "min_tpm": 2.0,
+      "min_libs": 1,
+      "expressed": 11461,
+      "detected_pct": 96.7,
+      "complete_pct": 77.9
+    },
+    {
+      "min_tpm": 2.0,
+      "min_libs": 3,
+      "expressed": 9372,
+      "detected_pct": 96.7,
+      "complete_pct": 76.9
+    },
+    {
+      "min_tpm": 2.0,
+      "min_libs": 6,
+      "expressed": 8008,
+      "detected_pct": 96.9,
+      "complete_pct": 76.5
+    },
+    {
+      "min_tpm": 5.0,
+      "min_libs": 1,
+      "expressed": 8449,
+      "detected_pct": 96.7,
+      "complete_pct": 76.7
+    },
+    {
+      "min_tpm": 5.0,
+      "min_libs": 3,
+      "expressed": 7298,
+      "detected_pct": 96.8,
+      "complete_pct": 76.4
+    },
+    {
+      "min_tpm": 5.0,
+      "min_libs": 6,
+      "expressed": 6176,
+      "detected_pct": 97.0,
+      "complete_pct": 76.9
+    }
+  ],
+  "by_length_band": [
+    {
+      "band": "0-150 aa",
+      "annotated": 3579,
+      "expressed": 1190,
+      "detected": 1075,
+      "complete": 965
+    },
+    {
+      "band": "150-300 aa",
+      "annotated": 7252,
+      "expressed": 2702,
+      "detected": 2579,
+      "complete": 2175
+    },
+    {
+      "band": "300-600 aa",
+      "annotated": 7953,
+      "expressed": 3872,
+      "detected": 3782,
+      "complete": 3012
+    },
+    {
+      "band": "600-1200 aa",
+      "annotated": 3891,
+      "expressed": 2332,
+      "detected": 2294,
+      "complete": 1738
+    },
+    {
+      "band": "1200+ aa",
+      "annotated": 1336,
+      "expressed": 863,
+      "detected": 846,
+      "complete": 576
+    }
+  ],
+  "median_max_tpm_of_missed": 11.19
+}

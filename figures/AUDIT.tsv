@@ -1,0 +1,183 @@
+figure	panel	series	at	value	source_file	source_key
+Figure 1	B	ESM-2 center	T0_full	0.0195122	bootstrap_ci.json	deltas[esm2/T0_full: center - none].delta
+Figure 1	B	ESM-2 whiten	T0_full	0.107599	bootstrap_ci.json	deltas[esm2/T0_full: whiten - none].delta
+Figure 1	B	ProtT5 center	T0_full	0.0182603	bootstrap_ci.json	deltas[prott5/T0_full: center - none].delta
+Figure 1	B	ProtT5 whiten	T0_full	0.0776145	bootstrap_ci.json	deltas[prott5/T0_full: whiten - none].delta
+Figure 1	B	ProstT5 center	T0_full	0.010442	bootstrap_ci.json	deltas[prostt5/T0_full: center - none].delta
+Figure 1	B	ProstT5 whiten	T0_full	0.0871033	bootstrap_ci.json	deltas[prostt5/T0_full: whiten - none].delta
+Figure 1	C	ESM-2 center	ORPHAN_nohit	0.00885268	bootstrap_ci.json	deltas[esm2/ORPHAN_nohit: center - none].delta
+Figure 1	C	ESM-2 whiten	ORPHAN_nohit	0.0842698	bootstrap_ci.json	deltas[esm2/ORPHAN_nohit: whiten - none].delta
+Figure 1	C	ProtT5 center	ORPHAN_nohit	-0.00606374	bootstrap_ci.json	deltas[prott5/ORPHAN_nohit: center - none].delta
+Figure 1	C	ProtT5 whiten	ORPHAN_nohit	0.0625676	bootstrap_ci.json	deltas[prott5/ORPHAN_nohit: whiten - none].delta
+Figure 1	C	ProstT5 center	ORPHAN_nohit	-0.013238	bootstrap_ci.json	deltas[prostt5/ORPHAN_nohit: center - none].delta
+Figure 1	C	ProstT5 whiten	ORPHAN_nohit	0.0257239	bootstrap_ci.json	deltas[prostt5/ORPHAN_nohit: whiten - none].delta
+Figure 2	A	ESM-2	T0_full	0.815108	bootstrap_ci.json	cells[esm2/whiten/T0_full].fmax
+Figure 2	A	ESM-2	I90	0.811922	bootstrap_ci.json	cells[esm2/whiten/I90].fmax
+Figure 2	A	ESM-2	I50	0.775261	bootstrap_ci.json	cells[esm2/whiten/I50].fmax
+Figure 2	A	ESM-2	I30	0.720874	bootstrap_ci.json	cells[esm2/whiten/I30].fmax
+Figure 2	A	ESM-2	I20	0.697377	bootstrap_ci.json	cells[esm2/whiten/I20].fmax
+Figure 2	A	ESM-2	Inone	0.696847	bootstrap_ci.json	cells[esm2/whiten/Inone].fmax
+Figure 2	A	ESM-2	ORPHAN_nohit	0.664024	bootstrap_ci.json	cells[esm2/whiten/ORPHAN_nohit].fmax
+Figure 2	A	ProtT5	T0_full	0.810392	bootstrap_ci.json	cells[prott5/whiten/T0_full].fmax
+Figure 2	A	ProtT5	I90	0.807724	bootstrap_ci.json	cells[prott5/whiten/I90].fmax
+Figure 2	A	ProtT5	I50	0.770493	bootstrap_ci.json	cells[prott5/whiten/I50].fmax
+Figure 2	A	ProtT5	I30	0.709752	bootstrap_ci.json	cells[prott5/whiten/I30].fmax
+Figure 2	A	ProtT5	I20	0.688052	bootstrap_ci.json	cells[prott5/whiten/I20].fmax
+Figure 2	A	ProtT5	Inone	0.687968	bootstrap_ci.json	cells[prott5/whiten/Inone].fmax
+Figure 2	A	ProtT5	ORPHAN_nohit	0.679198	bootstrap_ci.json	cells[prott5/whiten/ORPHAN_nohit].fmax
+Figure 2	A	ProstT5	T0_full	0.806009	bootstrap_ci.json	cells[prostt5/whiten/T0_full].fmax
+Figure 2	A	ProstT5	I90	0.802657	bootstrap_ci.json	cells[prostt5/whiten/I90].fmax
+Figure 2	A	ProstT5	I50	0.763039	bootstrap_ci.json	cells[prostt5/whiten/I50].fmax
+Figure 2	A	ProstT5	I30	0.704595	bootstrap_ci.json	cells[prostt5/whiten/I30].fmax
+Figure 2	A	ProstT5	I20	0.680166	bootstrap_ci.json	cells[prostt5/whiten/I20].fmax
+Figure 2	A	ProstT5	Inone	0.678947	bootstrap_ci.json	cells[prostt5/whiten/Inone].fmax
+Figure 2	A	ProstT5	ORPHAN_nohit	0.634267	bootstrap_ci.json	cells[prostt5/whiten/ORPHAN_nohit].fmax
+Figure 2	B	ESM-2 all queries	BP	0.655506	calibration_esm2_whiten.json	results[T0_full].metrics[BP].fmax
+Figure 2	B	ESM-2 all queries	MF	0.836698	calibration_esm2_whiten.json	results[T0_full].metrics[MF].fmax
+Figure 2	B	ESM-2 all queries	CC	0.881862	calibration_esm2_whiten.json	results[T0_full].metrics[CC].fmax
+Figure 2	B	ESM-2 orphans	BP	0.326877	calibration_esm2_whiten.json	results[ORPHAN_nohit].metrics[BP].fmax
+Figure 2	B	ESM-2 orphans	MF	0.434578	calibration_esm2_whiten.json	results[ORPHAN_nohit].metrics[MF].fmax
+Figure 2	B	ESM-2 orphans	CC	0.806795	calibration_esm2_whiten.json	results[ORPHAN_nohit].metrics[CC].fmax
+Figure 3	A	embeddings	T0_full	0.815108	calibration_esm2_whiten.json	results[T0_full].metrics.overall.fmax
+Figure 3	A	embeddings	I90	0.811922	calibration_esm2_whiten.json	results[I90].metrics.overall.fmax
+Figure 3	A	embeddings	I50	0.775261	calibration_esm2_whiten.json	results[I50].metrics.overall.fmax
+Figure 3	A	embeddings	I30	0.720874	calibration_esm2_whiten.json	results[I30].metrics.overall.fmax
+Figure 3	A	embeddings	I20	0.697377	calibration_esm2_whiten.json	results[I20].metrics.overall.fmax
+Figure 3	A	embeddings	Inone	0.696847	calibration_esm2_whiten.json	results[Inone].metrics.overall.fmax
+Figure 3	A	embeddings	ORPHAN_nohit	0.664024	calibration_esm2_whiten.json	results[ORPHAN_nohit].metrics.overall.fmax
+Figure 3	A	DIAMOND	T0_full	0.768103	homology_baseline_DIAMOND.json	tiers[T0_full].topk.fmax
+Figure 3	A	DIAMOND	I90	0.760514	homology_baseline_DIAMOND.json	tiers[I90].topk.fmax
+Figure 3	A	DIAMOND	I50	0.660987	homology_baseline_DIAMOND.json	tiers[I50].topk.fmax
+Figure 3	A	DIAMOND	I30	0.323105	homology_baseline_DIAMOND.json	tiers[I30].topk.fmax
+Figure 3	A	DIAMOND	I20	0.0147994	homology_baseline_DIAMOND.json	tiers[I20].topk.fmax
+Figure 3	A	DIAMOND	Inone	0	homology_baseline_DIAMOND.json	tiers[Inone].topk.fmax
+Figure 3	A	DIAMOND	ORPHAN_nohit	0	homology_baseline_DIAMOND.json	tiers[ORPHAN_nohit].topk.fmax
+Figure 3	A	jackhmmer	T0_full	0.759607	homology_baseline_jackhmmer.json	tiers[T0_full].topk.fmax
+Figure 3	A	jackhmmer	I90	0.748159	homology_baseline_jackhmmer.json	tiers[I90].topk.fmax
+Figure 3	A	jackhmmer	I50	0.6917	homology_baseline_jackhmmer.json	tiers[I50].topk.fmax
+Figure 3	A	jackhmmer	I30	0.615123	homology_baseline_jackhmmer.json	tiers[I30].topk.fmax
+Figure 3	A	jackhmmer	I20	0.562596	homology_baseline_jackhmmer.json	tiers[I20].topk.fmax
+Figure 3	A	jackhmmer	Inone	0.561993	homology_baseline_jackhmmer.json	tiers[Inone].topk.fmax
+Figure 3	A	jackhmmer	ORPHAN_nohit	0.271294	homology_baseline_jackhmmer.json	tiers[ORPHAN_nohit].topk.fmax
+Figure 3	B	DIAMOND	T0_full	85.2806	homology_baseline_DIAMOND.json	tiers[T0_full].best.answerable_frac x100
+Figure 3	B	DIAMOND	I90	84.2686	homology_baseline_DIAMOND.json	tiers[I90].best.answerable_frac x100
+Figure 3	B	DIAMOND	I50	73.1371	homology_baseline_DIAMOND.json	tiers[I50].best.answerable_frac x100
+Figure 3	B	DIAMOND	I30	34.7746	homology_baseline_DIAMOND.json	tiers[I30].best.answerable_frac x100
+Figure 3	B	DIAMOND	I20	2.29991	homology_baseline_DIAMOND.json	tiers[I20].best.answerable_frac x100
+Figure 3	B	DIAMOND	Inone	0	homology_baseline_DIAMOND.json	tiers[Inone].best.answerable_frac x100
+Figure 3	B	DIAMOND	ORPHAN_nohit	0	homology_baseline_DIAMOND.json	tiers[ORPHAN_nohit].best.answerable_frac x100
+Figure 3	B	jackhmmer	T0_full	89.6044	homology_baseline_jackhmmer.json	tiers[T0_full].best.answerable_frac x100
+Figure 3	B	jackhmmer	I90	89.1444	homology_baseline_jackhmmer.json	tiers[I90].best.answerable_frac x100
+Figure 3	B	jackhmmer	I50	82.9807	homology_baseline_jackhmmer.json	tiers[I50].best.answerable_frac x100
+Figure 3	B	jackhmmer	I30	73.0451	homology_baseline_jackhmmer.json	tiers[I30].best.answerable_frac x100
+Figure 3	B	jackhmmer	I20	63.9374	homology_baseline_jackhmmer.json	tiers[I20].best.answerable_frac x100
+Figure 3	B	jackhmmer	Inone	63.5695	homology_baseline_jackhmmer.json	tiers[Inone].best.answerable_frac x100
+Figure 3	B	jackhmmer	ORPHAN_nohit	25.5319	homology_baseline_jackhmmer.json	tiers[ORPHAN_nohit].best.answerable_frac x100
+Figure 3	C	all	T0_full	0.0555007	plm_vs_homology_jackhmmer.json	tiers[T0_full].models.esm2.all_queries.delta
+Figure 3	C	answerable	T0_full	0.0335585	plm_vs_homology_jackhmmer.json	tiers[T0_full].models.esm2.diamond_answerable.delta
+Figure 3	C	all	I90	0.063763	plm_vs_homology_jackhmmer.json	tiers[I90].models.esm2.all_queries.delta
+Figure 3	C	answerable	I90	0.0381879	plm_vs_homology_jackhmmer.json	tiers[I90].models.esm2.diamond_answerable.delta
+Figure 3	C	all	I50	0.0835611	plm_vs_homology_jackhmmer.json	tiers[I50].models.esm2.all_queries.delta
+Figure 3	C	answerable	I50	0.0299423	plm_vs_homology_jackhmmer.json	tiers[I50].models.esm2.diamond_answerable.delta
+Figure 3	C	all	I30	0.105751	plm_vs_homology_jackhmmer.json	tiers[I30].models.esm2.all_queries.delta
+Figure 3	C	answerable	I30	0.0217213	plm_vs_homology_jackhmmer.json	tiers[I30].models.esm2.diamond_answerable.delta
+Figure 3	C	all	I20	0.134782	plm_vs_homology_jackhmmer.json	tiers[I20].models.esm2.all_queries.delta
+Figure 3	C	answerable	I20	0.0237832	plm_vs_homology_jackhmmer.json	tiers[I20].models.esm2.diamond_answerable.delta
+Figure 4	A	still orphan	E=1e-20	76	orphan_hardening.json	survival[1e-20].still_orphan
+Figure 4	A	still orphan	E=1e-10	72	orphan_hardening.json	survival[1e-10].still_orphan
+Figure 4	A	still orphan	E=1e-05	72	orphan_hardening.json	survival[1e-05].still_orphan
+Figure 4	A	still orphan	E=0.001	70	orphan_hardening.json	survival[0.001].still_orphan
+Figure 4	A	still orphan	E=0.01	64	orphan_hardening.json	survival[0.01].still_orphan
+Figure 4	A	still orphan	E=0.1	51	orphan_hardening.json	survival[0.1].still_orphan
+Figure 4	A	still orphan	E=1	44	orphan_hardening.json	survival[1].still_orphan
+Figure 4	A	still orphan	E=10	43	orphan_hardening.json	survival[10].still_orphan
+Figure 4	B	no BLAST-class hit	n=94	0.664024	orphan_hardening.json	strata[DIAMOND-orphan].fmax
+Figure 4	B	no hit, either search	n=70	0.625141	orphan_hardening.json	strata[HARDENED].fmax
+Figure 4	B	profile hit only	n=24	0.734404	orphan_hardening.json	strata[dropped (had a profile hit)].fmax
+Figure 5	A	uncharacterized	decile 1	3.367	matched_enrichment.json	decile_table[1].unc_frac x100
+Figure 5	A	uncharacterized	decile 2	6.06061	matched_enrichment.json	decile_table[2].unc_frac x100
+Figure 5	A	uncharacterized	decile 3	15.0862	matched_enrichment.json	decile_table[3].unc_frac x100
+Figure 5	A	uncharacterized	decile 4	13.2701	matched_enrichment.json	decile_table[4].unc_frac x100
+Figure 5	A	uncharacterized	decile 5	24	matched_enrichment.json	decile_table[5].unc_frac x100
+Figure 5	A	uncharacterized	decile 6	23.3533	matched_enrichment.json	decile_table[6].unc_frac x100
+Figure 5	A	uncharacterized	decile 7	27.2727	matched_enrichment.json	decile_table[7].unc_frac x100
+Figure 5	A	uncharacterized	decile 8	28.0822	matched_enrichment.json	decile_table[8].unc_frac x100
+Figure 5	A	uncharacterized	decile 9	32.1168	matched_enrichment.json	decile_table[9].unc_frac x100
+Figure 5	A	uncharacterized	decile 10	28	matched_enrichment.json	decile_table[10].unc_frac x100
+Figure 5	A	described	decile 1	5.02216	matched_enrichment.json	decile_table[1].desc_frac x100
+Figure 5	A	described	decile 2	4.64789	matched_enrichment.json	decile_table[2].desc_frac x100
+Figure 5	A	described	decile 3	11.3208	matched_enrichment.json	decile_table[3].desc_frac x100
+Figure 5	A	described	decile 4	19.5282	matched_enrichment.json	decile_table[4].desc_frac x100
+Figure 5	A	described	decile 5	25.1564	matched_enrichment.json	decile_table[5].desc_frac x100
+Figure 5	A	described	decile 6	27.3515	matched_enrichment.json	decile_table[6].desc_frac x100
+Figure 5	A	described	decile 7	34.6535	matched_enrichment.json	decile_table[7].desc_frac x100
+Figure 5	A	described	decile 8	39.8551	matched_enrichment.json	decile_table[8].desc_frac x100
+Figure 5	A	described	decile 9	43.7276	matched_enrichment.json	decile_table[9].desc_frac x100
+Figure 5	A	described	decile 10	52.3429	matched_enrichment.json	decile_table[10].desc_frac x100
+Figure 5	B	Cliff's delta	decile 1	-0.0450045	matched_enrichment.json	fold_change.within_deciles[1].delta
+Figure 5	B	Cliff's delta	decile 2	-0.0402049	matched_enrichment.json	fold_change.within_deciles[2].delta
+Figure 5	B	Cliff's delta	decile 3	-0.0691514	matched_enrichment.json	fold_change.within_deciles[3].delta
+Figure 5	B	Cliff's delta	decile 4	-0.135875	matched_enrichment.json	fold_change.within_deciles[4].delta
+Figure 5	B	Cliff's delta	decile 5	-0.0405149	matched_enrichment.json	fold_change.within_deciles[5].delta
+Figure 5	B	Cliff's delta	decile 6	-0.105324	matched_enrichment.json	fold_change.within_deciles[6].delta
+Figure 5	B	Cliff's delta	decile 7	-0.127408	matched_enrichment.json	fold_change.within_deciles[7].delta
+Figure 5	B	Cliff's delta	decile 8	-0.185924	matched_enrichment.json	fold_change.within_deciles[8].delta
+Figure 5	B	Cliff's delta	decile 9	-0.214156	matched_enrichment.json	fold_change.within_deciles[9].delta
+Figure 5	B	Cliff's delta	decile 10	-0.313029	matched_enrichment.json	fold_change.within_deciles[10].delta
+Figure 5	C	target proteins	biological process	127	annotation_summary.json	yield.biological_process
+Figure 5	C	target proteins	molecular function	136	annotation_summary.json	yield.molecular_function
+Figure 5	C	target proteins	cellular comp. only	149	annotation_summary.json	yield.cellular_component_only
+Figure 6	A	nested definition	no BLAST
+hit	0.664024	fmax_structural.json	panels.ORPHAN_nohit.fmax
+Figure 6	A	nested definition	+ profile
+hit	0.625141	fmax_structural.json	panels.HARDENED.fmax
+Figure 6	A	nested definition	+ structure
+hit	0.649171	fmax_structural.json	panels.STRUCT_HARDENED.fmax
+Figure 6	A	complement	profile-
+rescued	0.734404	fmax_structural.json	panels.RESCUED_PROFILE.fmax
+Figure 6	A	complement	structure-
+rescued	0.559299	fmax_structural.json	panels.RESCUED_STRUCTURE.fmax
+Figure 6	B	no homologue / structure	count	57	target_intersection.json	no_sequence_with_structure
+Figure 6	B	no homologue / none	count	133	target_intersection.json	no_sequence_no_structure
+Figure 6	B	homologue / structure	count	100	target_intersection.json	has_sequence_with_structure
+Figure 6	B	homologue / none	count	38	target_intersection.json	has_sequence_no_structure
+Figure 6	C	dark	length-matched	2.85714	structural_stats.json	coherence.dark.fraction x100
+Figure 6	C	control	length-matched	30	structural_stats.json	coherence.background.fraction x100
+Figure 6	C	dark	3Di-entropy-matched	2.85714	disorder_matched.json	matched.dark_fraction x100
+Figure 6	C	control	3Di-entropy-matched	21.7391	disorder_matched.json	matched.matched_fraction x100
+Figure 6	D	dark disordered	fraction	27.1429	disorder_matched.json	sequence.uversky_dark x100
+Figure 6	D	background disordered	fraction	11.3797	disorder_matched.json	sequence.uversky_pool x100
+Figure S1	A	STAT-dependent dark	rank 0	17.9878	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 1	44.2073	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 2	46.0366	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 3	50.9146	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 4	52.1341	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 5	58.5366	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 6	67.9878	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 7	91.7683	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 8	98.4756	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	STAT-dependent dark	rank 9	100	lineage.json	targets.distribution cumulative/targets.n
+Figure S1	A	uncharacterized control	rank 0	12.3165	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 1	37.9068	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 2	39.566	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 3	45.6286	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 4	46.8411	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 5	51.4359	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 6	57.9451	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 7	83.9183	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 8	98.0855	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	uncharacterized control	rank 9	100	lineage.json	control.distribution cumulative/control.n
+Figure S1	A	proteome background	rank 0	13.5671	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 1	25.3049	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 2	26.372	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 3	34.4512	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 4	34.9085	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 5	37.0427	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 6	41.0061	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 7	65.7012	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 8	92.9878	lineage.json	background.distribution cumulative/background.n
+Figure S1	A	proteome background	rank 9	100	lineage.json	background.distribution cumulative/background.n
+Figure S1	B	STAT-dependent dark	restricted fraction	50.9146	lineage.json	targets.fraction x100
+Figure S1	B	uncharacterized control	restricted fraction	45.6286	lineage.json	control.fraction x100
+Figure S1	B	proteome background	restricted fraction	34.4512	lineage.json	background.fraction x100
+Figure S1	B	STAT-dependent dark	restricted after structure	28.6585	lineage.json	structural_check.restricted_fraction_after_structure x100

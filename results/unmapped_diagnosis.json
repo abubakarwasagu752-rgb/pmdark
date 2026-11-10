@@ -1,0 +1,340 @@
+{
+  "runs": {
+    "SRR28572183": {
+      "stats": {
+        "n_reads": 200000,
+        "mean_len": 74.7,
+        "gc_percent": 33.5,
+        "n_percent": 0.0
+      },
+      "n_with_protein_hit": 5482,
+      "fraction_with_hit": 0.0274,
+      "top_organisms": [
+        [
+          "Drosophila melanogaster",
+          575
+        ],
+        [
+          "Bos taurus",
+          316
+        ],
+        [
+          "Aedes aegypti",
+          249
+        ],
+        [
+          "Anopheles gambiae",
+          191
+        ],
+        [
+          "Homo sapiens",
+          172
+        ],
+        [
+          "Anas platyrhynchos",
+          136
+        ],
+        [
+          "Locusta migratoria",
+          134
+        ],
+        [
+          "Drosophila ambigua",
+          116
+        ],
+        [
+          "Artemia franciscana",
+          109
+        ],
+        [
+          "Acheta domesticus",
+          108
+        ],
+        [
+          "Caenorhabditis elegans",
+          103
+        ],
+        [
+          "Choristoneura rosaceana",
+          103
+        ],
+        [
+          "Xenopus laevis",
+          99
+        ],
+        [
+          "Octopus vulgaris",
+          94
+        ],
+        [
+          "Branchiostoma belcheri",
+          94
+        ],
+        [
+          "Drosophila mauritiana",
+          90
+        ],
+        [
+          "Megalops atlanticus",
+          90
+        ],
+        [
+          "Salmo trutta",
+          87
+        ],
+        [
+          "Penaeus monodon",
+          85
+        ],
+        [
+          "Sympetrum striolatum",
+          82
+        ],
+        [
+          "Simulium vittatum",
+          74
+        ],
+        [
+          "Anopheles quadrimaculatus",
+          69
+        ],
+        [
+          "Elephas maximus",
+          67
+        ],
+        [
+          "Mus musculus",
+          64
+        ],
+        [
+          "Spodoptera frugiperda",
+          57
+        ]
+      ]
+    },
+    "SRR28572178": {
+      "stats": {
+        "n_reads": 200000,
+        "mean_len": 75.3,
+        "gc_percent": 34.6,
+        "n_percent": 0.0
+      },
+      "n_with_protein_hit": 20462,
+      "fraction_with_hit": 0.1023,
+      "top_organisms": [
+        [
+          "Drosophila melanogaster",
+          2120
+        ],
+        [
+          "Bos taurus",
+          1008
+        ],
+        [
+          "Aedes aegypti",
+          890
+        ],
+        [
+          "Anopheles gambiae",
+          769
+        ],
+        [
+          "Locusta migratoria",
+          681
+        ],
+        [
+          "Penaeus monodon",
+          584
+        ],
+        [
+          "Homo sapiens",
+          565
+        ],
+        [
+          "Drosophila mauritiana",
+          452
+        ],
+        [
+          "Anas platyrhynchos",
+          390
+        ],
+        [
+          "Megalops atlanticus",
+          366
+        ],
+        [
+          "Xenopus laevis",
+          358
+        ],
+        [
+          "Caenorhabditis elegans",
+          351
+        ],
+        [
+          "Artemia franciscana",
+          350
+        ],
+        [
+          "Acheta domesticus",
+          330
+        ],
+        [
+          "Drosophila ambigua",
+          322
+        ],
+        [
+          "Octopus vulgaris",
+          320
+        ],
+        [
+          "Choristoneura rosaceana",
+          308
+        ],
+        [
+          "Salmo trutta",
+          306
+        ],
+        [
+          "Anopheles quadrimaculatus",
+          291
+        ],
+        [
+          "Branchiostoma belcheri",
+          287
+        ],
+        [
+          "Simulium vittatum",
+          264
+        ],
+        [
+          "Mus musculus",
+          245
+        ],
+        [
+          "Drosophila subobscura",
+          236
+        ],
+        [
+          "Sympetrum striolatum",
+          234
+        ],
+        [
+          "Blattella germanica",
+          228
+        ]
+      ]
+    },
+    "SRR28572173": {
+      "stats": {
+        "n_reads": 200000,
+        "mean_len": 75.3,
+        "gc_percent": 40.1,
+        "n_percent": 0.0
+      },
+      "n_with_protein_hit": 22300,
+      "fraction_with_hit": 0.1115,
+      "top_organisms": [
+        [
+          "Drosophila melanogaster",
+          2941
+        ],
+        [
+          "Bos taurus",
+          1227
+        ],
+        [
+          "Homo sapiens",
+          1155
+        ],
+        [
+          "Aedes aegypti",
+          680
+        ],
+        [
+          "Anopheles gambiae",
+          602
+        ],
+        [
+          "Caenorhabditis elegans",
+          597
+        ],
+        [
+          "Mus musculus",
+          571
+        ],
+        [
+          "Xenopus laevis",
+          506
+        ],
+        [
+          "Artemia franciscana",
+          355
+        ],
+        [
+          "Megalops atlanticus",
+          349
+        ],
+        [
+          "Locusta migratoria",
+          345
+        ],
+        [
+          "Anas platyrhynchos",
+          344
+        ],
+        [
+          "Gallus gallus",
+          332
+        ],
+        [
+          "Choristoneura rosaceana",
+          292
+        ],
+        [
+          "Octopus vulgaris",
+          291
+        ],
+        [
+          "Salmo trutta",
+          288
+        ],
+        [
+          "Danio rerio",
+          269
+        ],
+        [
+          "Branchiostoma belcheri",
+          241
+        ],
+        [
+          "Penaeus monodon",
+          225
+        ],
+        [
+          "Sus scrofa",
+          221
+        ],
+        [
+          "Anopheles quadrimaculatus",
+          220
+        ],
+        [
+          "Homarus americanus",
+          214
+        ],
+        [
+          "Drosophila mauritiana",
+          208
+        ],
+        [
+          "Rattus norvegicus",
+          208
+        ],
+        [
+          "Planctoteuthis danae",
+          207
+        ]
+      ]
+    }
+  }
+}

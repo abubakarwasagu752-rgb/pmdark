@@ -1,0 +1,27 @@
+backports.zstd @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_backports.zstd_1792690561/work
+beautifulsoup4==4.15.0
+biopython @ file:///home/conda/feedstock_root/build_artifacts/biopython_1789126195869/work
+Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1792653565170/work
+BUSCO @ file:///opt/conda/conda-bld/busco_1746077443698/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1793720052803/work/certifi
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_charset-normalizer_1790766086/work
+DendroPy @ file:///opt/conda/conda-bld/dendropy_1792771731225/work
+dnspython @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_dnspython_h5ded981_1793341711/work
+filelock==4.2.4
+gdown==6.4.2
+h2 @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_h2_1785796355/work
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1782283902770/work
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_idna_1790020377/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1791675323/work/dist/numpy-2.5.4-cp313-cp313-linux_x86_64.whl#sha256=409c7e2d1b4f6091b3a55c05c7fbaf1909f9e7215a824bfb07061421c9a8c25f
+pandas @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pandas_h4900a6c_1793811636/work
+PASTA @ file:///opt/conda/conda-bld/pasta_1781610578928/work
+pymongo @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pymongo_1792044994/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_h5ded981_1793535232/work
+PyYAML==6.0.3
+requests @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_requests_1778851103/work
+sepp @ file:///opt/conda/conda-bld/sepp_1781615718058/work
+soupsieve==3.0.4
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-tzdata_h5ded981_1793205938/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1789566614899/work

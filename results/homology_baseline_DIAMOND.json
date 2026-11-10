@@ -1,0 +1,233 @@
+{
+  "modes": [
+    "best",
+    "topk"
+  ],
+  "k": 25,
+  "diamond_evalue": 10.0,
+  "tiers": {
+    "T0_full": {
+      "best": {
+        "fmax": 0.7682669012315659,
+        "smin": 146.10306413500524,
+        "precision_at_recall_0.5": 0.820587374974858,
+        "fmax_coverage": 0.8528058877644894,
+        "answerable": 927,
+        "n_scored": 1087,
+        "answerable_frac": 0.8528058877644894,
+        "no_permitted_hit": 160,
+        "n_queries": 1087,
+        "BP": 0.6277877740469676,
+        "MF": 0.8216234452569193,
+        "CC": 0.8242141597354535
+      },
+      "topk": {
+        "fmax": 0.7681026937737729,
+        "smin": 134.49949503287843,
+        "precision_at_recall_0.5": 0.9510347981164017,
+        "fmax_coverage": 0.8509659613615456,
+        "answerable": 927,
+        "n_scored": 1087,
+        "answerable_frac": 0.8528058877644894,
+        "no_permitted_hit": 160,
+        "n_queries": 1087,
+        "BP": 0.6258852519801185,
+        "MF": 0.823946416983142,
+        "CC": 0.8226605235147626
+      }
+    },
+    "I90": {
+      "best": {
+        "fmax": 0.7570482548474323,
+        "smin": 147.09725328956662,
+        "precision_at_recall_0.5": 0.8115167055697591,
+        "fmax_coverage": 0.8426862925482981,
+        "answerable": 916,
+        "n_scored": 1087,
+        "answerable_frac": 0.8426862925482981,
+        "no_permitted_hit": 171,
+        "n_queries": 1087,
+        "BP": 0.619738686748208,
+        "MF": 0.8193208455912393,
+        "CC": 0.8150241280775755
+      },
+      "topk": {
+        "fmax": 0.7605141226708988,
+        "smin": 134.68974020394361,
+        "precision_at_recall_0.5": 0.9469889876808936,
+        "fmax_coverage": 0.8408463661453542,
+        "answerable": 916,
+        "n_scored": 1087,
+        "answerable_frac": 0.8426862925482981,
+        "no_permitted_hit": 171,
+        "n_queries": 1087,
+        "BP": 0.622629533125858,
+        "MF": 0.8236773590821581,
+        "CC": 0.8158663721314038
+      }
+    },
+    "I50": {
+      "best": {
+        "fmax": 0.6672442062914563,
+        "smin": 149.68155726035607,
+        "precision_at_recall_0.5": 0.7711541979788075,
+        "fmax_coverage": 0.7313707451701932,
+        "answerable": 795,
+        "n_scored": 1087,
+        "answerable_frac": 0.7313707451701932,
+        "no_permitted_hit": 292,
+        "n_queries": 1087,
+        "BP": 0.5896407631448749,
+        "MF": 0.7824854536340495,
+        "CC": 0.7334169274341219
+      },
+      "topk": {
+        "fmax": 0.6609866143760634,
+        "smin": 141.63150909604937,
+        "precision_at_recall_0.5": 0.904384541090267,
+        "fmax_coverage": 0.7258509659613616,
+        "answerable": 795,
+        "n_scored": 1087,
+        "answerable_frac": 0.7313707451701932,
+        "no_permitted_hit": 292,
+        "n_queries": 1087,
+        "BP": 0.5831566076184224,
+        "MF": 0.7741324336012811,
+        "CC": 0.7348830272373856
+      }
+    },
+    "I30": {
+      "best": {
+        "fmax": 0.3158333328214746,
+        "smin": 169.2190577651081,
+        "precision_at_recall_0.5": 0.6047985163644781,
+        "fmax_coverage": 0.34774609015639374,
+        "answerable": 378,
+        "n_scored": 1087,
+        "answerable_frac": 0.34774609015639374,
+        "no_permitted_hit": 709,
+        "n_queries": 1087,
+        "BP": 0.3277443470466932,
+        "MF": 0.4722835362148977,
+        "CC": 0.36610725867163507
+      },
+      "topk": {
+        "fmax": 0.3231049581449517,
+        "smin": 166.4655262646007,
+        "precision_at_recall_0.5": 0.4415265848229659,
+        "fmax_coverage": 0.34774609015639374,
+        "answerable": 378,
+        "n_scored": 1087,
+        "answerable_frac": 0.34774609015639374,
+        "no_permitted_hit": 709,
+        "n_queries": 1087,
+        "BP": 0.33853733809253583,
+        "MF": 0.47846276137244637,
+        "CC": 0.37942630064108035
+      }
+    },
+    "I20": {
+      "best": {
+        "fmax": 0.014166977204657927,
+        "smin": 195.72794673711616,
+        "precision_at_recall_0.5": 0.5284969558340601,
+        "fmax_coverage": 0.022999080036798528,
+        "answerable": 25,
+        "n_scored": 1087,
+        "answerable_frac": 0.022999080036798528,
+        "no_permitted_hit": 1062,
+        "n_queries": 1087,
+        "BP": 0.014706142732851792,
+        "MF": 0.046000110946784856,
+        "CC": 0.018151481214383848
+      },
+      "topk": {
+        "fmax": 0.014799373737163463,
+        "smin": 195.5890126497793,
+        "precision_at_recall_0.5": 0.5045978010571917,
+        "fmax_coverage": 0.022999080036798528,
+        "answerable": 25,
+        "n_scored": 1087,
+        "answerable_frac": 0.022999080036798528,
+        "no_permitted_hit": 1062,
+        "n_queries": 1087,
+        "BP": 0.015907363487832126,
+        "MF": 0.046266575209881006,
+        "CC": 0.018988366334390223
+      }
+    },
+    "Inone": {
+      "best": {
+        "fmax": 0.0,
+        "smin": 198.76767257617323,
+        "precision_at_recall_0.5": 0.0,
+        "fmax_coverage": 0.0,
+        "answerable": 0,
+        "n_scored": 1087,
+        "answerable_frac": 0.0,
+        "no_permitted_hit": 1087,
+        "n_queries": 1087,
+        "BP": 0.0,
+        "MF": 0.0,
+        "CC": 0.0
+      },
+      "topk": {
+        "fmax": 0.0,
+        "smin": 198.76767257617323,
+        "precision_at_recall_0.5": 0.0,
+        "fmax_coverage": 0.0,
+        "answerable": 0,
+        "n_scored": 1087,
+        "answerable_frac": 0.0,
+        "no_permitted_hit": 1087,
+        "n_queries": 1087,
+        "BP": 0.0,
+        "MF": 0.0,
+        "CC": 0.0
+      }
+    },
+    "ORPHAN_nohit": {
+      "best": {
+        "fmax": 0.0,
+        "smin": 136.40417778342336,
+        "precision_at_recall_0.5": 0.0,
+        "fmax_coverage": 0.0,
+        "answerable": 0,
+        "n_scored": 94,
+        "answerable_frac": 0.0,
+        "no_permitted_hit": 94,
+        "n_queries": 94,
+        "BP": 0.0,
+        "MF": 0.0,
+        "CC": 0.0
+      },
+      "topk": {
+        "fmax": 0.0,
+        "smin": 136.40417778342336,
+        "precision_at_recall_0.5": 0.0,
+        "fmax_coverage": 0.0,
+        "answerable": 0,
+        "n_scored": 94,
+        "answerable_frac": 0.0,
+        "no_permitted_hit": 94,
+        "n_queries": 94,
+        "BP": 0.0,
+        "MF": 0.0,
+        "CC": 0.0
+      }
+    }
+  },
+  "undefined_by_construction": [
+    "I20",
+    "Inone",
+    "ORPHAN_nohit"
+  ],
+  "accuracy_comparable": [
+    "T0_full",
+    "I90",
+    "I50",
+    "I30"
+  ],
+  "source": "DIAMOND",
+  "transfer_evalue": 0.001
+}

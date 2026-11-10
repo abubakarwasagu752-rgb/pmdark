@@ -1,0 +1,20 @@
+{
+  "evalue": 0.001,
+  "cluster_c": 0.8,
+  "seed": 20261106,
+  "query_fasta": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/benchmark/query.faa",
+  "lookup_fasta": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/benchmark/reference.faa",
+  "n_hardened": 70,
+  "coherence": {},
+  "caveat": "3Di predicted by ProstT5, not derived from coordinates. ProstT5 is also one of the three models used for annotation transfer, so this check is not independent of that arm; it is independent of the ESM-2 result, which is the headline.",
+  "hardened_structural_hits": {
+    "n": 70,
+    "with_hit": 18,
+    "fraction": 0.2571428571428571
+  },
+  "targets_structural_hits": {
+    "n": 328,
+    "with_hit": 157,
+    "fraction": 0.47865853658536583
+  }
+}

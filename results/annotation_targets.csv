@@ -1,0 +1,329 @@
+gene,stratum,best_identity_pct,jackhmmer_hit,n_terms,n_BP,n_MF,n_CC,top_MF,top_MF_name,top_BP,top_BP_name,expected_fmax
+gene-LOC119594247,homolog,44.6,True,2,0,0,2,,,,,0.8151079685479674
+gene-LOC119581828,orphan,,False,14,0,0,14,,,,,0.6251412628432951
+gene-LOC119579527,homolog,31.6,False,3,0,0,3,,,,,0.8151079685479674
+gene-LOC119574962,homolog,29.6,False,43,23,10,10,GO:0046914,transition metal ion binding,GO:0071840,cellular component organization or biogenesis,0.8151079685479674
+gene-LOC119575538,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119592514,homolog,20.0,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119589664,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119579737,homolog,31.6,False,3,0,0,3,,,,,0.8151079685479674
+gene-LOC119585185,homolog,25.3,True,14,7,0,7,,,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119594208,orphan,,False,15,0,0,15,,,,,0.6251412628432951
+gene-LOC119583825,homolog,26.2,False,99,42,33,24,GO:0005488,binding,GO:0009889,regulation of biosynthetic process,0.8151079685479674
+gene-LOC119597613,homolog,52.0,False,28,21,0,7,,,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119574500,homolog,33.8,False,10,0,0,10,,,,,0.8151079685479674
+gene-LOC119598645,homolog,45.9,False,24,17,0,7,,,GO:0009968,negative regulation of signal transduction,0.8151079685479674
+gene-LOC119578936,homolog,43.2,False,14,0,7,7,GO:0046914,transition metal ion binding,,,0.8151079685479674
+gene-LOC119573578,homolog,43.3,True,5,0,0,5,,,,,0.8151079685479674
+gene-LOC119595884,homolog,23.4,True,105,42,35,28,GO:0005488,binding,GO:0006357,regulation of transcription by RNA polymerase II,0.8151079685479674
+gene-LOC119578452,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119576970,homolog,27.0,True,31,21,3,7,GO:0038187,pattern recognition receptor activity,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119574565,orphan,,False,19,0,3,16,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119584417,homolog,,True,43,14,13,16,GO:0005488,binding,GO:0009889,regulation of biosynthetic process,0.8151079685479674
+gene-LOC119583447,homolog,38.9,False,31,14,6,11,GO:0005488,binding,GO:0009889,regulation of biosynthetic process,0.8151079685479674
+gene-LOC119594295,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119584462,homolog,36.8,True,28,21,0,7,,,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119585779,homolog,65.2,True,31,21,3,7,GO:0038187,pattern recognition receptor activity,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119585780,homolog,65.2,True,31,21,3,7,GO:0038187,pattern recognition receptor activity,GO:0032101,regulation of response to external stimulus,0.8151079685479674
+gene-LOC119586308,homolog,37.0,True,52,29,13,10,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119592477,orphan,,False,35,14,5,16,GO:0005488,binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119582673,homolog,31.4,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119583547,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119590602,homolog,31.5,True,86,66,5,15,GO:0030674,protein-macromolecule adaptor activity,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119598269,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119577022,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119576088,homolog,46.4,True,24,0,9,15,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119593630,homolog,60.4,True,24,7,7,10,GO:0004175,endopeptidase activity,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119590463,homolog,,True,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119583396,homolog,37.1,False,13,0,0,13,,,,,0.8151079685479674
+gene-LOC119583643,orphan,,False,3,0,0,3,,,,,0.6251412628432951
+gene-LOC119594082,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119585232,homolog,45.8,True,50,29,12,9,GO:0016853,isomerase activity,GO:0000154,rRNA modification,0.8151079685479674
+gene-LOC119575429,homolog,41.9,True,51,24,13,14,GO:0004175,endopeptidase activity,GO:0008152,metabolic process,0.8151079685479674
+gene-LOC119578815,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119581796,homolog,37.4,True,43,28,4,11,GO:0005488,binding,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119579226,homolog,38.5,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119574460,homolog,46.4,False,81,52,13,16,GO:0005488,binding,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119570828,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119578729,homolog,34.0,True,20,0,12,8,GO:0003824,catalytic activity,,,0.8151079685479674
+gene-LOC119574372,homolog,32.1,True,46,25,6,15,GO:0005488,binding,GO:0048856,anatomical structure development,0.8151079685479674
+gene-LOC119573063,homolog,30.4,False,9,0,0,9,,,,,0.8151079685479674
+gene-LOC119577826,homolog,31.8,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119594065,orphan,,False,81,52,13,16,GO:0005488,binding,GO:0050896,response to stimulus,0.6251412628432951
+gene-LOC119573151,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119587039,orphan,,False,59,39,4,16,GO:0097367,carbohydrate derivative binding,GO:0048518,positive regulation of biological process,0.6251412628432951
+gene-LOC119570863,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119587889,homolog,37.9,False,2,0,0,2,,,,,0.8151079685479674
+gene-LOC119575255,orphan,,False,11,0,0,11,,,,,0.6251412628432951
+gene-LOC119590830,homolog,34.5,False,59,19,28,12,GO:0097367,carbohydrate derivative binding,GO:0009059,macromolecule biosynthetic process,0.8151079685479674
+gene-LOC119582674,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119581954,homolog,29.0,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119587038,orphan,,False,61,39,4,18,GO:0005488,binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119587609,homolog,40.9,True,9,0,0,9,,,,,0.8151079685479674
+gene-LOC119584192,homolog,48.0,False,24,17,0,7,,,GO:0009968,negative regulation of signal transduction,0.8151079685479674
+gene-LOC119573252,homolog,42.1,True,16,0,0,16,,,,,0.8151079685479674
+gene-LOC119576174,homolog,26.1,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119597738,homolog,28.6,True,63,23,7,33,GO:0140640,"catalytic activity, acting on a nucleic acid",GO:0008152,metabolic process,0.8151079685479674
+gene-LOC119598746,homolog,26.2,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119584217,homolog,30.8,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119575634,homolog,38.1,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119587367,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119598425,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119594648,homolog,32.0,True,80,42,19,19,GO:0016798,"hydrolase activity, acting on glycosyl bonds",GO:0051725,protein de-ADP-ribosylation,0.8151079685479674
+gene-LOC119582772,homolog,37.1,False,32,0,22,10,GO:0003924,GTPase activity,,,0.8151079685479674
+gene-LOC119573111,orphan,,False,98,78,6,14,GO:0019843,rRNA binding,GO:1902775,mitochondrial large ribosomal subunit assembly,0.6251412628432951
+gene-LOC119590103,orphan,,False,13,0,0,13,,,,,0.6251412628432951
+gene-LOC119593941,orphan,,False,104,68,20,16,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119583438,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119582293,homolog,37.8,True,17,6,9,2,GO:0120569,phospholipase activity,GO:0016042,lipid catabolic process,0.8151079685479674
+gene-LOC119590934,homolog,36.4,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119570247,orphan,,False,35,14,2,19,GO:0008494,translation activator activity,GO:0009059,macromolecule biosynthetic process,0.6251412628432951
+gene-LOC119590155,homolog,27.9,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119571141,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119594060,orphan,,False,70,35,19,16,GO:0003677,DNA binding,GO:0006357,regulation of transcription by RNA polymerase II,0.6251412628432951
+gene-LOC119580861,homolog,28.0,False,30,20,7,3,GO:0004103,choline kinase activity,GO:0008152,metabolic process,0.8151079685479674
+gene-LOC119581002,orphan,,False,64,25,22,17,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119576056,homolog,30.2,False,13,0,0,13,,,,,0.8151079685479674
+gene-LOC119585164,orphan,,False,33,4,9,20,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",GO:1901503,ether biosynthetic process,0.6251412628432951
+gene-LOC119589608,homolog,35.4,True,14,0,3,11,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119591960,homolog,23.8,False,22,0,9,13,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119580821,orphan,,False,18,0,3,15,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119578421,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119582069,orphan,,False,44,20,7,17,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",GO:0042546,cell wall biogenesis,0.6251412628432951
+gene-LOC119584297,homolog,29.2,True,49,13,5,31,GO:0000049,tRNA binding,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119580303,orphan,,False,33,0,24,9,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119569148,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119592699,homolog,25.4,False,62,45,5,12,GO:0019843,rRNA binding,GO:1902775,mitochondrial large ribosomal subunit assembly,0.8151079685479674
+gene-LOC119571140,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119572075,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119581929,homolog,41.5,True,8,0,8,0,GO:1901265,nucleoside phosphate binding,,,0.8151079685479674
+gene-LOC119592461,orphan,,False,49,14,12,23,GO:0005488,binding,GO:0009889,regulation of biosynthetic process,0.6251412628432951
+gene-LOC119572289,homolog,29.6,False,31,14,10,7,GO:0003700,DNA-binding transcription factor activity,GO:0065007,biological regulation,0.8151079685479674
+gene-LOC119575043,homolog,37.4,True,16,0,12,4,GO:0016616,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",,,0.8151079685479674
+gene-LOC119591445,homolog,40.1,True,99,51,31,17,GO:0005488,binding,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119589085,homolog,28.6,False,9,0,0,9,,,,,0.8151079685479674
+gene-LOC119592517,orphan,,False,38,12,2,24,GO:0005198,structural molecule activity,GO:0009059,macromolecule biosynthetic process,0.6251412628432951
+gene-LOC119577857,homolog,50.0,True,8,0,0,8,,,,,0.8151079685479674
+gene-LOC119591601,homolog,32.1,True,72,35,18,19,GO:0140110,transcription regulator activity,GO:0050794,regulation of cellular process,0.8151079685479674
+gene-LOC119585870,homolog,38.3,True,105,77,9,19,GO:0140031,phosphorylation-dependent protein binding,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119585174,homolog,38.5,True,26,9,0,17,,,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119588691,orphan,,False,24,0,0,24,,,,,0.6251412628432951
+gene-LOC119570480,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119594136,homolog,42.4,False,45,27,8,10,GO:0016810,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",GO:1901183,positive regulation of camalexin biosynthetic process,0.8151079685479674
+gene-LOC119584244,homolog,39.1,True,18,0,15,3,GO:0097367,carbohydrate derivative binding,,,0.8151079685479674
+gene-LOC119584245,homolog,54.5,False,18,0,15,3,GO:0097367,carbohydrate derivative binding,,,0.8151079685479674
+gene-LOC119596233,homolog,26.9,False,16,0,0,16,,,,,0.8151079685479674
+gene-LOC119581119,homolog,26.7,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119572398,homolog,31.4,True,22,11,7,4,GO:0008188,neuropeptide receptor activity,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119572144,orphan,,False,449,334,82,33,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119594191,orphan,,False,57,29,0,28,,,GO:0009058,biosynthetic process,0.6251412628432951
+gene-LOC119585825,homolog,40.0,False,2,0,0,2,,,,,0.8151079685479674
+gene-LOC119596822,orphan,,False,16,0,0,16,,,,,0.6251412628432951
+gene-LOC119573108,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119584525,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119580314,orphan,,False,26,11,0,15,,,GO:0097722,sperm motility,0.6251412628432951
+gene-LOC119589957,orphan,,False,80,61,0,19,,,GO:0050000,chromosome localization,0.6251412628432951
+gene-LOC119596236,homolog,26.9,False,16,0,0,16,,,,,0.8151079685479674
+gene-LOC119569897,orphan,,False,43,21,3,19,GO:0005488,binding,GO:0016070,RNA metabolic process,0.6251412628432951
+gene-LOC119579310,orphan,,False,55,33,12,10,GO:0005488,binding,GO:0039656,symbiont-mediated perturbation of host gene expression,0.6251412628432951
+gene-LOC119592663,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119582107,orphan,,False,42,23,0,19,,,GO:0007049,cell cycle,0.6251412628432951
+gene-LOC119578144,homolog,29.5,False,9,0,0,9,,,,,0.8151079685479674
+gene-LOC119584206,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119586689,homolog,47.1,True,8,0,0,8,,,,,0.8151079685479674
+gene-LOC119573204,orphan,,False,33,13,13,7,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119594038,homolog,27.6,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119586829,homolog,26.7,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119587072,orphan,,False,15,0,0,15,,,,,0.6251412628432951
+gene-LOC119571475,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119577692,homolog,55.0,True,17,0,2,15,GO:0005198,structural molecule activity,,,0.8151079685479674
+gene-LOC119589674,orphan,,False,13,0,0,13,,,,,0.6251412628432951
+gene-LOC119572395,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119582923,orphan,,False,40,15,5,20,GO:0019901,protein kinase binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119576988,orphan,,False,29,16,0,13,,,GO:0065007,biological regulation,0.6251412628432951
+gene-LOC119575192,homolog,31.5,False,39,30,5,4,GO:0005488,binding,GO:0071840,cellular component organization or biogenesis,0.8151079685479674
+gene-LOC119582346,orphan,,False,196,134,29,33,GO:0048018,receptor ligand activity,GO:0050794,regulation of cellular process,0.6251412628432951
+gene-LOC119584470,orphan,,False,33,13,13,7,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119572236,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119595863,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119586984,orphan,,False,14,0,0,14,,,,,0.6251412628432951
+gene-LOC119586227,homolog,27.7,True,5,0,0,5,,,,,0.8151079685479674
+gene-LOC119586228,homolog,34.0,True,5,0,0,5,,,,,0.8151079685479674
+gene-LOC119589805,orphan,,False,44,21,7,16,GO:0046914,transition metal ion binding,GO:0008152,metabolic process,0.6251412628432951
+gene-LOC119581749,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119594420,homolog,31.4,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119576731,homolog,33.8,True,11,0,4,7,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119575873,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119592770,homolog,23.6,False,25,0,14,11,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119575875,orphan,,False,130,82,3,45,GO:0005488,binding,GO:0007291,sperm individualization,0.6251412628432951
+gene-LOC119578016,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119574004,orphan,,False,26,0,2,24,GO:0005198,structural molecule activity,,,0.6251412628432951
+gene-LOC119579622,homolog,88.4,True,28,11,2,15,GO:0005198,structural molecule activity,GO:0009059,macromolecule biosynthetic process,0.8151079685479674
+gene-LOC119597748,orphan,,False,15,0,0,15,,,,,0.6251412628432951
+gene-LOC119577988,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119575877,orphan,,False,130,82,3,45,GO:0005488,binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119584277,homolog,31.9,True,10,0,0,10,,,,,0.8151079685479674
+gene-LOC119570425,orphan,,False,33,13,13,7,GO:0001217,DNA-binding transcription repressor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119573743,orphan,,False,33,13,13,7,GO:0001217,DNA-binding transcription repressor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119575335,homolog,47.8,True,46,16,13,17,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",GO:0001702,gastrulation with mouth forming second,0.8151079685479674
+gene-LOC119593894,orphan,,False,37,13,13,11,GO:0001217,DNA-binding transcription repressor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119599155,orphan,,False,33,13,13,7,GO:0001217,DNA-binding transcription repressor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119573335,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119591575,homolog,25.8,False,33,13,13,7,GO:0001217,DNA-binding transcription repressor activity,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119596057,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119587676,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119578555,orphan,,False,27,16,9,2,GO:0097367,carbohydrate derivative binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119587160,homolog,29.0,False,15,0,0,15,,,,,0.8151079685479674
+gene-LOC119594446,homolog,48.5,True,16,0,3,13,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119582769,homolog,68.2,False,32,0,22,10,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119570554,homolog,39.0,True,58,39,0,19,,,GO:0007049,cell cycle,0.8151079685479674
+gene-LOC119599063,orphan,,False,3,0,0,3,,,,,0.6251412628432951
+gene-LOC119580685,orphan,,False,96,59,10,27,GO:0030674,protein-macromolecule adaptor activity,GO:0050896,response to stimulus,0.6251412628432951
+gene-LOC119594418,orphan,,False,13,0,4,9,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119575590,homolog,41.3,True,3,0,0,3,,,,,0.8151079685479674
+gene-LOC119576938,homolog,36.8,True,27,6,0,21,,,GO:0006909,phagocytosis,0.8151079685479674
+gene-LOC119585862,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119597158,homolog,46.8,True,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119568046,homolog,24.2,False,20,13,0,7,,,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119578947,homolog,34.1,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119582247,orphan,,False,15,0,0,15,,,,,0.6251412628432951
+gene-LOC119575447,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119571474,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119576791,orphan,,False,102,67,7,28,GO:0005488,binding,GO:0006281,DNA repair,0.6251412628432951
+gene-LOC119585304,homolog,38.1,False,8,0,0,8,,,,,0.8151079685479674
+gene-LOC119585305,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119572564,homolog,50.0,True,50,12,7,31,GO:0005198,structural molecule activity,GO:0009059,macromolecule biosynthetic process,0.8151079685479674
+gene-LOC119590351,orphan,,False,37,21,0,16,,,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119590461,orphan,,False,30,17,0,13,,,GO:0009967,positive regulation of signal transduction,0.6251412628432951
+gene-LOC119569404,homolog,26.9,False,74,55,0,19,,,GO:0050000,chromosome localization,0.8151079685479674
+gene-LOC119570383,orphan,,False,51,14,28,9,GO:0003677,DNA binding,GO:0006281,DNA repair,0.6251412628432951
+gene-LOC119592622,homolog,36.8,True,33,15,0,18,,,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119571562,orphan,,False,41,14,12,15,GO:0004540,RNA nuclease activity,GO:0008152,metabolic process,0.6251412628432951
+gene-LOC119593727,orphan,,False,17,0,0,17,,,,,0.6251412628432951
+gene-LOC119584545,homolog,41.9,True,9,0,0,9,,,,,0.8151079685479674
+gene-LOC119598616,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119575800,orphan,,False,130,82,3,45,GO:0005488,binding,GO:0007291,sperm individualization,0.6251412628432951
+gene-LOC119576161,orphan,,False,130,82,3,45,GO:0005488,binding,GO:0007291,sperm individualization,0.6251412628432951
+gene-LOC119576165,orphan,,False,130,82,3,45,GO:0005488,binding,GO:0007291,sperm individualization,0.6251412628432951
+gene-LOC119579062,homolog,63.2,True,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119592672,homolog,41.7,False,8,0,0,8,,,,,0.8151079685479674
+gene-LOC119590028,homolog,,True,398,315,35,48,GO:0061133,endopeptidase activator activity,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119591564,homolog,25.8,False,25,13,5,7,GO:0001217,DNA-binding transcription repressor activity,GO:0009889,regulation of biosynthetic process,0.8151079685479674
+gene-LOC119593879,orphan,,False,31,13,6,12,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119593881,orphan,,False,22,0,11,11,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119588769,homolog,28.6,True,44,18,14,12,GO:0046914,transition metal ion binding,GO:0019725,cellular homeostasis,0.8151079685479674
+gene-LOC119594231,orphan,,False,30,13,6,11,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119584274,homolog,35.7,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119593882,orphan,,False,31,13,6,12,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119585483,orphan,,False,75,47,9,19,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119593878,homolog,26.9,False,8,0,0,8,,,,,0.8151079685479674
+gene-LOC119578041,orphan,,False,15,0,5,10,GO:0036094,small molecule binding,,,0.6251412628432951
+gene-LOC119581150,homolog,38.7,True,27,10,4,13,GO:0005198,structural molecule activity,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119585112,homolog,46.9,False,24,3,12,9,GO:0008794,arsenate reductase (glutaredoxin) activity,GO:0050896,response to stimulus,0.8151079685479674
+gene-LOC119593877,orphan,,False,25,0,6,19,GO:0003700,DNA-binding transcription factor activity,,,0.6251412628432951
+gene-LOC119580933,homolog,28.4,False,7,0,0,7,,,,,0.8151079685479674
+gene-LOC119581898,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119584408,orphan,,False,37,13,0,24,,,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119578513,orphan,,False,13,0,0,13,,,,,0.6251412628432951
+gene-LOC119584968,orphan,,False,18,0,0,18,,,,,0.6251412628432951
+gene-LOC119595659,orphan,,False,13,0,0,13,,,,,0.6251412628432951
+gene-LOC119575256,orphan,,False,29,10,0,19,,,GO:0051310,metaphase chromosome alignment,0.6251412628432951
+gene-LOC119595815,orphan,,False,7,0,3,4,GO:0042802,identical protein binding,,,0.6251412628432951
+gene-LOC119598689,orphan,,False,30,10,5,15,GO:0017040,N-acylsphingosine amidohydrolase activity,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119573200,orphan,,False,33,13,13,7,GO:0001217,DNA-binding transcription repressor activity,GO:0009889,regulation of biosynthetic process,0.6251412628432951
+gene-LOC119589044,homolog,36.9,True,79,51,0,28,,,GO:0065007,biological regulation,0.8151079685479674
+gene-LOC119580304,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119584197,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119570535,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119577870,orphan,,False,41,28,3,10,GO:0003712,transcription coregulator activity,GO:0006357,regulation of transcription by RNA polymerase II,0.6251412628432951
+gene-LOC119579390,orphan,,False,18,0,0,18,,,,,0.6251412628432951
+gene-LOC119583692,homolog,29.3,True,33,7,1,25,GO:0005198,structural molecule activity,GO:0000278,mitotic cell cycle,0.8151079685479674
+gene-LOC119599047,homolog,28.0,False,10,0,6,4,GO:0048018,receptor ligand activity,,,0.8151079685479674
+gene-LOC119590929,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119576982,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119578378,orphan,,False,11,0,2,9,GO:0005198,structural molecule activity,,,0.6251412628432951
+gene-LOC119596112,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119572332,orphan,,False,18,0,0,18,,,,,0.6251412628432951
+gene-LOC119572334,orphan,,False,18,0,0,18,,,,,0.6251412628432951
+gene-LOC119575354,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119577062,orphan,,False,18,0,3,15,GO:0005488,binding,,,0.6251412628432951
+gene-LOC119585482,orphan,,False,73,46,8,19,GO:0003700,DNA-binding transcription factor activity,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119571986,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119573009,orphan,,False,13,0,0,13,,,,,0.6251412628432951
+gene-LOC119595583,homolog,46.2,True,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119575423,orphan,,False,12,0,0,12,,,,,0.6251412628432951
+gene-LOC119599356,homolog,34.2,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119585019,homolog,27.9,False,4,0,0,4,,,,,0.8151079685479674
+gene-LOC119585568,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119591889,orphan,,False,3,0,0,3,,,,,0.6251412628432951
+gene-LOC119596868,orphan,,False,12,0,5,7,GO:0001217,DNA-binding transcription repressor activity,,,0.6251412628432951
+gene-LOC119598942,orphan,,False,34,21,0,13,,,GO:0008152,metabolic process,0.6251412628432951
+gene-LOC119594439,homolog,32.6,False,2,0,0,2,,,,,0.8151079685479674
+gene-LOC119595070,homolog,31.9,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119568923,homolog,28.8,False,11,0,4,7,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119597399,orphan,,False,4,0,0,4,,,,,0.6251412628432951
+gene-LOC119576954,homolog,29.3,False,15,0,0,15,,,,,0.8151079685479674
+gene-LOC119592443,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119592444,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119582048,orphan,,False,44,20,7,17,GO:0016747,"acyltransferase activity, transferring groups other than amino-acyl groups",GO:0042546,cell wall biogenesis,0.6251412628432951
+gene-LOC119591981,homolog,22.0,False,61,25,23,13,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119591984,homolog,22.0,False,62,25,23,14,GO:0003677,DNA binding,GO:0060255,regulation of macromolecule metabolic process,0.8151079685479674
+gene-LOC119583103,orphan,,False,5,0,0,5,,,,,0.6251412628432951
+gene-LOC119588595,orphan,,False,28,8,0,20,,,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119578018,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119588257,homolog,25.4,True,33,14,4,15,GO:1990756,ubiquitin-like ligase-substrate adaptor activity,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119572588,homolog,53.3,True,11,0,3,8,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119581839,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119576949,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119589821,orphan,,False,5,0,0,5,,,,,0.6251412628432951
+gene-LOC119589839,orphan,,False,5,0,0,5,,,,,0.6251412628432951
+gene-LOC119584196,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119578020,orphan,,False,36,5,5,26,GO:0005215,transporter activity,GO:0051179,localization,0.6251412628432951
+gene-LOC119596293,orphan,,False,38,19,0,19,,,GO:0032008,positive regulation of TOR signaling,0.6251412628432951
+gene-LOC119599023,orphan,,False,75,34,5,36,GO:0005198,structural molecule activity,GO:0048856,anatomical structure development,0.6251412628432951
+gene-LOC119596908,homolog,35.1,False,16,0,7,9,GO:0046914,transition metal ion binding,,,0.8151079685479674
+gene-LOC119586956,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119579461,orphan,,False,22,0,8,14,GO:0046982,protein heterodimerization activity,,,0.6251412628432951
+gene-LOC119581040,orphan,,False,68,47,3,18,GO:0005488,binding,GO:0071840,cellular component organization or biogenesis,0.6251412628432951
+gene-LOC119593772,homolog,47.9,True,73,42,0,31,,,GO:0009987,cellular process,0.8151079685479674
+gene-LOC119578975,homolog,39.5,True,13,0,0,13,,,,,0.8151079685479674
+gene-LOC119580305,homolog,42.1,False,97,81,13,3,GO:0048018,receptor ligand activity,GO:0036293,response to decreased oxygen levels,0.8151079685479674
+gene-LOC119581601,orphan,,False,67,34,17,16,GO:0046914,transition metal ion binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119589117,orphan,,False,67,34,17,16,GO:0046914,transition metal ion binding,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119584946,homolog,40.5,False,15,0,12,3,GO:0140299,molecular sensor activity,,,0.8151079685479674
+gene-LOC119590015,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119597827,homolog,26.7,True,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119590016,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119573461,orphan,,False,33,13,13,7,GO:0005488,binding,GO:0060255,regulation of macromolecule metabolic process,0.6251412628432951
+gene-LOC119579208,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119589083,homolog,35.7,False,2,0,0,2,,,,,0.8151079685479674
+gene-LOC119592286,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119574449,orphan,,False,44,23,6,15,GO:0102672,fatty acid alpha-dioxygenase activity,GO:0016042,lipid catabolic process,0.6251412628432951
+gene-LOC119591625,orphan,,False,8,0,0,8,,,,,0.6251412628432951
+gene-LOC119594209,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119575128,homolog,28.2,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119582010,orphan,,False,33,0,5,28,GO:0140311,protein sequestering activity,,,0.6251412628432951
+gene-LOC119598172,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119574955,orphan,,False,0,0,0,0,,,,,0.6251412628432951
+gene-LOC119581968,orphan,,False,3,0,0,3,,,,,0.6251412628432951
+gene-LOC119576935,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119582733,orphan,,False,540,438,51,51,GO:0005488,binding,GO:0019915,lipid storage,0.6251412628432951
+gene-LOC119591027,orphan,,False,9,0,0,9,,,,,0.6251412628432951
+gene-LOC119596581,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119571891,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119596093,orphan,,False,60,37,12,11,GO:0003824,catalytic activity,GO:0044283,small molecule biosynthetic process,0.6251412628432951
+gene-LOC119574324,orphan,,False,2,0,0,2,,,,,0.6251412628432951
+gene-LOC119592972,orphan,,False,10,0,0,10,,,,,0.6251412628432951
+gene-LOC119576040,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119572989,orphan,,False,144,117,4,23,GO:0005488,binding,GO:0008152,metabolic process,0.6251412628432951
+gene-LOC119575160,orphan,,False,17,0,0,17,,,,,0.6251412628432951
+gene-LOC119591275,homolog,51.7,True,11,0,3,8,GO:0005488,binding,,,0.8151079685479674
+gene-LOC119570665,orphan,,False,7,0,0,7,,,,,0.6251412628432951
+gene-LOC119573137,homolog,35.6,False,0,0,0,0,,,,,0.8151079685479674
+gene-LOC119584289,orphan,,False,15,0,0,15,,,,,0.6251412628432951
+gene-LOC119568405,orphan,,False,52,32,5,15,GO:0005488,binding,GO:0071840,cellular component organization or biogenesis,0.6251412628432951
+gene-LOC119591135,orphan,,False,13,7,0,6,,,GO:0050793,regulation of developmental process,0.6251412628432951
+gene-LOC119585127,orphan,,False,46,22,0,24,,,GO:0009987,cellular process,0.6251412628432951
+gene-LOC119576282,homolog,58.8,False,28,12,12,4,GO:0046872,metal ion binding,GO:0006066,alcohol metabolic process,0.8151079685479674
+gene-LOC119595131,orphan,,False,10,0,8,2,GO:0097621,monoamine oxidase activity,,,0.6251412628432951
+gene-LOC119569126,orphan,,False,7,0,0,7,,,,,0.6251412628432951

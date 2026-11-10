@@ -1,0 +1,69 @@
+{
+  "model": "esm2",
+  "transform": "whiten",
+  "k": 25,
+  "sim_floor": 0.0,
+  "power": 3.0,
+  "replicates": 2000,
+  "seed": 0,
+  "panels": {
+    "ORPHAN_nohit": {
+      "pretty": "no BLAST-class hit",
+      "n": 94,
+      "fmax": 0.6640243692731718,
+      "ci": [
+        0.5988461757566954,
+        0.7315903652019805
+      ]
+    },
+    "HARDENED": {
+      "pretty": "no hit, either sequence search",
+      "n": 70,
+      "fmax": 0.6251412628432951,
+      "ci": [
+        0.5348567005140001,
+        0.70810801546771
+      ]
+    },
+    "STRUCT_HARDENED": {
+      "pretty": "no hit from sequence or structure",
+      "n": 52,
+      "fmax": 0.649170645014986,
+      "ci": [
+        0.5489211490484036,
+        0.7462598727396167
+      ]
+    },
+    "RESCUED_PROFILE": {
+      "pretty": "  ...rescued by profile search only",
+      "n": 24,
+      "fmax": 0.7344038399351667,
+      "ci": [
+        0.6499885803649667,
+        0.8672227522360664
+      ],
+      "complement": true
+    },
+    "RESCUED_STRUCTURE": {
+      "pretty": "  ...rescued by structure only",
+      "n": 18,
+      "fmax": 0.5592992249168257,
+      "ci": [
+        0.4013113538980947,
+        0.7189871321180973
+      ],
+      "complement": true
+    }
+  },
+  "rise_explained": "the 18 proteins removed by structural hardening score 0.559, below the 70-protein set's 0.625, so removing them raises the mean. A remote structural relative does not make a protein easier to annotate by embedding transfer; fold-level similarity is often functionally uninformative.",
+  "attrition": {
+    "from_n": 94,
+    "to_n": 52,
+    "from_fmax": 0.6640243692731718,
+    "to_fmax": 0.649170645014986,
+    "delta": -0.014853724258185763
+  },
+  "intervals_overlap": true,
+  "warning": "Fmax ROSE from 0.625 (no hit, either sequence search, n=70) to 0.649 (no hit from sequence or structure, n=52). Removing proteins that have detectable relatives should leave a HARDER set, so a rise needs explaining before it is reported.",
+  "note": "Scored through 36_bootstrap_baseline.py's own register_subset and predictions path, so these are comparable with every other figure in the paper."
+}

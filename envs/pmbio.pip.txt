@@ -1,0 +1,46 @@
+anndata==0.12.19
+array-api-compat==1.16.0
+cloudpickle==3.1.2
+contourpy==1.3.3
+cycler==0.12.1
+DendroPy @ file:///opt/conda/conda-bld/dendropy_1792771731225/work
+dnspython @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_dnspython_h5ded981_1793341711/work
+donfig==0.8.1.post1
+fonttools==4.68.0
+formulaic==1.2.2
+formulaic-contrasts==1.0.0
+google-crc32c==1.9.0
+h5py==3.16.0
+interface_meta==2.0.1
+joblib==1.6.0
+kiwisolver==1.5.1
+legacy-api-wrap==1.5
+lxml==6.1.3
+matplotlib==3.11.2
+narwhals==2.28.0
+natsort==8.4.0
+numcodecs==0.16.6
+numpy==2.4.6
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pandas==2.3.3
+PASTA @ file:///opt/conda/conda-bld/pasta_1781610578928/work
+pillow==13.0.0
+pydeseq2==0.5.4
+pymongo @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pymongo_1792045004/work
+pyparsing==3.3.3
+python-dateutil==4.0.0
+python-docx==1.2.0
+pytz==2026.6
+PyYAML==6.0.3
+scikit-learn==1.9.1
+scipy==1.17.1
+scverse-misc==0.0.3
+sepp @ file:///opt/conda/conda-bld/sepp_1770219519505/work
+session-info2==0.4.1
+session_info==1.0.1
+stdlib-list==0.12.0
+threadpoolctl==3.8.0
+typing_extensions==4.16.0
+tzdata==2026.6
+wrapt==2.5.2
+zarr==3.1.6

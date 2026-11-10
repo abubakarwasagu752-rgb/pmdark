@@ -1,0 +1,146 @@
+# ==========================================================================
+# PmDark — project configuration
+#
+# Paper: "A structurally coherent, STAT-regulated dark proteome in Penaeus
+#         monodon hemocytes: calibrated protein-language-model annotation
+#         reveals lineage-restricted host factors engaged by WSSV"
+#
+# EDIT THE `paths.share` VALUE BEFORE FIRST RUN.
+# Everything large (models, databases, embeddings) goes under `share`,
+# never under /home — /home has ~69 GB free and will fill instantly.
+# ==========================================================================
+
+project:
+  name: pmdark
+  slug: pmdark
+
+paths:
+  # =========================================================================
+  # THREE-TIER STORAGE
+  #
+  # CORRECTION 2026-11-08. This block previously asserted:
+  #
+  #   "The decisive fact: /shared/a2-public is NOT MOUNTED ON COMPUTE NODES.
+  #      slurmstepd-gpu05: couldn't chdir to `/shared/a2-public/...'
+  #      mkdir: cannot create directory '/shared': Permission denied
+  #    It is login-node only. No batch job may read or write it."
+  #
+  # That was wrong. Tested from gpul40 on 2026-11-08:
+  #   read  -> /shared/a2-public/abk/pmdark      (ok)
+  #   write -> WRITE OK
+  #   df    -> 8.8T  680G  8.1T  8%  /shared/a2-public
+  #
+  # The `mkdir` error was about creating the filesystem ROOT /shared, which
+  # is a permission error on a top-level directory, not a missing mount. It
+  # was read as the latter, and generalised from one node's chdir failure.
+  #
+  # The cost of that error: a 92 GB allowance instead of 8.1 TB, aggressive
+  # mid-pipeline cleanup, BAMs deleted that then forced a full re-alignment
+  # of all 12 libraries, and a quota deadlock that killed every ProtT5 and
+  # ProstT5 worker with "OSError: 2048000 requested and 0 written".
+  #
+  # scripts/35_retier.sh moves the bulk to the archive and leaves symlinks,
+  # so recorded absolute paths in the results JSONs stay valid.
+  #
+  #   tier     path                     size        visible to      persists
+  #   ------   ----------------------   ---------   -------------   --------
+  #   archive  /shared/a2-public/...    8.2 TB      login only      yes
+  #   work     $HOME (/storage/slurm)   ~52 GB *    login+compute   yes
+  #   scratch  /tmp on compute node     64 GB       that job only   NO
+  #
+  #   * 100 GB hard / 92 GB soft quota, shared with your other projects.
+  #
+  # Compute nodes DO have internet (huggingface.co 200, ebi.ac.uk 200), so
+  # jobs fetch their own reads and model weights rather than reading archive.
+  # =========================================================================
+
+  # ARCHIVE — login node only. Downloads, backups, final deliverables.
+  share: /shared/a2-public/abk/pmdark
+
+  # WORK — the only compute-visible persistent storage. Keep it under ~25 GB.
+  work: ~/pmdark_work
+
+  # SCRATCH — node-local, wiped at job end. BAMs, sort temp, assembly graphs.
+  # $SLURM_JOB_ID is substituted at runtime so concurrent jobs never collide.
+  scratch_root: /tmp
+
+  # Code, configs and small tables only.
+  home: ~/pmdark
+
+  # ---- ARCHIVE tier (login node only) -------------------------------------
+  raw:        "{share}/00_raw"          # SRA mirror, reference FASTAs
+  interim:    "{share}/01_interim"      # protein sets, shards
+  dbs:        "{share}/03_dbs"          # Foldseek / MMseqs databases (BIG)
+  results:    "{share}/06_results"      # tables, figures, final deliverables
+  logs:       "{share}/99_logs"
+
+  # ---- WORK tier (compute-visible, quota'd — keep small) ------------------
+  # Anything a batch job must read or write persistently lives here.
+  models:     "{work}/models"           # HF cache, ~11 GB for all 4 PLMs
+  genome:     "{work}/genome"           # genome FASTA + HISAT2 index, ~8 GB
+  align:      "{work}/align"            # per-sample GTF, counts, logs (small)
+  proteins:   "{work}/proteins"         # protein sets, dark-set definitions
+  embeddings: "{work}/embeddings"       # .npy shards — 50k x 1280 fp32 ~ 1 GB
+  structures: "{work}/structures"       # 3Di strings (PDBs go to archive)
+
+data:
+  sra_study: SRP499992
+  github_repo: https://github.com/LuiguiGallardo/p_monodon_transcriptome
+  n_libraries: 12
+  # Replicates are UNBALANCED — this matters for every statistical step
+  groups:
+    WSSV:                 5
+    PmSTAT_dsRNA:         3
+    PmSTAT_dsRNA_WSSV:    4
+  # NOTE: there is NO naive / PBS / GFP-dsRNA control arm in this dataset.
+  # See docs/DESIGN_LIMITS.md — this constrains what can be claimed.
+
+upstream_counts:
+  transcripts_total:      778680
+  unigenes:               586928
+  proteins_total:         28423
+  annotated_union:        15966   # EnTAP union across all evidence types
+  # Per-evidence breakdown (EnTAP, defaults; E<=1e-5, qcov>=50% for Swiss-Prot)
+  swissprot:               5138   # 18.1%  <- only this many have a NAMED homolog
+  go:                      7372   # 25.9%
+  eggnog_cog:              9313   # 32.8%
+  interproscan:           13361   # 47.0%
+  kegg_ko:                 6898   # 24.3%
+  contig_n50:               417
+  median_contig_len:        325
+
+# Three nested definitions of "dark". We report all three; the headline
+# number is `dark_strict`.
+dark_sets:
+  dark_union:   "no evidence of any kind"            # 28423 - 15966 = 12457
+  dark_named:   "no Swiss-Prot hit"                  # 28423 - 5138  = 23285
+  dark_strict:  "no Swiss-Prot AND no InterPro"      # computed in 01_build_protein_sets
+
+models:
+  esm2:    facebook/esm2_t33_650M_UR50D
+  esm2_3b: facebook/esm2_t36_3B_UR50D      # only on L40 (48 GB)
+  prott5:  Rostlab/prot_t5_xl_half_uniref50-enc
+  prostt5: Rostlab/ProstT5
+  saprot:  westlake-repl/SaProt_650M_AF2
+
+compute:
+  # Tuned to the CPE cluster partition table. ALL gpu partitions cap at 12 h,
+  # so every long job must checkpoint. `shard_size` controls resume
+  # granularity: smaller = more restart points, more I/O.
+  shard_size: 2000              # proteins per shard file
+  max_len: 1022                 # truncate (ESM-2 positional limit is 1024)
+  dtype: float16
+  partitions:
+    gpu_big:   gpul140          # 4x L40 48GB, 30 CPU/job, 12h  <- workhorse
+    gpu_mid:   gpu4090          # 2x RTX 4090 24GB, 10 CPU, 12h
+    gpu_small: gpu3080          # 1x RTX 3080, 16 CPU, 12h
+    cpu:       cpu              # 32 CPU/job, 24h max           <- Foldseek etc
+    test:      poc              # 4 CPU, 10 min                 <- smoke tests
+  batch:
+    esm2_650m:  { l40: 64, rtx4090: 24, rtx3080: 12 }
+    esm2_3b:    { l40: 16, rtx4090: 0,  rtx3080: 0  }   # 0 = will not fit
+    prott5:     { l40: 32, rtx4090: 12, rtx3080: 6  }
+    prostt5:    { l40: 32, rtx4090: 12, rtx3080: 6  }
+    saprot:     { l40: 48, rtx4090: 16, rtx3080: 8  }
+
+seed: 20261106

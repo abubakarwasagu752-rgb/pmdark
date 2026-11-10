@@ -1,0 +1,28 @@
+{
+  "n_missed": 383,
+  "classes": {
+    "TRANSCRIPT_NO_ORF": 107,
+    "MITO_GENETIC_CODE": 11,
+    "LOW_IDENTITY": 90,
+    "SEQ_MATCH_ELSEWHERE": 146,
+    "NO_TRANSCRIPT": 19,
+    "ORF_WRONG_STRAND": 5,
+    "LOW_COVERAGE": 4,
+    "ORF_UNPLACED": 1,
+    "UNEXPLAINED": 0
+  },
+  "real_misses": 126,
+  "recoverable": 257,
+  "detection_now_pct": 96.5,
+  "detection_upper_bound_pct": 98.9,
+  "above_1000_tpm": {
+    "n": 6,
+    "classes": {
+      "TRANSCRIPT_NO_ORF": 1,
+      "MITO_GENETIC_CODE": 3,
+      "SEQ_MATCH_ELSEWHERE": 1,
+      "LOW_IDENTITY": 1
+    }
+  },
+  "unplaced_proteins": 345
+}

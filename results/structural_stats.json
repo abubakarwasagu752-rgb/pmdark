@@ -1,0 +1,78 @@
+{
+  "seed": 20261106,
+  "three_di": {
+    "hardened": {
+      "n": 70,
+      "entropy_median": 2.398855842280126,
+      "entropy_mean": 2.3566174786687784,
+      "entropy_q1": 1.8328336780295327,
+      "entropy_q3": 2.964912456786149,
+      "dominant_median": 0.3995381062355658,
+      "length_median": 193,
+      "degenerate_n": 31
+    },
+    "background": {
+      "n": 70,
+      "entropy_median": 3.050175719186949,
+      "entropy_mean": 2.8720855432336942,
+      "entropy_q1": 2.5150217692681913,
+      "entropy_q3": 3.3793015317719513,
+      "dominant_median": 0.3204819277108434,
+      "length_median": 192,
+      "degenerate_n": 10
+    }
+  },
+  "three_di_test": {
+    "entropy_gap_bits": -0.6513198769068231,
+    "cliffs_delta": -0.39510204081632655,
+    "p": 5.478656026891571e-05,
+    "degenerate_threshold_bits": 2.16
+  },
+  "coherence": {
+    "dark": {
+      "n": 70,
+      "clustered": 2,
+      "fraction": 0.02857142857142857,
+      "ci": [
+        0.007870611874590441,
+        0.09832256198863935
+      ],
+      "clusters": 69,
+      "largest": 2
+    },
+    "background": {
+      "n": 70,
+      "clustered": 21,
+      "fraction": 0.3,
+      "ci": [
+        0.2053660519388467,
+        0.41544317333646286
+      ],
+      "clusters": 56,
+      "largest": 5
+    },
+    "fisher_p": 1.513650268370107e-05,
+    "odds_ratio": 0.08402648107282296,
+    "or_ci": [
+      0.02157098948793234,
+      0.32731226935284374
+    ],
+    "difference_pp": -27.142857142857142,
+    "difference_ci_pp": [
+      -38.57142857142858,
+      -15.714285714285714
+    ]
+  },
+  "hardening": {
+    "n": 70,
+    "with_structural_hit": 18,
+    "fraction": 0.2571428571428571,
+    "ci": [
+      0.16929275683913148,
+      0.37026130242374444
+    ],
+    "surviving": 52
+  },
+  "verdict": "CONFOUNDED: dark 3Di is measurably poorer than background 3Di, so the clustering difference may be prediction quality rather than biology. Report the hardening; withhold the coherence claim.",
+  "caveat": "3Di predicted by ProstT5, not measured. ProstT5 is also one of the three annotation-transfer models, so this analysis is not independent of that arm; it is independent of the ESM-2 headline."
+}

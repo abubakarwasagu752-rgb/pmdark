@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "A structurally coherent, STAT-regulated dark proteome in Penaeus monodon hemocytes"
+type: software
+version: 0.1.0-20261110
+date-released: 2026-11-10
+license: MIT
+authors:
+  - family-names: "Saadu"
+    given-names: "Abubakar"
+    affiliation: "Department of Microbiology, Faculty of Science, King Mongkut's University of Technology Thonburi, Bangkok 10140, Thailand"
+    orcid: "https://orcid.org/0009-0002-2116-9289"
+  - family-names: "Jongruja"
+    given-names: "Nujarin"
+    affiliation: "Department of Microbiology, Faculty of Science, King Mongkut's University of Technology Thonburi, Bangkok 10140, Thailand"
+    orcid: "https://orcid.org/0000-0002-8839-2568"

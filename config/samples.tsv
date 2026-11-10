@@ -1,0 +1,47 @@
+# PmDark sample sheet — RESOLVED from ENA, 2026-11-07
+#
+# Source: ENA portal API, study SRP499992. Group assignment is read directly
+# from sample_title, so no guesswork is involved.
+#
+# ===========================================================================
+# WARNING 1 — SRR28572179 IS A FAILED LIBRARY
+#   830,354 reads vs 10-16 M for every other library. That is ~16x shallower
+#   than its own group members. It cannot support differential expression.
+#   Default: EXCLUDED (use=0). This drops PmSTAT_dsRNA from n=3 to n=2.
+#   This almost certainly explains the published result of ZERO DEGs between
+#   PmSTAT_dsRNA and PmSTAT_dsRNA_WSSV.
+#
+# WARNING 2 — SRR28572176 IS A DEPTH OUTLIER
+#   43.4 M reads, ~3x its group members. Not excluded, but library-size
+#   normalisation and a PCA/outlier check are mandatory before trusting it.
+#
+# WARNING 3 — NO UNINFECTED CONTROL ARM
+#   The only clean single-variable contrast is:
+#       WSSV (n=5)  vs  PmSTAT_dsRNA_WSSV (n=4)
+#   which isolates STAT knockdown UNDER infection. See docs/DESIGN_LIMITS.md.
+# ===========================================================================
+#
+# use=1 include in quantification and DE; use=0 exclude from DE
+# (excluded libraries are still assembled — every read helps the assembly)
+#
+run_accession	library	sample_title	group	replicate	reads	use	note
+SRR28572178	4_S4	WSSV_infection_01	WSSV	1	14371003	1	-
+SRR28572177	5_S5	WSSV_infection_02	WSSV	2	13245638	1	-
+SRR28572176	6_S6	WSSV_infection_03	WSSV	3	43404612	1	depth_outlier_3x
+SRR28572175	7_S7	WSSV_infection_04	WSSV	4	13070733	1	-
+SRR28572174	8_S8	WSSV_infection_05	WSSV	5	13791480	1	-
+SRR28572183	1_S1	knockdown_PmSTAT_01	PmSTAT_dsRNA	1	16097983	1	-
+SRR28572182	2_S2	knockdown_PmSTAT_02	PmSTAT_dsRNA	2	12788438	1	-
+SRR28572179	3_S3	knockdown_PmSTAT_03	PmSTAT_dsRNA	3	830354	0	FAILED_LIBRARY_16x_shallow
+SRR28572173	9_S9	knockdown_PmSTAT_WSSV_infection_01	PmSTAT_dsRNA_WSSV	1	10335646	1	-
+SRR28572172	10_S10	knockdown_PmSTAT_WSSV_infection_02	PmSTAT_dsRNA_WSSV	2	14500097	1	-
+SRR28572181	11_S11	knockdown_PmSTAT_WSSV_infection_03	PmSTAT_dsRNA_WSSV	3	14355271	1	-
+SRR28572180	12_S12	knockdown_PmSTAT_WSSV_infection_04	PmSTAT_dsRNA_WSSV	4	11479499	1	-
+#
+# Totals: 178,270,754 reads across 12 libraries, ~18.2 GB compressed FASTQ.
+# Usable for DE after excluding SRR28572179: 177,440,400 reads, 11 libraries.
+#
+# Effective design for differential expression:
+#   WSSV               n = 5
+#   PmSTAT_dsRNA       n = 2   <-- underpowered, report with caution
+#   PmSTAT_dsRNA_WSSV  n = 4

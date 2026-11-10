@@ -1,0 +1,57 @@
+{
+  "model": "esm2",
+  "transform": "whiten",
+  "params": {
+    "k": 25,
+    "sim_floor": 0.0,
+    "power": 3.0
+  },
+  "n_targets_requested": 328,
+  "n_without_protein": 0,
+  "n_targets": 328,
+  "n_annotated": 312,
+  "n_orphan": 190,
+  "n_predictions": 9866,
+  "yield": {
+    "molecular_function": 136,
+    "biological_process": 127,
+    "cellular_component_only": 149
+  },
+  "transferability": {
+    "target_median_top_sim": 0.37450316548347473,
+    "calibration_median_top_sim": 0.3512742817401886,
+    "calibration_stratum": "ORPHAN_nohit"
+  },
+  "calibration": {
+    "orphan": {
+      "fmax": 0.6251412628432951,
+      "ci": [
+        0.5418771677580718,
+        0.7056173282270669
+      ],
+      "threshold": 0.3,
+      "precision": 0.8615515201158975,
+      "recall": 0.4905374817061951,
+      "BP": 0.32373996169181607,
+      "MF": 0.3819963781610796,
+      "CC": 0.7672655186907635,
+      "n_benchmark": 70,
+      "source": "hardened (DIAMOND + jackhmmer)",
+      "harden_at": 0.001
+    },
+    "homolog": {
+      "fmax": 0.8151079685479674,
+      "threshold": 0.38,
+      "precision": 0.8620915695222862,
+      "recall": 0.7729808609245958,
+      "BP": 0.6555059633578159,
+      "MF": 0.8366979819390317,
+      "CC": 0.8818615305080908,
+      "n_benchmark": 1087
+    }
+  },
+  "diamond_hits": 135,
+  "jackhmmer_hits": 64,
+  "median_top_similarity": 0.37450316548347473,
+  "no_neighbour": 0
+}

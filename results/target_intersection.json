@@ -1,0 +1,10 @@
+{
+  "n_targets": 328,
+  "no_sequence_homologue": 190,
+  "no_sequence_with_structure": 57,
+  "no_sequence_no_structure": 133,
+  "has_sequence_with_structure": 100,
+  "has_sequence_no_structure": 38,
+  "structural_hits_total": 157,
+  "note": "Cross-tabulation, not marginal counts: the 157 targets with a structural hit include proteins that already had a sequence homologue, so it cannot be subtracted from 190."
+}

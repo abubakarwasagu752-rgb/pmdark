@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+*.egg-info/
+
+# Large or machine-specific artefacts — these live in the Zenodo record
+*.npy
+*.npz
+*.bam
+*.sam
+*.fastq
+*.fastq.gz
+*.tar.zst
+*.tar.gz

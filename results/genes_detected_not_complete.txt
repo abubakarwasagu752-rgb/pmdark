@@ -1,0 +1,2557 @@
+gene-LOC119568036	protein bric-a-brac 2-like
+gene-LOC119568038	phospholipase DDHD1-like
+gene-LOC119568043	uncharacterized LOC119568043
+gene-LOC119568060	GDP-fucose protein O-fucosyltransferase 1-like
+gene-LOC119568069	uncharacterized LOC119568069
+gene-LOC119568078	potential E3 ubiquitin-protein ligase ariadne-2-like
+gene-LOC119568114	zinc finger protein 300-like, transcript variant X1
+gene-LOC119568145	tyrosine--tRNA ligase, mitochondrial-like
+gene-LOC119568150	FNIP repeat-containing protein DDB_G0290617-like, transcript variant X3
+gene-LOC119568153	USP6 N-terminal-like protein
+gene-LOC119568167	serine/arginine repetitive matrix protein 1-like
+gene-LOC119568172	uncharacterized LOC119568172
+gene-LOC119568183	UNC93-like protein
+gene-LOC119568242	protein trapped in endoderm-1-like
+gene-LOC119568243	microtubule-associated protein futsch-like
+gene-LOC119568283	selenoprotein F-like
+gene-LOC119568286	rab3 GTPase-activating protein catalytic subunit-like
+gene-LOC119568292	uncharacterized LOC119568292
+gene-LOC119568314	transient receptor potential cation channel subfamily V member 6-like
+gene-LOC119568339	ALK tyrosine kinase receptor-like
+gene-LOC119568347	chromatin modification-related protein eaf-1-like
+gene-LOC119568357	uncharacterized LOC119568357
+gene-LOC119568362	zinc finger protein 91-like, transcript variant X1
+gene-LOC119568364	uncharacterized LOC119568364
+gene-LOC119568371	zinc finger and BTB domain-containing protein 14-like
+gene-LOC119568388	28S ribosomal protein S11, mitochondrial-like
+gene-LOC119568417	solute carrier family 46 member 3-like
+gene-LOC119568427	oocyte zinc finger protein XlCOF26-like, transcript variant X4
+gene-LOC119568441	zinc finger protein OZF-like, transcript variant X1
+gene-LOC119568458	gastrula zinc finger protein XlCGF67.1-like
+gene-LOC119568460	zinc finger protein 235-like
+gene-LOC119568466	gastrula zinc finger protein XlCGF7.1-like
+gene-LOC119568471	zinc finger protein with KRAB and SCAN domains 8-like
+gene-LOC119568472	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119568480	GA-binding protein subunit beta-2-like
+gene-LOC119568484	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119568487	gastrula zinc finger protein XlCGF7.1-like
+gene-LOC119568495	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119568497	zinc finger protein OZF-like
+gene-LOC119568502	zinc finger protein 768-like
+gene-LOC119568507	zinc finger protein 525-like
+gene-LOC119568579	zinc finger protein OZF-like
+gene-LOC119568580	zinc finger protein 883-like
+gene-LOC119568586	zinc finger protein 239-like
+gene-LOC119568587	zinc finger protein 239-like, transcript variant X1
+gene-LOC119568606	cullin-4B-like
+gene-LOC119568611	small glutamine-rich tetratricopeptide repeat-containing protein alpha-like
+gene-LOC119568630	broad-complex core protein isoforms 1/2/3/4/5-like, transcript variant X2
+gene-LOC119568649	glutamic acid-rich protein-like
+gene-LOC119568650	uncharacterized LOC119568650, transcript variant X2
+gene-LOC119568654	fasciclin-1-like
+gene-LOC119568669	protein phosphatase 1 regulatory inhibitor subunit 16B-like
+gene-LOC119568677	decaprenyl-diphosphate synthase subunit 2-like
+gene-LOC119568762	RNA-binding protein lark-like
+gene-LOC119568835	uncharacterized LOC119568835
+gene-LOC119568877	uncharacterized LOC119568877
+gene-LOC119568878	pectinesterase inhibitor 10-like
+gene-LOC119568879	uncharacterized LOC119568879
+gene-LOC119568889	SET and MYND domain-containing protein 4-like
+gene-LOC119568896	translation initiation factor IF-2-like
+gene-LOC119568909	cyclin-dependent kinase 1-like
+gene-LOC119568924	uncharacterized LOC119568924
+gene-LOC119568938	serine/threonine-protein kinase rio2-like
+gene-LOC119568946	mediator of RNA polymerase II transcription subunit 18-like
+gene-LOC119568950	NAD-dependent protein deacetylase sirtuin-2-like
+gene-LOC119568974	gastrula zinc finger protein XlCGF71.1-like
+gene-LOC119568975	zinc finger protein 271-like
+gene-LOC119568980	natural resistance-associated macrophage protein 2-like
+gene-LOC119569018	uncharacterized LOC119569018
+gene-LOC119569034	DNA polymerase subunit gamma-1-like
+gene-LOC119569099	ubiquitin conjugation factor E4 B-like
+gene-LOC119569102	60S ribosomal protein L3-like
+gene-LOC119569115	eukaryotic peptide chain release factor GTP-binding subunit ERF3A-like
+gene-LOC119569121	replication protein A 70 kDa DNA-binding subunit-like
+gene-LOC119569122	replication protein A 70 kDa DNA-binding subunit-like
+gene-LOC119569127	anaphase-promoting complex subunit 7-like
+gene-LOC119569194	ankyrin repeat domain-containing protein 12-like, transcript variant X1
+gene-LOC119569196	integrator complex subunit 13-like
+gene-LOC119569203	cAMP-responsive element-binding protein-like 2
+gene-LOC119569226	palmitoyltransferase ZDHHC6-like
+gene-LOC119569262	uncharacterized LOC119569262
+gene-LOC119569266	bridging integrator 2-like
+gene-LOC119569268	serine/threonine-protein kinase SIK3-like
+gene-LOC119569310	GDP-mannose 4,6 dehydratase-like
+gene-LOC119569362	uncharacterized LOC119569362
+gene-LOC119569409	inhibitor of Bruton tyrosine kinase-like
+gene-LOC119569470	protein RFT1 homolog
+gene-LOC119569566	deoxyhypusine hydroxylase-like
+gene-LOC119569584	uncharacterized LOC119569584
+gene-LOC119569585	uncharacterized LOC119569585
+gene-LOC119569590	calmodulin-binding transcription activator 1-like
+gene-LOC119569598	protein mono-ADP-ribosyltransferase PARP12-like
+gene-LOC119569646	uncharacterized LOC119569646
+gene-LOC119569666	ribulose-phosphate 3-epimerase-like
+gene-LOC119569671	U1 small nuclear ribonucleoprotein 70 kDa-like
+gene-LOC119569674	nuclear receptor coactivator 7-like
+gene-LOC119569676	lysoplasmalogenase-like protein TMEM86A
+gene-LOC119569686	uncharacterized LOC119569686
+gene-LOC119569689	protein MEMO1-like
+gene-LOC119569698	eukaryotic translation elongation factor 2-like
+gene-LOC119569701	ankyrin repeat domain-containing protein 17-like
+gene-LOC119569725	uncharacterized LOC119569725
+gene-LOC119569746	papilin-like
+gene-LOC119569757	cytochrome P450 2L1-like
+gene-LOC119569770	translation initiation factor IF-2-like
+gene-LOC119569771	ribonucleoside-diphosphate reductase subunit M2-like
+gene-LOC119569785	natural resistance-associated macrophage protein 2-like
+gene-LOC119569787	3-hydroxy-3-methylglutaryl-coenzyme A reductase-like
+gene-LOC119569801	DNA polymerase epsilon catalytic subunit 1-like
+gene-LOC119569805	probable arginine--tRNA ligase, mitochondrial
+gene-LOC119569818	early endosome antigen 1-like
+gene-LOC119569897	uncharacterized protein C1orf131 homolog
+gene-LOC119569898	cytochrome c oxidase subunit 7A, mitochondrial-like
+gene-LOC119569902	uncharacterized LOC119569902, transcript variant X1
+gene-LOC119569936	DNA replication complex GINS protein PSF3-like
+gene-LOC119569941	cytosol aminopeptidase-like
+gene-LOC119569942	peptide deformylase, mitochondrial-like
+gene-LOC119569954	thioredoxin domain-containing protein 15-like
+gene-LOC119569977	recQ-mediated genome instability protein 1-like
+gene-LOC119570019	protein disulfide-isomerase-like
+gene-LOC119570029	uncharacterized LOC119570029
+gene-LOC119570052	zinc finger protein ubi-d4-like
+gene-LOC119570067	probable ATP-dependent RNA helicase DDX23
+gene-LOC119570073	stomatin-like
+gene-LOC119570093	collagen alpha-1(XVIII) chain-like
+gene-LOC119570097	ATP-dependent RNA helicase A protein-like
+gene-LOC119570128	coiled-coil domain-containing protein 6-like
+gene-LOC119570134	rRNA 2'-O-methyltransferase fibrillarin-like
+gene-LOC119570152	protein flightless-1-like
+gene-LOC119570155	ribonuclease H2 subunit B-like
+gene-LOC119570161	tripartite motif-containing protein 26-like
+gene-LOC119570177	cell wall protein IFF7-like
+gene-LOC119570180	adenylyl cyclase-associated protein 1-like
+gene-LOC119570188	golgin subfamily A member 6-like protein 2
+gene-LOC119570195	alpha-1-antiproteinase-like
+gene-LOC119570209	brefeldin A-inhibited guanine nucleotide-exchange protein 1-like
+gene-LOC119570234	serine/threonine-protein kinase PAK 2-like
+gene-LOC119570282	lipid droplet-associated hydrolase-like
+gene-LOC119570384	uncharacterized LOC119570384
+gene-LOC119570393	transmembrane protein 161B-like
+gene-LOC119570396	zinc finger protein 271-like
+gene-LOC119570429	prefoldin subunit 1-like
+gene-LOC119570460	3-methyl-2-oxobutanoate dehydrogenase [lipoamide] kinase, mitochondrial-like
+gene-LOC119570474	uncharacterized LOC119570474
+gene-LOC119570476	delta-like protein 1
+gene-LOC119570477	OTU domain-containing protein 3-like
+gene-LOC119570480	uncharacterized LOC119570480
+gene-LOC119570496	serine/arginine-rich splicing factor 6-like
+gene-LOC119570516	ribosomal RNA-processing protein 17-like
+gene-LOC119570530	activating signal cointegrator 1 complex subunit 2-like
+gene-LOC119570554	uncharacterized LOC119570554
+gene-LOC119570571	cyclin-H-like
+gene-LOC119570602	uncharacterized LOC119570602
+gene-LOC119570620	ribonuclease 3-like
+gene-LOC119570639	collagen alpha-2(IV) chain-like
+gene-LOC119570642	zinc finger and BTB domain-containing protein 17-like
+gene-LOC119570648	(2R)-3-sulfolactate dehydrogenase (NADP(+))-like
+gene-LOC119570662	uncharacterized LOC119570662
+gene-LOC119570663	zinc transporter ZIP9-like
+gene-LOC119570667	uncharacterized LOC119570667
+gene-LOC119570684	arfaptin-2-like
+gene-LOC119570713	zinc finger protein 436-like
+gene-LOC119570739	netrin receptor DCC-like
+gene-LOC119570742	pyruvate kinase-like
+gene-LOC119570797	COX assembly mitochondrial protein homolog
+gene-LOC119570837	uncharacterized LOC119570837
+gene-LOC119570842	mucin-5AC-like
+gene-LOC119570930	uncharacterized LOC119570930
+gene-LOC119570996	uncharacterized PE-PGRS family protein PE_PGRS54-like
+gene-LOC119571014	aspartate beta-hydroxylase domain-containing protein 2-like
+gene-LOC119571025	angiotensin-converting enzyme-like
+gene-LOC119571068	secretory carrier-associated membrane protein 1-like, transcript variant X2
+gene-LOC119571086	uncharacterized LOC119571086
+gene-LOC119571126	glia maturation factor beta-like
+gene-LOC119571140	uncharacterized LOC119571140
+gene-LOC119571150	trichohyalin-like
+gene-LOC119571185	uncharacterized LOC119571185
+gene-LOC119571197	calpain-A-like
+gene-LOC119571211	NADH-ubiquinone oxidoreductase subunit 8-like
+gene-LOC119571239	uncharacterized LOC119571239, transcript variant X2
+gene-LOC119571262	aldehyde dehydrogenase, mitochondrial-like
+gene-LOC119571264	baculoviral IAP repeat-containing protein 2-like
+gene-LOC119571275	neural-cadherin-like
+gene-LOC119571293	ankyrin repeat domain-containing protein 12-like, transcript variant X2
+gene-LOC119571306	protein FAM133-like
+gene-LOC119571353	uncharacterized LOC119571353
+gene-LOC119571371	ATP-dependent RNA helicase DDX24-like
+gene-LOC119571434	zinc finger protein 135-like
+gene-LOC119571477	sphingomyelin phosphodiesterase-like
+gene-LOC119571510	uncharacterized LOC119571510
+gene-LOC119571536	tubulin alpha-4A chain-like
+gene-LOC119571593	ubiquitin conjugation factor E4 B-like
+gene-LOC119571615	probable 4-coumarate--CoA ligase 5
+gene-LOC119571649	uncharacterized LOC119571649
+gene-LOC119571663	translation initiation factor eIF-2B subunit beta-like
+gene-LOC119571671	aldo-keto reductase family 1 member B1-like
+gene-LOC119571674	RNA-binding protein cabeza-like
+gene-LOC119571690	probable palmitoyltransferase ZDHHC24
+gene-LOC119571694	electron transfer flavoprotein beta subunit lysine methyltransferase-like, transcript variant X2
+gene-LOC119571703	electron transfer flavoprotein beta subunit lysine methyltransferase homolog
+gene-LOC119571718	U6 snRNA-associated Sm-like protein LSm4
+gene-LOC119571800	zinc finger protein OZF-like
+gene-LOC119571813	WD repeat-containing protein 5B-like
+gene-LOC119571821	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119571822	cytoplasmic polyadenylation element-binding protein-like
+gene-LOC119571835	synembryn-B-like
+gene-LOC119571836	zinc finger protein OZF-like
+gene-LOC119571851	cell division cycle protein 20 homolog
+gene-LOC119571886	inositol polyphosphate 5-phosphatase OCRL-like
+gene-LOC119571896	V-type proton ATPase subunit B, transcript variant X1
+gene-LOC119571898	vicilin-like seed storage protein At2g18540
+gene-LOC119571943	phosphatidylinositol 5-phosphate 4-kinase type-2 alpha-like
+gene-LOC119571946	zinc finger protein 37-like
+gene-LOC119571966	radical S-adenosyl methionine domain-containing protein 1, mitochondrial-like
+gene-LOC119571993	uncharacterized LOC119571993
+gene-LOC119571999	protein CLEC16A homolog
+gene-LOC119572079	RAB11-binding protein RELCH homolog
+gene-LOC119572103	uncharacterized LOC119572103
+gene-LOC119572133	mucin-12-like
+gene-LOC119572144	uncharacterized LOC119572144
+gene-LOC119572178	cytoplasmic dynein 2 intermediate chain 2-like
+gene-LOC119572189	zinc finger protein-like 1
+gene-LOC119572197	threonine--tRNA ligase 1, cytoplasmic-like
+gene-LOC119572205	GPI transamidase component PIG-S-like
+gene-LOC119572207	methyl farnesoate epoxidase-like, transcript variant X1
+gene-LOC119572211	zinc finger protein 708-like
+gene-LOC119572212	zinc finger protein 493-like
+gene-LOC119572217	minichromosome maintenance domain-containing protein 2-like
+gene-LOC119572234	neural Wiskott-Aldrich syndrome protein-like
+gene-LOC119572251	wiskott-Aldrich syndrome protein homolog
+gene-LOC119572253	trifunctional purine biosynthetic protein adenosine-3-like
+gene-LOC119572263	ran-binding protein 9-like
+gene-LOC119572285	transmembrane protein 208-like
+gene-LOC119572297	uncharacterized LOC119572297
+gene-LOC119572309	serine/arginine-rich splicing factor 4-like, transcript variant X7
+gene-LOC119572320	polycomb protein suz12-A-like
+gene-LOC119572321	nudC domain-containing protein 3-like
+gene-LOC119572322	uncharacterized LOC119572322
+gene-LOC119572342	uncharacterized LOC119572342
+gene-LOC119572377	oxysterol-binding protein 1-like
+gene-LOC119572378	oxysterol-binding protein 1-like
+gene-LOC119572387	RNA-binding protein 25-like
+gene-LOC119572396	acid phosphatase type 7-like
+gene-LOC119572412	annexin-B12-like, transcript variant X1
+gene-LOC119572421	ADP-ribosylation factor-like protein 8B-A
+gene-LOC119572430	anti-sigma-I factor RsgI2-like
+gene-LOC119572444	uncharacterized LOC119572444
+gene-LOC119572558	CXXC-type zinc finger protein 1-like
+gene-LOC119572606	uncharacterized LOC119572606
+gene-LOC119572624	RNA-binding protein Musashi homolog Rbp6-like
+gene-LOC119572635	NAD-dependent protein deacetylase Sirt6-like
+gene-LOC119572810	uncharacterized LOC119572810
+gene-LOC119572886	uncharacterized LOC119572886
+gene-LOC119572901	mucin-12-like
+gene-LOC119572963	protein rhomboid-like, transcript variant X2
+gene-LOC119572965	multiple C2 and transmembrane domain-containing protein-like
+gene-LOC119572981	uncharacterized LOC119572981
+gene-LOC119572993	DNA polymerase subunit gamma-1-like
+gene-LOC119572997	DNA polymerase subunit gamma-1-like
+gene-LOC119573052	uncharacterized LOC119573052
+gene-LOC119573063	uncharacterized LOC119573063
+gene-LOC119573069	folylpolyglutamate synthase, mitochondrial-like
+gene-LOC119573074	regulatory-associated protein of mTOR-like
+gene-LOC119573075	regulatory-associated protein of mTOR-like
+gene-LOC119573078	uncharacterized LOC119573078
+gene-LOC119573081	protein phosphatase Slingshot homolog 1-like, transcript variant X1
+gene-LOC119573086	zinc finger protein 558-like, transcript variant X3
+gene-LOC119573087	sorting nexin-17-like
+gene-LOC119573088	zinc finger protein 558-like, transcript variant X2
+gene-LOC119573094	adenylate kinase-like
+gene-LOC119573095	phosphatidylserine decarboxylase proenzyme, mitochondrial-like
+gene-LOC119573097	zinc finger protein Xfin-like
+gene-LOC119573107	UDP-galactose/UDP-glucose transporter 7-like
+gene-LOC119573117	dentin sialophosphoprotein-like
+gene-LOC119573131	suppressor of cytokine signaling 4-like
+gene-LOC119573150	insulin-like growth factor 1 receptor
+gene-LOC119573154	verprolin-like, transcript variant X9
+gene-LOC119573199	gastrula zinc finger protein XlCGF8.2DB-like, transcript variant X3
+gene-LOC119573201	uncharacterized LOC119573201
+gene-LOC119573216	blastula protease 10-like
+gene-LOC119573259	golgin subfamily A member 2-like
+gene-LOC119573264	E3 ubiquitin-protein ligase TRIM7-like
+gene-LOC119573267	cytosolic purine 5'-nucleotidase-like
+gene-LOC119573294	elongin-B-like
+gene-LOC119573331	uncharacterized LOC119573331
+gene-LOC119573350	endochitinase-like
+gene-LOC119573381	uncharacterized LOC119573381, transcript variant X2
+gene-LOC119573436	solute carrier family 12 member 2-like
+gene-LOC119573451	low-density lipoprotein receptor-related protein 2-like
+gene-LOC119573460	dentin sialophosphoprotein-like
+gene-LOC119573471	uncharacterized LOC119573471
+gene-LOC119573472	meckelin-like
+gene-LOC119573477	gastrula zinc finger protein XlCGF49.1-like
+gene-LOC119573488	uncharacterized LOC119573488
+gene-LOC119573513	oxysterol-binding protein-related protein 6-like
+gene-LOC119573719	sorting nexin-29-like
+gene-LOC119573721	fatty acyl-CoA hydrolase precursor, medium chain-like
+gene-LOC119573758	uncharacterized LOC119573758
+gene-LOC119573761	eukaryotic translation initiation factor 3 subunit A-like
+gene-LOC119573782	uncharacterized LOC119573782
+gene-LOC119573833	uncharacterized LOC119573833
+gene-LOC119573867	uncharacterized LOC119573867
+gene-LOC119573906	uncharacterized LOC119573906
+gene-LOC119573946	SPARC-related modular calcium-binding protein 2-like
+gene-LOC119573967	spermine oxidase-like
+gene-LOC119573994	uncharacterized LOC119573994
+gene-LOC119574010	anoctamin-7-like
+gene-LOC119574048	lipase 3-like
+gene-LOC119574061	uncharacterized LOC119574061
+gene-LOC119574062	elongator complex protein 3-like
+gene-LOC119574077	glycine-rich cell wall structural protein-like
+gene-LOC119574082	4-coumarate--CoA ligase 1-like
+gene-LOC119574095	26S proteasome non-ATPase regulatory subunit 2-like
+gene-LOC119574108	armadillo repeat-containing protein 7-like
+gene-LOC119574113	40-kDa huntingtin-associated protein-like
+gene-LOC119574114	60S ribosomal protein L36-like, transcript variant X1
+gene-LOC119574115	piwi-like protein Ago3
+gene-LOC119574152	eukaryotic translation initiation factor 4E type 3-like
+gene-LOC119574153	zinc finger protein 2-like
+gene-LOC119574167	mediator of RNA polymerase II transcription subunit 25-like
+gene-LOC119574180	protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1-like
+gene-LOC119574183	SAP30-binding protein-like
+gene-LOC119574184	matrix metalloproteinase-21-like
+gene-LOC119574191	lactosylceramide 4-alpha-galactosyltransferase-like
+gene-LOC119574215	pinin-like
+gene-LOC119574223	protein AATF-like
+gene-LOC119574244	uncharacterized LOC119574244
+gene-LOC119574248	uncharacterized LOC119574248
+gene-LOC119574253	ras-like protein 2
+gene-LOC119574257	UPF0565 protein C2orf69 homolog
+gene-LOC119574270	differentially expressed in FDCP 6-like
+gene-LOC119574274	zinc finger protein 91-like
+gene-LOC119574276	multidrug resistance-associated protein 5-like
+gene-LOC119574293	chromosome-associated kinesin KIF4-like
+gene-LOC119574299	importin-4-like
+gene-LOC119574301	uncharacterized LOC119574301
+gene-LOC119574315	uncharacterized LOC119574315
+gene-LOC119574330	zinc finger protein 423-like, transcript variant X1
+gene-LOC119574331	serine protease Hayan-like
+gene-LOC119574347	fat-like cadherin-related tumor suppressor homolog
+gene-LOC119574352	golgin subfamily A member 4-like
+gene-LOC119574358	calcium load-activated calcium channel-like, transcript variant X2
+gene-LOC119574362	eukaryotic translation initiation factor 3 subunit A-like
+gene-LOC119574365	luciferin sulfotransferase-like
+gene-LOC119574366	sulfotransferase 1 family member D1-like
+gene-LOC119574373	probable serine/threonine-protein kinase DDB_G0281745
+gene-LOC119574405	PX domain-containing protein kinase-like protein
+gene-LOC119574412	uncharacterized LOC119574412
+gene-LOC119574415	mucin-2-like
+gene-LOC119574430	eukaryotic translation initiation factor 3 subunit H-like
+gene-LOC119574445	ERO1-like protein alpha
+gene-LOC119574446	TBC1 domain family member 1-like
+gene-LOC119574454	histone-lysine N-methyltransferase 2D-like
+gene-LOC119574461	ADP-ribosylation factor 2-like
+gene-LOC119574463	protein phosphatase 1B-like, transcript variant X1
+gene-LOC119574483	uncharacterized LOC119574483
+gene-LOC119574490	enteropeptidase-like
+gene-LOC119574492	protein CDV3 homolog
+gene-LOC119574493	uncharacterized LOC119574493
+gene-LOC119574504	uncharacterized LOC119574504
+gene-LOC119574505	transmembrane protein 126A-like
+gene-LOC119574506	uncharacterized LOC119574506
+gene-LOC119574510	uncharacterized LOC119574510
+gene-LOC119574515	organic cation transporter protein-like
+gene-LOC119574538	deoxyribonuclease-1-like
+gene-LOC119574557	nuclear pore complex protein Nup88-like
+gene-LOC119574563	coiled-coil domain-containing protein 124-like
+gene-LOC119574565	uncharacterized protein DDB_G0283697-like
+gene-LOC119574567	UNC93-like protein MFSD11, transcript variant X10
+gene-LOC119574571	GATOR complex protein NPRL3-like
+gene-LOC119574574	cytosolic non-specific dipeptidase-like
+gene-LOC119574577	glutamate receptor-interacting protein 2-like
+gene-LOC119574595	arginine and glutamate-rich protein 1-like, transcript variant X2
+gene-LOC119574609	uncharacterized LOC119574609
+gene-LOC119574618	ras-related and estrogen-regulated growth inhibitor-like
+gene-LOC119574626	26S proteasome non-ATPase regulatory subunit 1-like
+gene-LOC119574650	probable 4-coumarate--CoA ligase 1
+gene-LOC119574655	sodium-coupled monocarboxylate transporter 1-like
+gene-LOC119574663	transcription initiation factor TFIID subunit 7-like
+gene-LOC119574674	mucin-17-like, transcript variant X2
+gene-LOC119574686	zinc finger RNA-binding protein-like, transcript variant X2
+gene-LOC119574687	proline-rich protein PRCC-like
+gene-LOC119574707	RNA polymerase II elongation factor ELL-like
+gene-LOC119574708	uncharacterized LOC119574708
+gene-LOC119574712	importin-11-like
+gene-LOC119574852	olfactory receptor 4K15-like
+gene-LOC119574854	uncharacterized LOC119574854
+gene-LOC119574884	transforming acidic coiled-coil-containing protein 3-like
+gene-LOC119574908	pre-mRNA-splicing factor 38B-like
+gene-LOC119574911	protein Skeletor, isoforms B/C-like
+gene-LOC119574925	MAGE-like protein 2
+gene-LOC119574928	pre-mRNA-splicing factor 38B-like
+gene-LOC119574937	serine/arginine repetitive matrix protein 2-like
+gene-LOC119574938	SEC14-like protein 1
+gene-LOC119574954	toll-like receptor 3
+gene-LOC119574963	uncharacterized LOC119574963
+gene-LOC119574967	NAD-dependent protein deacylase sirtuin-5, mitochondrial-like
+gene-LOC119574982	uncharacterized LOC119574982
+gene-LOC119574983	uncharacterized LOC119574983
+gene-LOC119574988	uncharacterized LOC119574988, transcript variant X1
+gene-LOC119574995	coiled-coil domain-containing protein 174-like
+gene-LOC119574999	acetylcholine receptor subunit alpha-1-A-like
+gene-LOC119575000	neuronal acetylcholine receptor subunit alpha-5-like
+gene-LOC119575024	dynein assembly factor 5, axonemal-like
+gene-LOC119575063	uncharacterized LOC119575063
+gene-LOC119575074	rho GTPase-activating protein 26-like
+gene-LOC119575084	methionine synthase reductase-like
+gene-LOC119575095	endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase-like
+gene-LOC119575126	UDP-galactose transporter senju-like
+gene-LOC119575133	glycerophosphocholine cholinephosphodiesterase ENPP6-like
+gene-LOC119575150	kinetochore-associated protein 1-like
+gene-LOC119575172	lachesin-like
+gene-LOC119575177	sorbitol dehydrogenase-like
+gene-LOC119575202	MAGUK p55 subfamily member 7-like
+gene-LOC119575204	cortactin-binding protein 2-like
+gene-LOC119575209	eukaryotic translation initiation factor 4E-like
+gene-LOC119575223	intraflagellar transport protein 27 homolog
+gene-LOC119575233	protein spire-like
+gene-LOC119575278	nucleobindin-2-like, transcript variant X4
+gene-LOC119575280	L-threonine 3-dehydrogenase-like
+gene-LOC119575286	ubiquitin carboxyl-terminal hydrolase 37-like
+gene-LOC119575290	aspartate aminotransferase, mitochondrial-like
+gene-LOC119575298	phosphatidylinositol transfer protein beta isoform-like
+gene-LOC119575305	dual specificity protein phosphatase 10-like
+gene-LOC119575307	dnaJ homolog subfamily B member 12-like, transcript variant X1
+gene-LOC119575324	activated CDC42 kinase 1-like
+gene-LOC119575333	zinc finger protein OZF-like
+gene-LOC119575336	dynamin-like 120 kDa protein, mitochondrial
+gene-LOC119575338	COP9 signalosome complex subunit 7b-like
+gene-LOC119575348	transmembrane protein 129-like
+gene-LOC119575357	solute carrier organic anion transporter family member 74D-like
+gene-LOC119575408	N-terminal kinase-like protein
+gene-LOC119575412	mitochondrial dicarboxylate carrier-like, transcript variant X2
+gene-LOC119575417	serine/threonine-protein kinase 10-like
+gene-LOC119575428	palmitoyltransferase ZDHHC3-like
+gene-LOC119575429	uncharacterized LOC119575429, transcript variant X2
+gene-LOC119575447	uncharacterized LOC119575447
+gene-LOC119575461	EF-hand calcium-binding domain-containing protein 7-like
+gene-LOC119575464	MAP kinase-interacting serine/threonine-protein kinase 1-like
+gene-LOC119575465	gastrula zinc finger protein XlCGF8.2DB-like, transcript variant X5
+gene-LOC119575472	5-methylcytosine rRNA methyltransferase NSUN4-like
+gene-LOC119575478	DNA polymerase delta catalytic subunit-like, transcript variant X1
+gene-LOC119575488	nuclear transcription factor Y subunit beta-like, transcript variant X2
+gene-LOC119575489	ataxin-8-like
+gene-LOC119575492	glucose dehydrogenase [FAD, quinone]-like
+gene-LOC119575507	uncharacterized LOC119575507
+gene-LOC119575538	uncharacterized LOC119575538
+gene-LOC119575539	inositol-tetrakisphosphate 1-kinase-like
+gene-LOC119575552	GATOR complex protein WDR24-like
+gene-LOC119575556	S-methyl-5'-thioadenosine phosphorylase-like
+gene-LOC119575559	uncharacterized LOC119575559
+gene-LOC119575570	1-acyl-sn-glycerol-3-phosphate acyltransferase delta-like
+gene-LOC119575584	mitochondrial intermediate peptidase-like
+gene-LOC119575642	mediator of RNA polymerase II transcription subunit 15-like
+gene-LOC119575653	very low-density lipoprotein receptor-like
+gene-LOC119575655	protein similar-like
+gene-LOC119575659	nuclear pore complex protein Nup93-like
+gene-LOC119575671	S1 RNA-binding domain-containing protein 1-like
+gene-LOC119575706	ankyrin repeat domain-containing protein 50-like
+gene-LOC119575709	transmembrane protein 65-like
+gene-LOC119575717	putative leucine-rich repeat-containing protein DDB_G0290503
+gene-LOC119575857	glutamate-gated chloride channel subunit beta-like
+gene-LOC119575872	insulin-like growth factor-binding protein complex acid labile subunit
+gene-LOC119575929	beta-1,3-galactosyltransferase 5-like
+gene-LOC119575940	3-oxo-5-alpha-steroid 4-dehydrogenase 1-like
+gene-LOC119575945	uncharacterized LOC119575945
+gene-LOC119575948	ras-GEF domain-containing family member 1B-like
+gene-LOC119575959	E3 ubiquitin-protein ligase TRIM9-like
+gene-LOC119575961	serine protease HTRA2, mitochondrial-like
+gene-LOC119575984	runt-related transcription factor 3-like
+gene-LOC119576001	unconventional myosin-XV-like
+gene-LOC119576018	MOXD1 homolog 1-like
+gene-LOC119576033	calcium-activated potassium channel slowpoke-like
+gene-LOC119576036	DNA primase large subunit-like
+gene-LOC119576072	50 kDa gamma-zein-like
+gene-LOC119576094	glutathione peroxidase-like, transcript variant X1
+gene-LOC119576136	histidine protein methyltransferase 1 homolog
+gene-LOC119576154	uncharacterized LOC119576154
+gene-LOC119576155	leucine-rich repeat-containing protein 4B-like, transcript variant X2
+gene-LOC119576160	E3 ubiquitin-protein ligase RNF103-like
+gene-LOC119576178	venom protease-like
+gene-LOC119576220	chromatin target of PRMT1 protein-like
+gene-LOC119576263	uncharacterized LOC119576263, transcript variant X1
+gene-LOC119576268	hemicentin-2-like
+gene-LOC119576283	store-operated calcium entry-associated regulatory factor-like
+gene-LOC119576288	YEATS domain-containing protein 2-like
+gene-LOC119576306	trithorax group protein osa-like
+gene-LOC119576315	peptidyl-prolyl cis-trans isomerase G-like
+gene-LOC119576318	BRISC and BRCA1-A complex member 2-like
+gene-LOC119576319	metalloendopeptidase OMA1, mitochondrial-like
+gene-LOC119576336	G-protein coupled receptor moody-like, transcript variant X2
+gene-LOC119576344	uncharacterized LOC119576344
+gene-LOC119576384	uncharacterized LOC119576384, transcript variant X3
+gene-LOC119576387	eye-specific diacylglycerol kinase-like
+gene-LOC119576393	tumor necrosis factor alpha-induced protein 8-like protein
+gene-LOC119576399	sorting nexin-2-like
+gene-LOC119576403	gastrula zinc finger protein XlCGF57.1-like
+gene-LOC119576425	probable cleavage and polyadenylation specificity factor subunit 2
+gene-LOC119576465	gastrula zinc finger protein XlCGF49.1-like
+gene-LOC119576497	cuticle protein AM1159-like
+gene-LOC119576515	glycine-rich protein 3-like
+gene-LOC119576521	uncharacterized protein CPn_0572/CP_0177/CPj0572/CpB0594-like
+gene-LOC119576555	serine/threonine-protein kinase ATG1t-like
+gene-LOC119576556	sialin-like
+gene-LOC119576569	splicing factor 3B subunit 1-like
+gene-LOC119576570	E3 ubiquitin-protein ligase MIB1-like
+gene-LOC119576583	keratin, type II cytoskeletal 2 epidermal-like
+gene-LOC119576615	uncharacterized LOC119576615
+gene-LOC119576635	WAS/WASL-interacting protein family member 1-like
+gene-LOC119576650	serine/threonine-protein kinase PAK 3-like
+gene-LOC119576660	probable LIM domain-containing serine/threonine-protein kinase DDB_G0286997
+gene-LOC119576685	inactive hydroxysteroid dehydrogenase-like protein 1
+gene-LOC119576696	5-hydroxyisourate hydrolase-like
+gene-LOC119576710	sideroflexin-2-like
+gene-LOC119576717	serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit B-like
+gene-LOC119576752	solute carrier family 35 member F5-like
+gene-LOC119576753	sodium/calcium exchanger 1-like
+gene-LOC119576759	dynein heavy chain 3, axonemal-like
+gene-LOC119576760	uncharacterized LOC119576760
+gene-LOC119576761	nuclear pore complex protein Nup107-like
+gene-LOC119576767	SET and MYND domain-containing protein 4-like
+gene-LOC119576790	ADP-ribosylation factor GTPase-activating protein 1-like
+gene-LOC119576794	ADP-ribosylation factor GTPase-activating protein 1-like, transcript variant X1
+gene-LOC119576796	protein FRG1-like
+gene-LOC119576808	nuclear receptor-binding factor 2-like
+gene-LOC119576821	ubiquitin domain-containing protein UBFD1-like
+gene-LOC119576823	serine/threonine-protein kinase PAK 2-like
+gene-LOC119576930	Krueppel-like factor 6
+gene-LOC119576932	caspase-8-like
+gene-LOC119576939	ras-related protein Rab-3
+gene-LOC119576944	glycine-rich cell wall structural protein-like
+gene-LOC119576947	hormone-sensitive lipase-like
+gene-LOC119576953	multivesicular body subunit 12B-like
+gene-LOC119576958	solute carrier organic anion transporter family member 74D-like
+gene-LOC119576961	E3 ubiquitin-protein ligase Su(dx)-like
+gene-LOC119576978	U3 small nucleolar ribonucleoprotein protein MPP10-like
+gene-LOC119576984	coiled-coil domain-containing protein 186-like
+gene-LOC119576986	failed axon connections homolog, transcript variant X1
+gene-LOC119577037	E3 ubiquitin-protein ligase Topors-like
+gene-LOC119577040	clathrin interactor 1-like
+gene-LOC119577050	sorting nexin-6-like
+gene-LOC119577062	uncharacterized LOC119577062
+gene-LOC119577076	WD repeat-containing protein 81-like
+gene-LOC119577081	trehalase-like
+gene-LOC119577086	transmembrane protein 39A-like
+gene-LOC119577092	deoxynucleoside triphosphate triphosphohydrolase SAMHD1-like
+gene-LOC119577139	V-type proton ATPase 16 kDa proteolipid subunit-like
+gene-LOC119577172	E3 ubiquitin-protein ligase MIB1-like
+gene-LOC119577208	serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit B-like
+gene-LOC119577216	protein KRI1 homolog
+gene-LOC119577249	transmembrane protein 19-like, transcript variant X1
+gene-LOC119577268	uncharacterized LOC119577268
+gene-LOC119577276	pyruvate dehydrogenase (acetyl-transferring) kinase, mitochondrial-like
+gene-LOC119577282	uncharacterized LOC119577282
+gene-LOC119577439	mannosyl-oligosaccharide glucosidase-like
+gene-LOC119577468	28S ribosomal protein S28, mitochondrial-like
+gene-LOC119577497	cysteine and histidine-rich protein 1 homolog
+gene-LOC119577534	cytospin-A-like
+gene-LOC119577559	nuclear mitotic apparatus protein 1-like
+gene-LOC119577562	gamma-gliadin-like
+gene-LOC119577593	uncharacterized LOC119577593
+gene-LOC119577595	prominin-1-A-like
+gene-LOC119577596	probable aminopeptidase NPEPL1
+gene-LOC119577639	flagellar attachment zone protein 1-like
+gene-LOC119577664	protein O-mannosyl-transferase TMTC1-like
+gene-LOC119577676	dynein heavy chain 12, axonemal-like
+gene-LOC119577716	neuronal acetylcholine receptor subunit alpha-7-like
+gene-LOC119577780	carboxypeptidase B-like
+gene-LOC119577822	uncharacterized LOC119577822
+gene-LOC119577825	protein capicua homolog
+gene-LOC119577829	p21-activated protein kinase-interacting protein 1-like
+gene-LOC119577835	calsequestrin-1-like, transcript variant X1
+gene-LOC119577840	tetratricopeptide repeat protein 19, mitochondrial-like
+gene-LOC119577857	uncharacterized LOC119577857
+gene-LOC119577859	uncharacterized LOC119577859
+gene-LOC119577860	protein suppressor of white apricot-like
+gene-LOC119577869	histidine--tRNA ligase-like
+gene-LOC119577871	protein FAM200B-like
+gene-LOC119577874	ruvB-like helicase 1
+gene-LOC119577880	alanine racemase-like, transcript variant X6
+gene-LOC119577909	serine/arginine repetitive matrix protein 2-like
+gene-LOC119577912	5'-deoxynucleotidase HDDC2-like
+gene-LOC119577920	uncharacterized LOC119577920
+gene-LOC119577924	regulator of G-protein signaling 9-like, transcript variant X4
+gene-LOC119577940	PHD finger protein 12-like
+gene-LOC119577971	flavin-containing monooxygenase FMO GS-OX-like 2
+gene-LOC119577973	flavin-containing monooxygenase FMO GS-OX-like 2
+gene-LOC119577974	solute carrier family 46 member 3-like
+gene-LOC119577977	alkylated DNA repair protein alkB homolog 8-like
+gene-LOC119577983	origin recognition complex subunit 1-like
+gene-LOC119578001	zinc finger protein 791-like
+gene-LOC119578012	oocyte zinc finger protein XlCOF7.1-like
+gene-LOC119578024	SLIT-ROBO Rho GTPase-activating protein 1-like
+gene-LOC119578026	uncharacterized LOC119578026
+gene-LOC119578038	poly(A)-specific ribonuclease PARN-like
+gene-LOC119578045	5-phosphohydroxy-L-lysine phospho-lyase-like
+gene-LOC119578048	GPI ethanolamine phosphate transferase 3-like
+gene-LOC119578052	uncharacterized LOC119578052
+gene-LOC119578064	uncharacterized LOC119578064, transcript variant X2
+gene-LOC119578065	uncharacterized LOC119578065
+gene-LOC119578076	uncharacterized LOC119578076
+gene-LOC119578079	dynein heavy chain, cytoplasmic-like
+gene-LOC119578094	uncharacterized LOC119578094
+gene-LOC119578111	FAD-linked sulfhydryl oxidase ALR-like
+gene-LOC119578115	WD repeat-containing protein 61-like
+gene-LOC119578121	zinc finger protein 585B-like
+gene-LOC119578122	zinc finger protein 431-like
+gene-LOC119578140	uncharacterized LOC119578140
+gene-LOC119578149	VWFA and cache domain-containing protein 1-like
+gene-LOC119578151	uncharacterized LOC119578151
+gene-LOC119578157	histone-lysine N-methyltransferase SMYD3-like
+gene-LOC119578169	bystin-like
+gene-LOC119578170	plexin-B-like
+gene-LOC119578175	uncharacterized LOC119578175
+gene-LOC119578178	leucine-rich PPR motif-containing protein, mitochondrial-like
+gene-LOC119578357	AP-4 complex accessory subunit Tepsin-like
+gene-LOC119578369	DENN domain-containing protein 11-like
+gene-LOC119578378	uncharacterized LOC119578378
+gene-LOC119578384	transmembrane protein 35A-like
+gene-LOC119578388	protein glass-like
+gene-LOC119578391	uncharacterized LOC119578391
+gene-LOC119578410	uncharacterized LOC119578410, transcript variant X2
+gene-LOC119578420	acyl-protein thioesterase 1-like
+gene-LOC119578432	cyclin-dependent kinases regulatory subunit-like
+gene-LOC119578452	uncharacterized LOC119578452
+gene-LOC119578474	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119578509	DENN domain-containing protein 11-like
+gene-LOC119578529	NKAP family protein-like
+gene-LOC119578550	serine/threonine-protein kinase H1 homolog
+gene-LOC119578553	protein unc-79 homolog
+gene-LOC119578571	solute carrier family 12 member 9-like
+gene-LOC119578594	arylsulfatase H-like
+gene-LOC119578628	NEDD4-binding protein 3-A-like
+gene-LOC119578644	ATP synthase subunit s, mitochondrial-like
+gene-LOC119578647	cytochrome P450 4c3-like
+gene-LOC119578654	protein bowel-like
+gene-LOC119578667	F-box/WD repeat-containing protein 5-like
+gene-LOC119578673	ribosomal RNA-processing protein 7 homolog A-like
+gene-LOC119578681	probable transcriptional regulatory protein Kole_1935
+gene-LOC119578706	leucine-rich PPR motif-containing protein, mitochondrial-like
+gene-LOC119578724	mucin-7-like
+gene-LOC119578729	uncharacterized LOC119578729
+gene-LOC119578740	ralBP1-associated Eps domain-containing protein 2-like
+gene-LOC119578789	uncharacterized LOC119578789
+gene-LOC119578810	filaggrin-like
+gene-LOC119578813	retinoblastoma-like protein 1
+gene-LOC119578830	chromodomain-helicase-DNA-binding protein 7-like
+gene-LOC119578837	integrator complex subunit 10-like
+gene-LOC119578851	nucleosome-remodeling factor subunit NURF301-like
+gene-LOC119578874	transmembrane protein adipocyte-associated 1-like
+gene-LOC119578876	putative GPI-anchored protein pfl2
+gene-LOC119578930	uncharacterized LOC119578930
+gene-LOC119578944	hexokinase-1-like
+gene-LOC119578960	mitogen-activated protein kinase kinase kinase kinase 4-like
+gene-LOC119578969	putative tyrosinase-like protein tyr-3
+gene-LOC119578973	retinol dehydrogenase 11-like
+gene-LOC119578974	acyl-coenzyme A oxidase 3, peroxisomal-like
+gene-LOC119578981	uncharacterized LOC119578981
+gene-LOC119578982	BMP-binding endothelial regulator protein-like
+gene-LOC119578991	uncharacterized LOC119578991
+gene-LOC119579010	MPN domain-containing protein-like
+gene-LOC119579021	nucleic acid dioxygenase ALKBH1-like
+gene-LOC119579045	cyclin-dependent kinase 11B-like, transcript variant X3
+gene-LOC119579048	uncharacterized LOC119579048
+gene-LOC119579064	peroxisomal acyl-coenzyme A oxidase 1-like
+gene-LOC119579065	probable peroxisomal acyl-coenzyme A oxidase 1
+gene-LOC119579069	calpain-A-like
+gene-LOC119579072	uncharacterized LOC119579072
+gene-LOC119579089	methyltransferase N6AMT1-like
+gene-LOC119579163	serine/threonine-protein kinase D3-like
+gene-LOC119579164	probable 3',5'-cyclic phosphodiesterase pde-5
+gene-LOC119579166	uncharacterized LOC119579166
+gene-LOC119579173	uncharacterized LOC119579173
+gene-LOC119579181	serine-protein kinase ATM-like
+gene-LOC119579183	uncharacterized LOC119579183
+gene-LOC119579202	facilitated trehalose transporter Tret1-like
+gene-LOC119579268	trypsin-1-like
+gene-LOC119579280	fucose mutarotase-like
+gene-LOC119579283	uncharacterized LOC119579283
+gene-LOC119579295	ubiquitin-60S ribosomal protein L40-like
+gene-LOC119579312	citron rho-interacting kinase-like
+gene-LOC119579319	terminal uridylyltransferase 4-like
+gene-LOC119579320	D-beta-hydroxybutyrate dehydrogenase, mitochondrial-like
+gene-LOC119579322	headcase protein-like
+gene-LOC119579344	uncharacterized LOC119579344
+gene-LOC119579345	SUMO-activating enzyme subunit 1-like
+gene-LOC119579368	mitochondrial import inner membrane translocase subunit Tim21-like
+gene-LOC119579387	nucleolar protein 16-like
+gene-LOC119579412	uncharacterized LOC119579412, transcript variant X2
+gene-LOC119579413	bifunctional glutamate/proline--tRNA ligase-like
+gene-LOC119579421	protein shank-like
+gene-LOC119579451	uncharacterized LOC119579451
+gene-LOC119579453	trypsin-1-like
+gene-LOC119579496	myocardin-related transcription factor B-like
+gene-LOC119579527	uncharacterized LOC119579527
+gene-LOC119579560	uncharacterized LOC119579560
+gene-LOC119579571	NK1 transcription factor-related protein 1-like
+gene-LOC119579600	protein encore-like
+gene-LOC119579610	propionyl-CoA carboxylase alpha chain, mitochondrial-like
+gene-LOC119579629	uncharacterized LOC119579629
+gene-LOC119579650	protein O-mannosyl-transferase TMTC2-like
+gene-LOC119579705	receptor-type tyrosine-protein phosphatase kappa-like
+gene-LOC119579760	uncharacterized LOC119579760
+gene-LOC119579927	inverted formin-2-like
+gene-LOC119579937	serine-rich adhesin for platelets-like
+gene-LOC119579973	solute carrier family 35 member F1-like
+gene-LOC119579988	voltage-dependent calcium channel subunit alpha-2/delta-1-like
+gene-LOC119579990	far upstream element-binding protein 1-like
+gene-LOC119580005	venom protease-like
+gene-LOC119580030	troponin I-like, transcript variant X26
+gene-LOC119580041	SRR1-like protein
+gene-LOC119580045	histone demethylase UTY-like
+gene-LOC119580048	omega-amidase NIT2-like
+gene-LOC119580049	uncharacterized LOC119580049
+gene-LOC119580113	uncharacterized LOC119580113
+gene-LOC119580114	membrane-associated transporter protein-like
+gene-LOC119580117	protein lingerer-like, transcript variant X1
+gene-LOC119580121	prosaposin-like
+gene-LOC119580141	uncharacterized LOC119580141, transcript variant X5
+gene-LOC119580142	uncharacterized LOC119580142
+gene-LOC119580154	venom protease-like
+gene-LOC119580157	venom protease-like
+gene-LOC119580165	U4/U6 small nuclear ribonucleoprotein Prp3-like
+gene-LOC119580166	splicing factor 1-like
+gene-LOC119580175	epithelial discoidin domain-containing receptor 1-like
+gene-LOC119580185	triple functional domain protein-like
+gene-LOC119580186	zinc finger protein 2-like
+gene-LOC119580190	septin-2-like
+gene-LOC119580192	myeloid leukemia factor-like
+gene-LOC119580194	beta-TrCP-like
+gene-LOC119580195	toll-interacting protein B-like
+gene-LOC119580197	uncharacterized protein DDB_G0271670-like
+gene-LOC119580284	solute carrier family 35 member F6-like
+gene-LOC119580307	LIM domain-binding protein 2-like, transcript variant X1
+gene-LOC119580320	zinc finger protein OZF-like, transcript variant X2
+gene-LOC119580328	activating signal cointegrator 1-like
+gene-LOC119580362	dynactin subunit 1-like
+gene-LOC119580379	uncharacterized LOC119580379
+gene-LOC119580412	uncharacterized LOC119580412
+gene-LOC119580455	proline-rich protein 2-like
+gene-LOC119580495	interferon alpha-inducible protein 27-like protein 2
+gene-LOC119580499	pupal cuticle protein 36-like
+gene-LOC119580592	transmembrane protein 120 homolog
+gene-LOC119580602	solute carrier family 49 member 4 homolog
+gene-LOC119580646	cleavage and polyadenylation specificity factor subunit 3-like
+gene-LOC119580648	MAP kinase-activating death domain protein-like
+gene-LOC119580649	RNA-binding protein NOB1-like
+gene-LOC119580654	metabotropic glutamate receptor-like
+gene-LOC119580662	nucleolar MIF4G domain-containing protein 1 homolog
+gene-LOC119580664	cryptochrome DASH-like
+gene-LOC119580672	uncharacterized LOC119580672
+gene-LOC119580684	macrophage migration inhibitory factor-like
+gene-LOC119580687	uncharacterized LOC119580687
+gene-LOC119580708	uncharacterized LOC119580708
+gene-LOC119580774	single insulin-like growth factor-binding domain protein-1
+gene-LOC119580778	decapping and exoribonuclease protein-like
+gene-LOC119580818	rhomboid-related protein 4-like
+gene-LOC119580837	trypsin-1-like
+gene-LOC119580840	decapping and exoribonuclease protein-like
+gene-LOC119580841	decapping and exoribonuclease protein-like
+gene-LOC119580845	uncharacterized LOC119580845
+gene-LOC119580846	reticulophagy regulator 3-like
+gene-LOC119580847	uncharacterized LOC119580847
+gene-LOC119580855	protein muscleblind-like, transcript variant X2
+gene-LOC119580880	FTS and Hook-interacting protein homolog
+gene-LOC119580887	luc7-like protein 3, transcript variant X2
+gene-LOC119580902	signal recognition particle receptor subunit alpha homolog
+gene-LOC119580907	uncharacterized LOC119580907
+gene-LOC119580915	TM2 domain-containing protein CG11103-like
+gene-LOC119580916	stromal cell-derived factor 2-like
+gene-LOC119580920	mediator of RNA polymerase II transcription subunit 18-like
+gene-LOC119580921	uncharacterized LOC119580921
+gene-LOC119580925	AP-4 complex subunit epsilon-1-like
+gene-LOC119580976	probable assembly chaperone of rpl4, transcript variant X2
+gene-LOC119580985	cysteine-rich with EGF-like domain protein 2
+gene-LOC119581004	metabotropic glutamate receptor 5-like
+gene-LOC119581005	DNA ligase 1-like
+gene-LOC119581022	RNA-binding protein 25-like
+gene-LOC119581027	probable ATP-dependent RNA helicase DDX10
+gene-LOC119581029	protein Wnt-11b-2-like
+gene-LOC119581030	UDP-glucose:glycoprotein glucosyltransferase 1-like
+gene-LOC119581033	cactin-like
+gene-LOC119581050	solute carrier family 35 member B1-like
+gene-LOC119581055	uncharacterized LOC119581055
+gene-LOC119581056	cytosolic phospholipase A2-like
+gene-LOC119581065	muscle LIM protein Mlp84B-like, transcript variant X8
+gene-LOC119581068	putative phosphatidate phosphatase
+gene-LOC119581070	sphingolipid delta(4)-desaturase DES1-like
+gene-LOC119581071	probable chitinase 10
+gene-LOC119581108	phosphoglucomutase-2-like
+gene-LOC119581112	zinc transporter ZIP1-like, transcript variant X1
+gene-LOC119581135	uncharacterized LOC119581135
+gene-LOC119581136	dual serine/threonine and tyrosine protein kinase-like
+gene-LOC119581139	protein FAM107B-like, transcript variant X1
+gene-LOC119581171	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12-like
+gene-LOC119581172	gamma-aminobutyric acid type B receptor subunit 1-like
+gene-LOC119581175	alpha-L-fucosidase-like
+gene-LOC119581183	tyrosine-protein phosphatase non-receptor type 23-like
+gene-LOC119581189	zinc finger CCHC domain-containing protein 10-like
+gene-LOC119581195	ATP-binding cassette sub-family F member 1-like
+gene-LOC119581199	uncharacterized LOC119581199
+gene-LOC119581205	soluble guanylate cyclase 89Db-like
+gene-LOC119581207	monoglyceride lipase-like
+gene-LOC119581209	rho GTPase-activating protein gacJ-like
+gene-LOC119581245	zinc finger Ran-binding domain-containing protein 2-like
+gene-LOC119581254	galactosylceramide sulfotransferase-like
+gene-LOC119581392	protein Tob2-like
+gene-LOC119581408	uncharacterized LOC119581408
+gene-LOC119581534	ATP synthase subunit C lysine N-methyltransferase-like
+gene-LOC119581604	uncharacterized LOC119581604
+gene-LOC119581607	RRP15-like protein
+gene-LOC119581625	phospholipid scramblase 1-like
+gene-LOC119581633	FERM, ARHGEF and pleckstrin domain-containing protein 1-like
+gene-LOC119581656	dymeclin-like
+gene-LOC119581667	uncharacterized LOC119581667
+gene-LOC119581696	PRELI domain-containing protein 1, mitochondrial-like
+gene-LOC119581702	protein sprint-like
+gene-LOC119581705	angiotensin-converting enzyme-like
+gene-LOC119581709	RCC1 and BTB domain-containing protein 1-like
+gene-LOC119581717	zinc finger protein Xfin-like
+gene-LOC119581719	nuclear factor interleukin-3-regulated protein-like
+gene-LOC119581721	neurogenic locus notch homolog protein 1-like
+gene-LOC119581725	protein disulfide-isomerase A5-like
+gene-LOC119581727	uncharacterized LOC119581727, transcript variant X1
+gene-LOC119581734	uncharacterized LOC119581734
+gene-LOC119581739	uncharacterized LOC119581739
+gene-LOC119581745	peroxisomal membrane protein PEX14-like
+gene-LOC119581763	uncharacterized LOC119581763
+gene-LOC119581765	monocarboxylate transporter 5-like
+gene-LOC119581769	uncharacterized LOC119581769
+gene-LOC119581782	uncharacterized LOC119581782
+gene-LOC119581787	mitochondrial glutamate carrier 1-like
+gene-LOC119581788	tumor protein p53-inducible protein 11-like
+gene-LOC119581801	RNA-binding motif, single-stranded-interacting protein 2-like
+gene-LOC119581802	protein alan shepard-like
+gene-LOC119581803	protein polybromo-1-like
+gene-LOC119581805	dolichol kinase-like
+gene-LOC119581808	transmembrane channel-like protein 7
+gene-LOC119581810	D-aminoacyl-tRNA deacylase-like
+gene-LOC119581821	thioredoxin domain-containing protein 15-like
+gene-LOC119581829	mucin-7-like, transcript variant X1
+gene-LOC119581834	ATP-dependent RNA helicase DDX54-like
+gene-LOC119581835	ATP-sensitive inward rectifier potassium channel 12-like
+gene-LOC119581840	zinc finger protein GLI1-like
+gene-LOC119581846	protein singles bar-like
+gene-LOC119581855	histone-lysine N-methyltransferase EZH2-like
+gene-LOC119581865	HIV Tat-specific factor 1 homolog
+gene-LOC119581873	TM2 domain-containing protein CG10795-like
+gene-LOC119581874	U11/U12 small nuclear ribonucleoprotein 48 kDa protein-like
+gene-LOC119581881	stress response protein nst1-like
+gene-LOC119581897	PIN2/TERF1-interacting telomerase inhibitor 1-like
+gene-LOC119581903	nucleolar GTP-binding protein 1-like
+gene-LOC119581905	collagen alpha-1(I) chain-like
+gene-LOC119581916	signal peptide peptidase-like 2B
+gene-LOC119581934	flotillin-2-like
+gene-LOC119581938	uncharacterized LOC119581938
+gene-LOC119581942	flotillin-2-like
+gene-LOC119581947	arginine/serine-rich protein PNISR-like
+gene-LOC119581950	G-protein coupled receptor moody-like
+gene-LOC119581951	dedicator of cytokinesis protein 7-like
+gene-LOC119581968	uncharacterized LOC119581968
+gene-LOC119581972	transducin beta-like protein 3
+gene-LOC119581986	cortactin-binding protein 2-like
+gene-LOC119581997	uncharacterized LOC119581997
+gene-LOC119581998	dyslexia-associated protein KIAA0319-like protein
+gene-LOC119582001	uncharacterized LOC119582001
+gene-LOC119582004	isocitrate dehydrogenase [NADP] cytoplasmic-like
+gene-LOC119582008	probable ubiquitin carboxyl-terminal hydrolase FAF-X
+gene-LOC119582015	ecdysone-induced protein 74EF-like, transcript variant X3
+gene-LOC119582017	U7 snRNA-associated Sm-like protein LSm11
+gene-LOC119582018	ecdysone-induced protein 74EF-like
+gene-LOC119582024	vezatin-like
+gene-LOC119582032	eukaryotic translation initiation factor 4 gamma 1-like, transcript variant X2
+gene-LOC119582033	uncharacterized LOC119582033, transcript variant X1
+gene-LOC119582036	LIM domain only protein 7-like
+gene-LOC119582039	protein transport protein Sec16A-like
+gene-LOC119582041	organic cation transporter protein-like
+gene-LOC119582049	lachesin-like
+gene-LOC119582057	legumain-like
+gene-LOC119582074	terminal nucleotidyltransferase 4B-like
+gene-LOC119582077	carboxy-terminal kinesin 2-like
+gene-LOC119582107	uncharacterized LOC119582107
+gene-LOC119582127	protein polybromo-1-like
+gene-LOC119582141	PHD and RING finger domain-containing protein 1-like
+gene-LOC119582195	mesoderm induction early response protein 1-like
+gene-LOC119582212	cyanocobalamin reductase / alkylcobalamin dealkylase-like
+gene-LOC119582251	menin-like
+gene-LOC119582288	midasin-like
+gene-LOC119582327	uncharacterized LOC119582327
+gene-LOC119582341	prolyl 4-hydroxylase subunit alpha-1-like
+gene-LOC119582352	AT-rich interactive domain-containing protein 4B-like
+gene-LOC119582359	nesprin-1-like
+gene-LOC119582372	organic cation transporter protein-like
+gene-LOC119582430	uncharacterized LOC119582430
+gene-LOC119582431	U8 snoRNA-decapping enzyme-like
+gene-LOC119582444	sprT-like domain-containing protein Spartan
+gene-LOC119582453	uncharacterized LOC119582453
+gene-LOC119582468	splicing regulatory glutamine/lysine-rich protein 1-like, transcript variant X1
+gene-LOC119582476	collagen alpha chain CG42342-like, transcript variant X1
+gene-LOC119582497	sorting nexin-16-like
+gene-LOC119582506	protein NEDD1-like
+gene-LOC119582521	uncharacterized LOC119582521, transcript variant X1
+gene-LOC119582524	NPC intracellular cholesterol transporter 2 homolog a-like
+gene-LOC119582531	zinc finger protein OZF-like
+gene-LOC119582532	85/88 kDa calcium-independent phospholipase A2-like
+gene-LOC119582540	ribosome biogenesis protein NSA2 homolog
+gene-LOC119582548	histone deacetylase complex subunit SAP30 homolog
+gene-LOC119582558	serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit B-like
+gene-LOC119582579	uncharacterized LOC119582579
+gene-LOC119582581	sodium- and chloride-dependent GABA transporter ine-like
+gene-LOC119582583	gastrula zinc finger protein xFG20-1-like
+gene-LOC119582585	rRNA N6-adenosine-methyltransferase ZCCHC4-like
+gene-LOC119582601	U3 small nucleolar RNA-associated protein 25-like, transcript variant X1
+gene-LOC119582602	E3 ubiquitin-protein ligase CHIP-like
+gene-LOC119582608	prostaglandin E synthase 3-like
+gene-LOC119582613	smoothened homolog, transcript variant X2
+gene-LOC119582622	galectin-3-like
+gene-LOC119582626	uncharacterized LOC119582626, transcript variant X11
+gene-LOC119582641	ubiquitin carboxyl-terminal hydrolase 38-like
+gene-LOC119582651	ribonucleoside-diphosphate reductase large subunit-like
+gene-LOC119582654	uncharacterized LOC119582654
+gene-LOC119582703	lysosomal aspartic protease-like
+gene-LOC119582716	mitochondrial import receptor subunit TOM70-like
+gene-LOC119582722	prolactin regulatory element-binding protein-like, transcript variant X1
+gene-LOC119582724	uncharacterized LOC119582724
+gene-LOC119582725	protein ARV1-like
+gene-LOC119582727	ATP synthase subunit g, mitochondrial-like
+gene-LOC119582763	surfeit locus protein 6 homolog
+gene-LOC119582764	CUE domain-containing protein 1-like
+gene-LOC119582791	pyrethroid hydrolase Ces2a-like
+gene-LOC119582792	nuclear pore complex protein Nup155-like
+gene-LOC119582807	2-acylglycerol O-acyltransferase 2-B-like
+gene-LOC119582812	LON peptidase N-terminal domain and RING finger protein 3-like
+gene-LOC119582814	transcriptional adapter 3-B-like
+gene-LOC119582823	uncharacterized LOC119582823
+gene-LOC119582827	uncharacterized LOC119582827
+gene-LOC119582834	alpha-N-acetylgalactosaminidase-like
+gene-LOC119582836	uncharacterized LOC119582836
+gene-LOC119582840	G patch domain-containing protein 2-like, transcript variant X1
+gene-LOC119582841	putative nuclease HARBI1
+gene-LOC119582859	dual specificity mitogen-activated protein kinase kinase 4-like
+gene-LOC119582867	ubiquitin-conjugating enzyme E2 R2-like
+gene-LOC119582874	condensin-2 complex subunit H2-like
+gene-LOC119582875	protein mono-ADP-ribosyltransferase PARP3-like
+gene-LOC119582876	C-type mannose receptor 2-like
+gene-LOC119582886	axoneme-associated protein mst101(2)-like
+gene-LOC119582893	uncharacterized LOC119582893
+gene-LOC119582894	uncharacterized LOC119582894, transcript variant X2
+gene-LOC119582921	putative proline-rich protein 21
+gene-LOC119582923	uncharacterized LOC119582923
+gene-LOC119582925	transient-receptor-potential-like protein
+gene-LOC119582930	probable glutamate receptor
+gene-LOC119582940	uncharacterized LOC119582940
+gene-LOC119582953	antagonist of mitotic exit network protein 1-like
+gene-LOC119582966	vacuole membrane protein 1-like
+gene-LOC119582990	neutral alpha-glucosidase AB-like
+gene-LOC119583006	WASH complex subunit 2-like
+gene-LOC119583037	myotubularin-related protein 13-like
+gene-LOC119583052	rho GTPase-activating protein 190-like
+gene-LOC119583058	U2 small nuclear ribonucleoprotein auxiliary factor 35 kDa subunit-related protein 1-like
+gene-LOC119583062	uncharacterized LOC119583062
+gene-LOC119583072	membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase-like
+gene-LOC119583081	potassium voltage-gated channel protein Shaw-like
+gene-LOC119583095	tripartite motif-containing protein 75-like
+gene-LOC119583096	nucleic acid dioxygenase ALKBH1-like
+gene-LOC119583097	uncharacterized LOC119583097
+gene-LOC119583118	uncharacterized LOC119583118
+gene-LOC119583119	uncharacterized LOC119583119, transcript variant X3
+gene-LOC119583159	vesicle-trafficking protein SEC22a-like
+gene-LOC119583189	sorting and assembly machinery component 50 homolog
+gene-LOC119583243	sialidase-like
+gene-LOC119583244	nuclear pore complex protein Nup133-like
+gene-LOC119583253	uncharacterized LOC119583253
+gene-LOC119583292	cadherin-related family member 1-like
+gene-LOC119583314	chromatin-remodeling complex ATPase chain Iswi-like
+gene-LOC119583343	endoribonuclease Dicer-like
+gene-LOC119583397	uncharacterized LOC119583397
+gene-LOC119583405	ephrin-B2-like
+gene-LOC119583416	vesicle-associated membrane protein 3-like
+gene-LOC119583417	collagen alpha-1(VIII) chain-like
+gene-LOC119583421	WD repeat-containing protein 47-like
+gene-LOC119583425	uncharacterized LOC119583425
+gene-LOC119583429	protein AF-9-like
+gene-LOC119583434	uncharacterized LOC119583434
+gene-LOC119583450	longitudinals lacking protein, isoforms H/M/V-like
+gene-LOC119583452	ATP-dependent RNA helicase TDRD9-like
+gene-LOC119583483	putative ATP-dependent RNA helicase an3
+gene-LOC119583484	ATP-dependent RNA helicase DDX3Y-like
+gene-LOC119583493	nose resistant to fluoxetine protein 6-like
+gene-LOC119583497	prostaglandin reductase 1-like
+gene-LOC119583504	rab-like protein 2A
+gene-LOC119583506	uncharacterized LOC119583506
+gene-LOC119583508	uncharacterized LOC119583508, transcript variant X2
+gene-LOC119583510	E2F-associated phosphoprotein-like
+gene-LOC119583531	dnaJ homolog subfamily C member 27-like
+gene-LOC119583549	zinc finger protein 287-like
+gene-LOC119583552	transcriptional adapter 2-beta-like
+gene-LOC119583556	lysine-specific demethylase 9-like
+gene-LOC119583563	protein phosphatase 1 regulatory subunit 12B-like, transcript variant X4
+gene-LOC119583569	mitochondrial ornithine transporter 1-like
+gene-LOC119583576	DENN domain-containing protein Crag-like, transcript variant X5
+gene-LOC119583611	uncharacterized LOC119583611
+gene-LOC119583612	ATP-dependent RNA helicase Ddx1-like
+gene-LOC119583620	serine-rich adhesin for platelets-like
+gene-LOC119583623	ceramide-1-phosphate transfer protein-like, transcript variant X2
+gene-LOC119583627	uncharacterized LOC119583627
+gene-LOC119583628	zinc finger protein 236-like
+gene-LOC119583633	ran-binding protein 9-like
+gene-LOC119583634	serine/arginine repetitive matrix protein 5-like
+gene-LOC119583635	RAB11-binding protein RELCH homolog
+gene-LOC119583638	RAC-alpha serine/threonine-protein kinase-like
+gene-LOC119583640	broad-complex core protein isoforms 1/2/3/4/5-like
+gene-LOC119583642	protein mono-ADP-ribosyltransferase PARP12-like
+gene-LOC119583643	uncharacterized LOC119583643
+gene-LOC119583646	hemicentin-1-like
+gene-LOC119583655	solute carrier family 49 member 4 homolog
+gene-LOC119583659	beta-1,3-galactosyltransferase 5-like, transcript variant X1
+gene-LOC119583695	XK-related protein 4-like
+gene-LOC119583713	V-type proton ATPase subunit D-like
+gene-LOC119583729	SET domain-containing protein SmydA-8-like
+gene-LOC119583749	heparan-sulfate 6-O-sulfotransferase 2-like
+gene-LOC119583766	DNA excision repair protein ERCC-8-like
+gene-LOC119583770	4-coumarate--CoA ligase-like 9
+gene-LOC119583771	cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 1-like
+gene-LOC119583829	uncharacterized LOC119583829
+gene-LOC119583852	DDB1- and CUL4-associated factor 1-like
+gene-LOC119583854	COP1-interactive protein 1-like
+gene-LOC119584199	uncharacterized LOC119584199
+gene-LOC119584205	protein inturned-like
+gene-LOC119584241	dnaJ homolog subfamily C member 1-like
+gene-LOC119584270	intraflagellar transport protein 81 homolog
+gene-LOC119584277	uncharacterized LOC119584277
+gene-LOC119584280	uncharacterized LOC119584280
+gene-LOC119584295	ribosomal RNA-processing protein 8-like
+gene-LOC119584297	uncharacterized LOC119584297
+gene-LOC119584310	carbohydrate sulfotransferase 6-like
+gene-LOC119584324	pre-mRNA-processing factor 6-like
+gene-LOC119584332	glutamate--cysteine ligase regulatory subunit-like
+gene-LOC119584335	protein ELYS-like
+gene-LOC119584336	gamma-tubulin complex component 6-like
+gene-LOC119584341	CD209 antigen-like protein E
+gene-LOC119584363	putative ATP synthase subunit f, mitochondrial
+gene-LOC119584370	valine--tRNA ligase-like
+gene-LOC119584373	voltage-dependent calcium channel gamma-7 subunit-like
+gene-LOC119584383	myosin-VIIa-like
+gene-LOC119584388	daf-12-interacting protein 1-like
+gene-LOC119584392	etoposide-induced protein 2.4 homolog
+gene-LOC119584393	origin recognition complex subunit 6-like
+gene-LOC119584399	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1-like
+gene-LOC119584403	uncharacterized LOC119584403
+gene-LOC119584409	ubiquitin carboxyl-terminal hydrolase 46-like
+gene-LOC119584418	uncharacterized LOC119584418
+gene-LOC119584426	uncharacterized LOC119584426
+gene-LOC119584429	trafficking protein particle complex subunit 10-like
+gene-LOC119584433	carnitine O-palmitoyltransferase 1, liver isoform-like, transcript variant X1
+gene-LOC119584440	elongator complex protein 4-like
+gene-LOC119584449	short transient receptor potential channel 4-associated protein-like
+gene-LOC119584450	short transient receptor potential channel 4-associated protein-like
+gene-LOC119584452	short transient receptor potential channel 4-associated protein-like
+gene-LOC119584462	uncharacterized LOC119584462
+gene-LOC119584476	von Willebrand factor A domain-containing protein 7-like
+gene-LOC119584490	neuronal acetylcholine receptor subunit alpha-10-like
+gene-LOC119584520	neither inactivation nor afterpotential protein C-like
+gene-LOC119584530	glutaredoxin-3-like
+gene-LOC119584539	zinc finger protein GLI1-like
+gene-LOC119584559	uncharacterized protein PB18E9.04c-like
+gene-LOC119584560	beta-1,3-glucan-binding protein-like
+gene-LOC119584568	phenoloxidase-activating factor 3-like
+gene-LOC119584569	carbohydrate sulfotransferase 5-like
+gene-LOC119584584	caskin-1-like, transcript variant X4
+gene-LOC119584627	intraflagellar transport protein 81 homolog
+gene-LOC119584663	glutamate synthase [NADH], amyloplastic-like
+gene-LOC119584670	uncharacterized LOC119584670
+gene-LOC119584671	major facilitator superfamily domain-containing protein 3-like
+gene-LOC119584702	serine-rich adhesin for platelets-like
+gene-LOC119584723	amyloid protein-binding protein 2-like
+gene-LOC119584724	amyloid protein-binding protein 2-like
+gene-LOC119584742	probable proline--tRNA ligase, mitochondrial
+gene-LOC119584779	negative elongation factor E-like
+gene-LOC119584796	paired box protein Pax-6-like
+gene-LOC119584813	actin-histidine N-methyltransferase-like
+gene-LOC119584822	alkylglycerol monooxygenase-like
+gene-LOC119584852	integumentary mucin C.1-like
+gene-LOC119584896	extracellular protease inhibitor 10-like
+gene-LOC119584912	zinc transporter ZIP1-like
+gene-LOC119584913	nephrin-like
+gene-LOC119584958	uncharacterized LOC119584958
+gene-LOC119584966	uncharacterized LOC119584966
+gene-LOC119584971	microtubule-associated protein futsch-like
+gene-LOC119584972	ecdysone receptor-like, transcript variant X2
+gene-LOC119584982	kinesin-like protein KIF13A
+gene-LOC119584985	THO complex subunit 7 homolog
+gene-LOC119584996	breast carcinoma-amplified sequence 3 homolog
+gene-LOC119585001	E3 ubiquitin-protein ligase MSL2-like
+gene-LOC119585003	uncharacterized LOC119585003
+gene-LOC119585016	dual oxidase-like
+gene-LOC119585037	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta-like
+gene-LOC119585045	sarcoplasmic calcium-binding protein 1-like
+gene-LOC119585054	furin-like
+gene-LOC119585085	uncharacterized LOC119585085
+gene-LOC119585086	tyrosine-protein phosphatase non-receptor type 2-like
+gene-LOC119585087	splicing factor YJU2-like
+gene-LOC119585091	proteoglycan 4-like
+gene-LOC119585101	methyl-CpG-binding domain protein 4-like
+gene-LOC119585102	acetyl-coenzyme A synthetase, cytoplasmic-like
+gene-LOC119585105	THUMP domain-containing protein 1-like
+gene-LOC119585111	translocation protein SEC62-like, transcript variant X1
+gene-LOC119585124	protein fem-1 homolog C-like
+gene-LOC119585125	active breakpoint cluster region-related protein-like
+gene-LOC119585131	uncharacterized LOC119585131
+gene-LOC119585139	nucleoprotein TPR-like
+gene-LOC119585144	cyclic AMP-responsive element-binding protein 1-like
+gene-LOC119585150	uncharacterized LOC119585150
+gene-LOC119585166	proteasome adapter and scaffold protein ECM29-like
+gene-LOC119585167	uncharacterized LOC119585167, transcript variant X3
+gene-LOC119585169	zinc finger CCCH domain-containing protein 14-like
+gene-LOC119585172	general transcription factor IIH subunit 2-like
+gene-LOC119585173	leucine-rich repeat-containing protein 70-like
+gene-LOC119585196	integrin alpha-PS3-like
+gene-LOC119585207	protein DENND6A-like
+gene-LOC119585208	AP-3 complex subunit delta-1-like
+gene-LOC119585216	E3 ubiquitin-protein ligase UBR2-like
+gene-LOC119585225	monomeric sarcosine oxidase-like
+gene-LOC119585237	protein Wnt-5b-like
+gene-LOC119585246	uncharacterized LOC119585246
+gene-LOC119585280	basic proline-rich protein-like
+gene-LOC119585291	uncharacterized LOC119585291
+gene-LOC119585295	sin3 histone deacetylase corepressor complex component SDS3-like
+gene-LOC119585298	methionine-R-sulfoxide reductase B1-like, transcript variant X2
+gene-LOC119585313	uncharacterized LOC119585313
+gene-LOC119585327	myb-like protein Q
+gene-LOC119585350	uncharacterized LOC119585350
+gene-LOC119585356	solute carrier family 22 member 4-like
+gene-LOC119585373	carnitine O-palmitoyltransferase 2, mitochondrial-like
+gene-LOC119585375	histone acetyltransferase KAT7-like
+gene-LOC119585386	eIF-2-alpha kinase GCN2-like
+gene-LOC119585388	O-glucosyltransferase rumi homolog
+gene-LOC119585401	SUN domain-containing protein 2-like
+gene-LOC119585402	early growth response protein 1-like
+gene-LOC119585403	protein dopey-1 homolog
+gene-LOC119585410	mediator of RNA polymerase II transcription subunit 20-like
+gene-LOC119585417	latent-transforming growth factor beta-binding protein 2-like
+gene-LOC119585427	THO complex subunit 5 homolog
+gene-LOC119585430	ribosome biogenesis protein BMS1 homolog
+gene-LOC119585448	uncharacterized LOC119585448
+gene-LOC119585470	cuticle protein 7-like
+gene-LOC119585488	uncharacterized LOC119585488
+gene-LOC119585533	surfeit locus protein 1-like
+gene-LOC119585538	ankyrin repeat domain-containing protein 54-like
+gene-LOC119585575	N-alpha-acetyltransferase 80-like, transcript variant X2
+gene-LOC119585576	uncharacterized LOC119585576, transcript variant X1
+gene-LOC119585590	calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type-like
+gene-LOC119585595	failed axon connections-like
+gene-LOC119585606	uncharacterized LOC119585606
+gene-LOC119585613	open rectifier potassium channel protein 1-like
+gene-LOC119585617	potassium channel subfamily K member 10-like
+gene-LOC119585625	uncharacterized LOC119585625
+gene-LOC119585626	uncharacterized LOC119585626
+gene-LOC119585631	TBC1 domain family member 25-like, transcript variant X2
+gene-LOC119585635	soluble calcium-activated nucleotidase 1-like
+gene-LOC119585644	arginine-hydroxylase NDUFAF5, mitochondrial-like
+gene-LOC119585645	autophagy-related protein 2 homolog A-like
+gene-LOC119585647	protein Aster-B-like
+gene-LOC119585661	RNA-binding protein with serine-rich domain 1-B-like
+gene-LOC119585670	phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit beta-like
+gene-LOC119585674	F-box only protein 32-like
+gene-LOC119585678	vacuolar protein sorting-associated protein 26B-like
+gene-LOC119585688	MAP3K12-binding inhibitory protein 1-like
+gene-LOC119585703	mitogen-activated protein kinase kinase kinase kinase 3-like, transcript variant X6
+gene-LOC119585706	uncharacterized LOC119585706
+gene-LOC119585707	forkhead box protein P1-like, transcript variant X1
+gene-LOC119585719	protein salvador homolog 1-like, transcript variant X2
+gene-LOC119585724	ubiquitin carboxyl-terminal hydrolase Usp2-like
+gene-LOC119585726	protein SPT2 homolog
+gene-LOC119585732	transient receptor potential channel pyrexia-like
+gene-LOC119585738	translation initiation factor IF-2-like
+gene-LOC119585744	uncharacterized LOC119585744
+gene-LOC119585745	histone H1-delta-like
+gene-LOC119585746	histone H1-delta-like
+gene-LOC119585755	histone H1-delta-like
+gene-LOC119585758	splicing factor U2AF 50 kDa subunit-like
+gene-LOC119585766	uncharacterized LOC119585766, transcript variant X2
+gene-LOC119585781	protein PTCD3 homolog, mitochondrial-like
+gene-LOC119585782	rabphilin-3A-like
+gene-LOC119585783	glutenin, low molecular weight subunit-like
+gene-LOC119585787	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit-like
+gene-LOC119585789	calmodulin-binding transcription activator 1-like
+gene-LOC119585799	RING finger and CHY zinc finger domain-containing protein 1-like
+gene-LOC119585800	RING finger and CHY zinc finger domain-containing protein 1-like
+gene-LOC119585802	uncharacterized LOC119585802
+gene-LOC119585822	peroxiredoxin-like 2A
+gene-LOC119585826	cleavage and polyadenylation specificity factor subunit 4-like
+gene-LOC119585832	G-patch domain and KOW motifs-containing protein-like
+gene-LOC119585838	Bardet-Biedl syndrome 7 protein homolog
+gene-LOC119585843	C-Maf-inducing protein-like
+gene-LOC119585848	maestro heat-like repeat-containing protein family member 1
+gene-LOC119585855	very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase hpo-8-like
+gene-LOC119585860	histone H1-delta-like
+gene-LOC119585868	serine/threonine-protein kinase OSR1-like
+gene-LOC119585872	THUMP domain-containing protein 3-like
+gene-LOC119585880	BAG family molecular chaperone regulator 3-like
+gene-LOC119585884	ribonucleoside-diphosphate reductase subunit M2-like
+gene-LOC119585887	probable bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase 2
+gene-LOC119585888	endoplasmin-like
+gene-LOC119585889	endoplasmin-like
+gene-LOC119585917	soluble calcium-activated nucleotidase 1-like
+gene-LOC119585939	exportin-2-like
+gene-LOC119585947	zinc finger RNA-binding protein-like
+gene-LOC119585985	uncharacterized LOC119585985
+gene-LOC119585990	RNA-binding protein spenito-like
+gene-LOC119585993	serine-rich adhesin for platelets-like
+gene-LOC119586012	organic cation transporter protein-like
+gene-LOC119586016	neurofilament heavy polypeptide-like
+gene-LOC119586021	condensin complex subunit 2-like
+gene-LOC119586022	uncharacterized LOC119586022
+gene-LOC119586023	putative 3-phosphoinositide-dependent protein kinase 2
+gene-LOC119586047	mitoguardin-like
+gene-LOC119586061	histone H1-beta, late embryonic-like
+gene-LOC119586068	double C2-like domain-containing protein beta
+gene-LOC119586094	plexin A3-like
+gene-LOC119586097	uncharacterized LOC119586097
+gene-LOC119586099	KH domain-containing, RNA-binding, signal transduction-associated protein 2-like
+gene-LOC119586103	ribonuclease P protein subunit p14-like
+gene-LOC119586104	synapse-associated protein 1-like
+gene-LOC119586117	high affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A-like
+gene-LOC119586130	uncharacterized LOC119586130
+gene-LOC119586132	mitogen-activated protein kinase kinase kinase 7-like
+gene-LOC119586140	glycerophosphocholine phosphodiesterase GPCPD1-like
+gene-LOC119586152	leukocyte elastase inhibitor-like
+gene-LOC119586155	leukocyte elastase inhibitor A-like
+gene-LOC119586176	leucine-rich repeat-containing protein 47-like
+gene-LOC119586208	protein grainyhead-like
+gene-LOC119586209	uncharacterized LOC119586209
+gene-LOC119586211	dnaJ homolog subfamily C member 28-like
+gene-LOC119586219	uncharacterized LOC119586219
+gene-LOC119586220	ovochymase-1-like
+gene-LOC119586228	uncharacterized LOC119586228
+gene-LOC119586239	serine/arginine repetitive matrix protein 2-like
+gene-LOC119586243	uncharacterized LOC119586243
+gene-LOC119586251	RUN domain-containing protein 1-like
+gene-LOC119586252	uncharacterized LOC119586252
+gene-LOC119586255	DNA damage-binding protein cmr1-like
+gene-LOC119586257	SNF-related serine/threonine-protein kinase-like
+gene-LOC119586270	uncharacterized LOC119586270
+gene-LOC119586272	nuclear pore complex protein DDB_G0274915-like
+gene-LOC119586280	RNA pseudouridylate synthase domain-containing protein 2-like
+gene-LOC119586281	transcription factor AP-1-like
+gene-LOC119586286	vacuolar protein sorting-associated protein 41 homolog
+gene-LOC119586291	uncharacterized LOC119586291
+gene-LOC119586303	uncharacterized LOC119586303
+gene-LOC119586309	protein SCAI-like
+gene-LOC119586311	protein FAM151B-like
+gene-LOC119586313	prolyl endopeptidase-like
+gene-LOC119586316	prolyl endopeptidase-like
+gene-LOC119586318	inositol 1,4,5-trisphosphate receptor-like
+gene-LOC119586319	condensin-2 complex subunit D3-like
+gene-LOC119586321	elongation factor 1-beta'-like
+gene-LOC119586323	peroxisomal trans-2-enoyl-CoA reductase-like
+gene-LOC119586325	G-box-binding factor-like
+gene-LOC119586334	MMS19 nucleotide excision repair protein homolog
+gene-LOC119586343	trithorax group protein osa-like
+gene-LOC119586349	uncharacterized LOC119586349
+gene-LOC119586350	vacuolar protein sorting-associated protein 37A-like
+gene-LOC119586351	golgin IMH1-like
+gene-LOC119586352	collectin-12-like
+gene-LOC119586354	uncharacterized LOC119586354
+gene-LOC119586359	serine/arginine repetitive matrix protein 2-like
+gene-LOC119586369	uncharacterized LOC119586369, transcript variant X2
+gene-LOC119586371	uncharacterized LOC119586371
+gene-LOC119586376	protein MLP1 homolog
+gene-LOC119586380	cytochrome c oxidase subunit 4 isoform 1, mitochondrial-like
+gene-LOC119586382	uncharacterized protein DDB_G0285291-like
+gene-LOC119586393	40S ribosomal protein S4-like
+gene-LOC119586396	alpha-actinin, sarcomeric-like
+gene-LOC119586405	HEAT repeat-containing protein 6-like
+gene-LOC119586411	rho guanine nucleotide exchange factor 7-like, transcript variant X1
+gene-LOC119586416	farnesyl pyrophosphate synthase-like
+gene-LOC119586420	peroxisomal acyl-coenzyme A oxidase 3-like
+gene-LOC119586421	peroxisomal acyl-coenzyme A oxidase 3-like
+gene-LOC119586422	uncharacterized LOC119586422, transcript variant X1
+gene-LOC119586424	tight junction-associated protein 1-like
+gene-LOC119586429	tax1-binding protein 1 homolog
+gene-LOC119586430	gastrula zinc finger protein XlCGF57.1-like
+gene-LOC119586439	hexosaminidase D-like
+gene-LOC119586440	uncharacterized LOC119586440
+gene-LOC119586442	MRG/MORF4L-binding protein-like
+gene-LOC119586446	sex determination protein fruitless-like, transcript variant X2
+gene-LOC119586447	LIM domain-binding protein 3-like
+gene-LOC119586462	uncharacterized LOC119586462
+gene-LOC119586464	uncharacterized LOC119586464
+gene-LOC119586486	tRNA pseudouridine(38/39) synthase-like
+gene-LOC119586490	major facilitator superfamily domain-containing protein 6-like
+gene-LOC119586491	tRNA-uridine aminocarboxypropyltransferase 2-like
+gene-LOC119586493	DNA ligase 1-like
+gene-LOC119586496	uncharacterized LOC119586496
+gene-LOC119586498	serrate RNA effector molecule homolog
+gene-LOC119586501	translocating chain-associated membrane protein 1-like
+gene-LOC119586504	uncharacterized LOC119586504
+gene-LOC119586531	solute carrier family 15 member 4-like, transcript variant X1
+gene-LOC119586535	glycosylphosphatidylinositol anchor attachment 1 protein-like
+gene-LOC119586538	unconventional myosin-Ia-like
+gene-LOC119586541	band 4.1-like protein 5, transcript variant X1
+gene-LOC119586542	DNA mismatch repair protein Mlh1-like
+gene-LOC119586545	ankyrin repeat and SOCS box protein 3-like
+gene-LOC119586562	uncharacterized protein CG5098-like
+gene-LOC119586566	uncharacterized LOC119586566
+gene-LOC119586578	glutamate-rich WD repeat-containing protein 1-like
+gene-LOC119586583	methionine aminopeptidase 2-like
+gene-LOC119586593	antichymotrypsin-2-like
+gene-LOC119586595	probable deoxyhypusine synthase
+gene-LOC119586608	DNA polymerase theta-like
+gene-LOC119586621	muscle M-line assembly protein unc-89-like
+gene-LOC119586622	protein phosphatase 1G-like
+gene-LOC119586625	exonuclease 3'-5' domain-containing protein 2-like
+gene-LOC119586650	uncharacterized LOC119586650
+gene-LOC119586652	uncharacterized LOC119586652
+gene-LOC119586661	actin-related protein 5-like
+gene-LOC119586667	eukaryotic translation initiation factor 4B-like
+gene-LOC119586669	cilia- and flagella-associated protein 298-like
+gene-LOC119586670	protein groucho-like
+gene-LOC119586688	pre-mRNA-processing factor 39-like
+gene-LOC119586731	uncharacterized LOC119586731
+gene-LOC119586748	phenoloxidase-activating factor 3-like
+gene-LOC119586753	uncharacterized LOC119586753
+gene-LOC119586764	uncharacterized LOC119586764
+gene-LOC119586765	DENN domain-containing protein 1A-like
+gene-LOC119586791	chloride channel protein 2-like
+gene-LOC119586792	alpha-(1,6)-fucosyltransferase-like
+gene-LOC119586818	mucin-5AC-like
+gene-LOC119586819	serine proteinase stubble-like
+gene-LOC119586828	proclotting enzyme-like
+gene-LOC119586839	neurogenic locus Notch protein-like
+gene-LOC119586919	CAP-Gly domain-containing linker protein 1-like
+gene-LOC119586923	insulin receptor-related protein-like
+gene-LOC119586927	uncharacterized LOC119586927
+gene-LOC119586930	cytoskeleton-associated protein 5-like
+gene-LOC119586938	haloacid dehalogenase-like hydrolase domain-containing protein 2
+gene-LOC119586939	phenoloxidase-activating factor 3-like
+gene-LOC119586946	transmembrane protein 47-like
+gene-LOC119586947	syndetin-like
+gene-LOC119586950	probable dual specificity protein kinase madd-3
+gene-LOC119586953	uncharacterized oxidoreductase YjmC-like
+gene-LOC119586968	uncharacterized LOC119586968
+gene-LOC119586971	phenoloxidase-activating factor 3-like
+gene-LOC119586977	leucine-rich repeat-containing protein 14-like
+gene-LOC119586983	mucin-5AC-like
+gene-LOC119586984	uncharacterized LOC119586984
+gene-LOC119586990	ubiquitin-protein ligase E3A-like
+gene-LOC119586993	serine/threonine-protein kinase RIO3-like
+gene-LOC119587000	exportin-7-like
+gene-LOC119587005	calnexin-like
+gene-LOC119587013	rho GTPase-activating protein 21-like
+gene-LOC119587019	ATPase family AAA domain-containing protein 3-A-like
+gene-LOC119587025	ATPase family AAA domain-containing protein 3A homolog
+gene-LOC119587028	serine/threonine-protein kinase/endoribonuclease IRE1-like
+gene-LOC119587030	zinc/cadmium resistance protein-like
+gene-LOC119587032	geranylgeranyl pyrophosphate synthase-like, transcript variant X3
+gene-LOC119587039	uncharacterized LOC119587039
+gene-LOC119587050	histone-lysine N-methyltransferase SUV39H1-like
+gene-LOC119587056	mRNA turnover protein 4 homolog
+gene-LOC119587057	serine proteinase stubble-like
+gene-LOC119587058	glycerophosphocholine cholinephosphodiesterase ENPP6-like
+gene-LOC119587061	thioredoxin reductase-like selenoprotein T homolog CG3887
+gene-LOC119587069	S phase cyclin A-associated protein in the endoplasmic reticulum-like
+gene-LOC119587071	coiled-coil domain-containing protein 97-like
+gene-LOC119587083	protein abrupt-like
+gene-LOC119587088	protein lifeguard 3-like
+gene-LOC119587096	glycine receptor subunit beta-type 4-like
+gene-LOC119587101	inactive selenide, water dikinase-like protein
+gene-LOC119587114	SID1 transmembrane family member 2-like
+gene-LOC119587118	transmembrane protein 11, mitochondrial-like
+gene-LOC119587122	uncharacterized LOC119587122
+gene-LOC119587127	craniofacial development protein 1-like
+gene-LOC119587139	glycerate kinase-like
+gene-LOC119587141	mycophenolic acid acyl-glucuronide esterase, mitochondrial-like
+gene-LOC119587143	forkhead box protein O-like
+gene-LOC119587144	homeobox protein unplugged-like
+gene-LOC119587146	WD and tetratricopeptide repeats protein 1-like
+gene-LOC119587147	respirasome Complex Assembly Factor 1-like
+gene-LOC119587168	DNA-directed RNA polymerase I subunit RPA43-like
+gene-LOC119587177	xaa-Pro dipeptidase-like
+gene-LOC119587180	GSK-3-binding protein-like
+gene-LOC119587190	short/branched chain specific acyl-CoA dehydrogenase, mitochondrial-like
+gene-LOC119587194	general transcription factor IIE subunit 1-like
+gene-LOC119587195	small RNA degrading nuclease 5-like
+gene-LOC119587199	SET and MYND domain-containing protein 4-like
+gene-LOC119587201	regulator of nonsense transcripts 1-like
+gene-LOC119587289	pupal cuticle protein 36-like
+gene-LOC119587330	uncharacterized LOC119587330
+gene-LOC119587332	organic cation transporter 1-like
+gene-LOC119587334	uncharacterized LOC119587334
+gene-LOC119587336	venom protease-like
+gene-LOC119587357	intraflagellar transport protein 46 homolog
+gene-LOC119587366	trimethylguanosine synthase-like
+gene-LOC119587369	telomere-associated protein RIF1-like
+gene-LOC119587389	histone H2A deubiquitinase MYSM1-like
+gene-LOC119587390	histone H2A deubiquitinase MYSM1-like
+gene-LOC119587406	serine/arginine repetitive matrix protein 2-like
+gene-LOC119587436	uncharacterized LOC119587436
+gene-LOC119587463	microtubule-associated protein futsch-like
+gene-LOC119587465	cytoplasmic protein NCK2-like
+gene-LOC119587470	uncharacterized LOC119587470
+gene-LOC119587568	proteasome subunit beta type-1-like
+gene-LOC119587588	uncharacterized LOC119587588
+gene-LOC119587590	ubiquitin-protein ligase E3A-like
+gene-LOC119587594	uncharacterized LOC119587594
+gene-LOC119587602	uncharacterized LOC119587602
+gene-LOC119587624	centrosomal protein of 170 kDa-like
+gene-LOC119587634	NK-tumor recognition protein-like
+gene-LOC119587668	uncharacterized protein DDB_G0271670-like
+gene-LOC119587697	uncharacterized LOC119587697
+gene-LOC119587698	uncharacterized LOC119587698
+gene-LOC119587702	transcription elongation factor SPT6-like
+gene-LOC119587706	FACT complex subunit spt16-like
+gene-LOC119587716	corticotropin-releasing factor receptor 1-like
+gene-LOC119587730	spindle assembly abnormal protein 6 homolog
+gene-LOC119587734	39S ribosomal protein L53, mitochondrial-like
+gene-LOC119587743	NAD(+) hydrolase sarm1-like
+gene-LOC119587746	fidgetin-like
+gene-LOC119587757	E3 ubiquitin-protein ligase Nedd-4-like
+gene-LOC119587766	rhodopsin-like
+gene-LOC119587767	CD209 antigen-like protein E
+gene-LOC119587773	serine hydrolase-like protein
+gene-LOC119587777	progranulin-like
+gene-LOC119587781	cilia- and flagella-associated protein 251-like
+gene-LOC119587784	leucine-rich repeat-containing protein 45-like
+gene-LOC119587785	angiomotin-like protein 1, transcript variant X3
+gene-LOC119587788	uncharacterized LOC119587788
+gene-LOC119587793	adhesion G protein-coupled receptor L4-like
+gene-LOC119587816	histone acetyltransferase KAT6A-like
+gene-LOC119587821	signal transducer and activator of transcription 5B-like
+gene-LOC119587831	PWWP domain-containing protein 2B-like
+gene-LOC119587848	uncharacterized LOC119587848
+gene-LOC119587851	uncharacterized LOC119587851
+gene-LOC119587861	protein FRA10AC1 homolog
+gene-LOC119587876	delta-sarcoglycan-like
+gene-LOC119587881	SWI/SNF complex subunit SMARCC2-like
+gene-LOC119587890	decaprenyl-diphosphate synthase subunit 1-like
+gene-LOC119587895	midnolin-A-like
+gene-LOC119587898	trafficking kinesin-binding protein 1-like
+gene-LOC119587901	adenosylhomocysteinase-like 1
+gene-LOC119587913	uncharacterized LOC119587913
+gene-LOC119587923	hemolymph clottable protein-like
+gene-LOC119587926	probable tRNA N6-adenosine threonylcarbamoyltransferase, mitochondrial
+gene-LOC119587929	serine-rich adhesin for platelets-like
+gene-LOC119587931	protein trachealess-like
+gene-LOC119587947	U4/U6.U5 tri-snRNP-associated protein 1-like
+gene-LOC119587954	S-phase kinase-associated protein 2-like
+gene-LOC119587957	protein phosphatase 1 regulatory subunit 16A-like
+gene-LOC119587959	heterogeneous nuclear ribonucleoprotein M-like
+gene-LOC119587960	probable dimethyladenosine transferase
+gene-LOC119587964	adenylyl cyclase-associated protein 1-like
+gene-LOC119587965	armadillo repeat-containing protein 6 homolog
+gene-LOC119587967	uncharacterized LOC119587967
+gene-LOC119587975	uncharacterized LOC119587975
+gene-LOC119587993	ADP-ribosylation factor 6
+gene-LOC119588001	U3 small nucleolar RNA-associated protein 4 homolog
+gene-LOC119588002	uncharacterized LOC119588002
+gene-LOC119588016	focadhesin-like
+gene-LOC119588047	glycine-rich protein 23-like
+gene-LOC119588056	ctenidin-3-like
+gene-LOC119588072	kinesin-associated protein 3-like
+gene-LOC119588075	uncharacterized LOC119588075
+gene-LOC119588080	protein PXR1-like
+gene-LOC119588081	uncharacterized LOC119588081
+gene-LOC119588086	cleavage stimulation factor subunit 1-like
+gene-LOC119588088	polypeptide N-acetylgalactosaminyltransferase 1-like
+gene-LOC119588092	uncharacterized LOC119588092
+gene-LOC119588095	NPC intracellular cholesterol transporter 1-like
+gene-LOC119588106	inhibitor of growth protein 3-like
+gene-LOC119588107	uncharacterized LOC119588107
+gene-LOC119588121	doublesex- and mab-3-related transcription factor 2-like
+gene-LOC119588128	secretin receptor-like
+gene-LOC119588142	uncharacterized LOC119588142
+gene-LOC119588160	inositol 1,4,5-triphosphate receptor associated 1-like
+gene-LOC119588167	transcription factor SPT20 homolog
+gene-LOC119588169	uncharacterized LOC119588169
+gene-LOC119588170	uncharacterized LOC119588170
+gene-LOC119588180	39S ribosomal protein L32, mitochondrial-like
+gene-LOC119588199	probable ATP-dependent RNA helicase vasa-like
+gene-LOC119588230	uncharacterized LOC119588230
+gene-LOC119588233	zinc finger protein ubi-d4 B-like
+gene-LOC119588243	fibrillin-3-like
+gene-LOC119588257	uncharacterized LOC119588257
+gene-LOC119588268	inward rectifier potassium channel 2-like
+gene-LOC119588280	E3 ubiquitin-protein ligase ZNRF3-like
+gene-LOC119588306	RING finger protein nhl-1-like
+gene-LOC119588315	ADAMTS-like protein 4
+gene-LOC119588359	uncharacterized LOC119588359
+gene-LOC119588395	geranylgeranyl transferase type-1 subunit beta-like
+gene-LOC119588396	armadillo repeat-containing protein 6-like
+gene-LOC119588417	ATP-dependent RNA helicase glh-2-like
+gene-LOC119588465	putative uncharacterized oxidoreductase C513.07
+gene-LOC119588476	kynurenine formamidase-like
+gene-LOC119588486	lysosomal acid glucosylceramidase-like
+gene-LOC119588498	nuclear migration protein nudC-like
+gene-LOC119588506	uncharacterized LOC119588506
+gene-LOC119588509	uncharacterized LOC119588509
+gene-LOC119588514	uncharacterized LOC119588514
+gene-LOC119588518	uncharacterized LOC119588518
+gene-LOC119588532	protein downstream neighbor of son homolog
+gene-LOC119588533	glycine receptor subunit alpha-2-like
+gene-LOC119588548	maltase-glucoamylase, intestinal-like
+gene-LOC119588584	dystrophin-like
+gene-LOC119588603	proton channel OtopLc-like
+gene-LOC119588607	calcium-activated chloride channel regulator 3A-1-like
+gene-LOC119588609	pachytene checkpoint protein 2 homolog
+gene-LOC119588611	peroxisomal membrane protein PEX16-like
+gene-LOC119588614	E3 ubiquitin-protein ligase listerin-like
+gene-LOC119588623	flocculation protein FLO11-like
+gene-LOC119588625	E3 ubiquitin-protein ligase CBL-B-B-like
+gene-LOC119588635	DDB1- and CUL4-associated factor 12-like
+gene-LOC119588637	transcription elongation factor, mitochondrial-like
+gene-LOC119588642	sphingomyelin phosphodiesterase 4-like, transcript variant X2
+gene-LOC119588644	uncharacterized LOC119588644
+gene-LOC119588646	biorientation of chromosomes in cell division protein 1-like 1
+gene-LOC119588647	uncharacterized LOC119588647, transcript variant X2
+gene-LOC119588648	chromosome transmission fidelity protein 18 homolog
+gene-LOC119588651	GDP-fucose transporter 1-like
+gene-LOC119588653	uncharacterized LOC119588653
+gene-LOC119588656	uncharacterized LOC119588656
+gene-LOC119588660	uncharacterized LOC119588660
+gene-LOC119588672	uncharacterized histidine-rich protein DDB_G0274557-like
+gene-LOC119588678	diacylglycerol O-acyltransferase 1-like
+gene-LOC119588688	PH domain-containing protein DDB_G0287875-like
+gene-LOC119588689	major facilitator superfamily domain-containing protein 12-like
+gene-LOC119588697	uncharacterized LOC119588697
+gene-LOC119588700	H(+)/Cl(-) exchange transporter 7-like
+gene-LOC119588701	nuclear receptor coactivator 5-like
+gene-LOC119588711	DNA-directed RNA polymerase III subunit RPC3-like
+gene-LOC119588712	thioredoxin domain-containing protein 5-like
+gene-LOC119588735	RB-associated KRAB zinc finger protein-like
+gene-LOC119588736	probable protein phosphatase CG10417
+gene-LOC119588739	trithorax group protein osa-like
+gene-LOC119588746	uncharacterized LOC119588746
+gene-LOC119588754	cytochrome b561-like
+gene-LOC119588755	protein Fer3-like
+gene-LOC119588764	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-4-like
+gene-LOC119588768	WASH complex subunit 1-like, transcript variant X1
+gene-LOC119588776	protein Gawky-like, transcript variant X2
+gene-LOC119588787	uncharacterized LOC119588787
+gene-LOC119588790	ras association domain-containing protein 5-like
+gene-LOC119588793	gastrula zinc finger protein XlCGF26.1-like
+gene-LOC119588832	glutamic acid-rich protein-like
+gene-LOC119588845	inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase 2-like
+gene-LOC119588850	uncharacterized LOC119588850
+gene-LOC119588855	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase-like
+gene-LOC119588861	jmjC domain-containing protein 8-like
+gene-LOC119588872	A disintegrin and metalloproteinase with thrombospondin motifs 9-like
+gene-LOC119588878	collagen alpha-1(XI) chain-like
+gene-LOC119588928	conserved oligomeric Golgi complex subunit 7-like
+gene-LOC119588947	EGF-like repeat and discoidin I-like domain-containing protein 3
+gene-LOC119589003	uncharacterized histidine-rich protein DDB_G0274557-like
+gene-LOC119589047	band 7 protein AGAP004871-like
+gene-LOC119589052	multiple PDZ domain protein-like
+gene-LOC119589062	39S ribosomal protein L39, mitochondrial-like
+gene-LOC119589065	uncharacterized LOC119589065
+gene-LOC119589066	hsp90 co-chaperone Cdc37-like
+gene-LOC119589068	iron-sulfur cluster assembly 2 homolog, mitochondrial-like
+gene-LOC119589070	ubiquitin-conjugating enzyme E2 G1-like
+gene-LOC119589078	maltase-glucoamylase, intestinal-like
+gene-LOC119589083	uncharacterized LOC119589083
+gene-LOC119589089	protein ROP-like
+gene-LOC119589095	mitochondrial Rho GTPase 1-like
+gene-LOC119589098	uncharacterized LOC119589098
+gene-LOC119589101	NKAP family protein CG6066-like
+gene-LOC119589125	molt-inhibiting hormone-like
+gene-LOC119589141	uncharacterized LOC119589141
+gene-LOC119589145	heterogeneous nuclear ribonucleoprotein R-like
+gene-LOC119589147	3-oxoacyl-[acyl-carrier-protein] reductase FabG-like
+gene-LOC119589155	probable glutathione peroxidase 8
+gene-LOC119589156	uncharacterized LOC119589156
+gene-LOC119589161	serine dehydratase-like
+gene-LOC119589162	uncharacterized LOC119589162
+gene-LOC119589168	protein phosphatase 1H-like
+gene-LOC119589170	lipoyl synthase, mitochondrial-like
+gene-LOC119589185	uncharacterized LOC119589185
+gene-LOC119589196	probable cell wall protein PGA41
+gene-LOC119589199	spore coat protein SP60-like
+gene-LOC119589205	nucleolar protein 58-like
+gene-LOC119589206	scavenger receptor class B member 1-like
+gene-LOC119589214	vitelline membrane outer layer protein 1 homolog
+gene-LOC119589215	mucin-12-like
+gene-LOC119589225	very low-density lipoprotein receptor-like
+gene-LOC119589234	acyl carrier protein, mitochondrial-like
+gene-LOC119589251	double-stranded RNA-binding protein Staufen homolog 1-like
+gene-LOC119589256	Fanconi anemia group D2 protein-like
+gene-LOC119589258	valine--tRNA ligase-like, transcript variant X1
+gene-LOC119589260	tetratricopeptide repeat protein 21B-like
+gene-LOC119589267	ATP-binding cassette sub-family F member 2-like
+gene-LOC119589268	venom dipeptidyl peptidase 4-like
+gene-LOC119589273	alpha-centractin-like
+gene-LOC119589276	aromatic-L-amino-acid decarboxylase-like
+gene-LOC119589278	uncharacterized LOC119589278
+gene-LOC119589282	serine/threonine-protein kinase PLK2-like
+gene-LOC119589285	josephin-1-like
+gene-LOC119589286	uncharacterized LOC119589286
+gene-LOC119589287	sarcosine dehydrogenase, mitochondrial-like
+gene-LOC119589315	zinc finger homeobox protein 3-like
+gene-LOC119589317	glutamate-gated chloride channel-like
+gene-LOC119589321	patj homolog
+gene-LOC119589332	E3 ubiquitin-protein ligase hyd-like
+gene-LOC119589340	protein bunched, class 2/F/G isoform-like
+gene-LOC119589341	uncharacterized LOC119589341
+gene-LOC119589348	organic cation transporter protein-like
+gene-LOC119589400	neurogenic locus Notch protein-like
+gene-LOC119589401	early nodulin-75-like
+gene-LOC119589421	retinoid-inducible serine carboxypeptidase-like
+gene-LOC119589423	autophagy-related protein 101-like
+gene-LOC119589426	ankyrin-1-like
+gene-LOC119589430	methyltransferase-like protein 9
+gene-LOC119589435	glutamate receptor ionotropic, delta-1-like
+gene-LOC119589441	organic cation transporter protein-like
+gene-LOC119589443	uncharacterized LOC119589443
+gene-LOC119589475	protein TFG-like
+gene-LOC119589480	26S proteasome regulatory subunit 6A-like
+gene-LOC119589485	formin-like protein 20
+gene-LOC119589488	putative ferric-chelate reductase 1 homolog
+gene-LOC119589513	uncharacterized LOC119589513
+gene-LOC119589517	titin homolog, transcript variant X1
+gene-LOC119589538	ATPase family AAA domain-containing protein 5-like
+gene-LOC119589539	uncharacterized LOC119589539
+gene-LOC119589544	uncharacterized LOC119589544
+gene-LOC119589554	aldehyde oxidase 3-like
+gene-LOC119589560	cytochrome P450 4F8-like
+gene-LOC119589567	uncharacterized LOC119589567
+gene-LOC119589601	BAI1-associated protein 3-like
+gene-LOC119589613	zinc finger CCCH domain-containing protein 11B-like
+gene-LOC119589620	protein ovarian tumor locus-like
+gene-LOC119589630	actin-binding LIM protein 1-like
+gene-LOC119589631	probable ATP-dependent RNA helicase DHX37
+gene-LOC119589678	adhesive plaque matrix protein-like
+gene-LOC119589700	coronin-7-like
+gene-LOC119589721	polycomb protein EED-like
+gene-LOC119589731	uncharacterized LOC119589731
+gene-LOC119589741	splicing factor 3B subunit 3-like
+gene-LOC119589743	apolipoprotein D-like
+gene-LOC119589781	ficolin-3-like
+gene-LOC119589782	coronin-7-like
+gene-LOC119589790	D-3-phosphoglycerate dehydrogenase-like
+gene-LOC119589801	DNA repair endonuclease XPF-like
+gene-LOC119589807	calpain-D-like
+gene-LOC119589832	uncharacterized LOC119589832
+gene-LOC119589853	uridine-cytidine kinase-like 1
+gene-LOC119589873	uncharacterized LOC119589873
+gene-LOC119589875	uncharacterized LOC119589875
+gene-LOC119589882	diacylglycerol kinase 1-like
+gene-LOC119589897	RB1-inducible coiled-coil protein 1-like
+gene-LOC119589921	uncharacterized LOC119589921
+gene-LOC119589922	solute carrier family 43 member 3-like
+gene-LOC119589923	DNA repair protein XRCC3-like
+gene-LOC119589933	nuclear pore complex protein Nup205-like
+gene-LOC119589936	calcineurin subunit B type 2
+gene-LOC119589948	serine/arginine-rich splicing factor 2-like, transcript variant X7
+gene-LOC119589969	zinc finger protein 385D-like, transcript variant X3
+gene-LOC119589978	probable diaminopimelate decarboxylase, chloroplastic
+gene-LOC119589980	probable diaminopimelate decarboxylase, chloroplastic
+gene-LOC119589984	putative zinc metalloproteinase C607.06c
+gene-LOC119589986	signal peptidase complex catalytic subunit SEC11A-like
+gene-LOC119589989	protein fork head-like
+gene-LOC119589990	histone-lysine N-methyltransferase SMYD3-like
+gene-LOC119589997	serine/threonine-protein phosphatase 5-like
+gene-LOC119590009	uncharacterized LOC119590009
+gene-LOC119590015	uncharacterized LOC119590015
+gene-LOC119590019	transcription elongation regulator 1-like, transcript variant X1
+gene-LOC119590026	extracellular protease inhibitor 10-like
+gene-LOC119590029	ankyrin repeat domain-containing protein 16-like, transcript variant X2
+gene-LOC119590030	uncharacterized LOC119590030
+gene-LOC119590042	uncharacterized LOC119590042
+gene-LOC119590051	N6-adenosine-methyltransferase subunit METTL3-like
+gene-LOC119590053	uncharacterized LOC119590053
+gene-LOC119590066	serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform-like, transcript variant X2
+gene-LOC119590070	60S ribosomal protein L10-like
+gene-LOC119590102	transmembrane protein 131-like
+gene-LOC119590103	uncharacterized LOC119590103
+gene-LOC119590113	uncharacterized LOC119590113
+gene-LOC119590148	kinesin-like protein KIF14
+gene-LOC119590154	uncharacterized LOC119590154
+gene-LOC119590167	sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1-like
+gene-LOC119590168	uncharacterized LOC119590168
+gene-LOC119590175	titin-like
+gene-LOC119590184	alpha-N-acetylglucosaminidase-like
+gene-LOC119590190	alpha-N-acetylglucosaminidase-like
+gene-LOC119590331	uncharacterized LOC119590331
+gene-LOC119590351	uncharacterized protein C9orf85 homolog
+gene-LOC119590368	uncharacterized LOC119590368
+gene-LOC119590411	LIM and SH3 domain protein Lasp-like
+gene-LOC119590412	ankyrin repeat and SOCS box protein 13-like
+gene-LOC119590413	uncharacterized protein C9orf85 homolog
+gene-LOC119590452	uncharacterized LOC119590452
+gene-LOC119590460	serine-rich adhesin for platelets-like
+gene-LOC119590483	mitochondrial-processing peptidase subunit alpha-like
+gene-LOC119590495	sulfite oxidase, mitochondrial-like
+gene-LOC119590509	cyclin-dependent kinase 18-like
+gene-LOC119590516	uncharacterized LOC119590516
+gene-LOC119590529	innexin inx3-like
+gene-LOC119590535	dentin sialophosphoprotein-like
+gene-LOC119590544	conserved oligomeric Golgi complex subunit 5-like
+gene-LOC119590560	aldo-keto reductase family 1 member B1-like
+gene-LOC119590565	LIM and SH3 domain protein 1-like
+gene-LOC119590566	protein neuralized-like
+gene-LOC119590584	uncharacterized LOC119590584
+gene-LOC119590585	uncharacterized LOC119590585
+gene-LOC119590587	uncharacterized LOC119590587
+gene-LOC119590590	lambda-crystallin-like
+gene-LOC119590598	fibrinogen C domain-containing protein 1-like
+gene-LOC119590605	transcriptional repressor CTCF-like
+gene-LOC119590619	exportin-1-like
+gene-LOC119590627	RNA-binding protein 34-like
+gene-LOC119590630	uncharacterized LOC119590630
+gene-LOC119590632	ADP-ribosylation factor-like protein 6-interacting protein 4
+gene-LOC119590634	uncharacterized LOC119590634
+gene-LOC119590638	adenomatous polyposis coli protein-like
+gene-LOC119590639	uncharacterized LOC119590639
+gene-LOC119590661	astakine, transcript variant X1
+gene-LOC119590664	longitudinals lacking protein, isoforms H/M/V-like
+gene-LOC119590668	clavesin-2-like
+gene-LOC119590669	phosphoglycerate mutase 2-like
+gene-LOC119590673	plectin-like
+gene-LOC119590674	calpain-B-like, transcript variant X1
+gene-LOC119590692	uncharacterized LOC119590692
+gene-LOC119590703	uncharacterized LOC119590703
+gene-LOC119590704	iodotyrosine deiodinase 1-like
+gene-LOC119590711	heat shock protein HSP 90-alpha-like
+gene-LOC119590714	uncharacterized LOC119590714
+gene-LOC119590716	protein D2-like
+gene-LOC119590718	suppressor of fused homolog
+gene-LOC119590720	uncharacterized LOC119590720
+gene-LOC119590721	heat shock protein HSP 90-alpha-like
+gene-LOC119590726	uncharacterized LOC119590726
+gene-LOC119590729	uncharacterized LOC119590729, transcript variant X1
+gene-LOC119590737	broad-complex core protein isoforms 1/2/3/4/5-like, transcript variant X1
+gene-LOC119590738	zinc finger protein 628-like
+gene-LOC119590739	F-box/LRR-repeat protein 7-like
+gene-LOC119590742	nucleolar protein 56-like
+gene-LOC119590747	uncharacterized LOC119590747
+gene-LOC119590753	RNA/RNP complex-1-interacting phosphatase-like
+gene-LOC119590757	mitochondrial-processing peptidase subunit alpha-like
+gene-LOC119590784	glutamyl aminopeptidase-like, transcript variant X2
+gene-LOC119590785	kappa-type opioid receptor-like
+gene-LOC119590796	uncharacterized LOC119590796
+gene-LOC119590798	bestrophin-2-like
+gene-LOC119590809	probable G-protein coupled receptor Mth-like 3
+gene-LOC119590813	PAX-interacting protein 1-like
+gene-LOC119590815	zinc finger protein 652-like
+gene-LOC119590817	uncharacterized LOC119590817
+gene-LOC119590820	ketosamine-3-kinase-like, transcript variant X2
+gene-LOC119590825	protein cab-1-like
+gene-LOC119590832	CUB and sushi domain-containing protein 3-like
+gene-LOC119590836	isocitrate dehydrogenase [NAD] subunit beta, mitochondrial-like
+gene-LOC119590840	phosphoinositide 3-kinase regulatory subunit 4-like
+gene-LOC119590842	transcriptional regulator ovo-like
+gene-LOC119590843	uncharacterized LOC119590843
+gene-LOC119590848	paired amphipathic helix protein Sin3a-like
+gene-LOC119590850	uncharacterized LOC119590850
+gene-LOC119590855	uncharacterized LOC119590855
+gene-LOC119590862	ARF GTPase-activating protein GIT2-like
+gene-LOC119590863	transcription factor HES-4-like
+gene-LOC119590866	tetranectin-like
+gene-LOC119590885	uncharacterized LOC119590885
+gene-LOC119590900	enhancer of mRNA-decapping protein 4-like
+gene-LOC119590929	uncharacterized protein C12orf45 homolog
+gene-LOC119590932	brefeldin A-inhibited guanine nucleotide-exchange protein 1-like
+gene-LOC119590937	protein sidekick-1-like
+gene-LOC119590951	WW domain-containing protein C660.06-like
+gene-LOC119590954	ctenidin-1-like
+gene-LOC119590955	WW domain-containing protein C660.06-like
+gene-LOC119590968	kelch-like protein 18
+gene-LOC119590988	3-hydroxybutyrate dehydrogenase type 2-like
+gene-LOC119590990	uncharacterized LOC119590990
+gene-LOC119590997	splicing factor 45-like, transcript variant X3
+gene-LOC119590999	exosome complex component CSL4-like
+gene-LOC119591009	neuropeptide-like protein 31
+gene-LOC119591112	uncharacterized LOC119591112
+gene-LOC119591125	chondroitin sulfate N-acetylgalactosaminyltransferase 2-like
+gene-LOC119591127	serine-rich adhesin for platelets-like
+gene-LOC119591129	beta-ureidopropionase-like
+gene-LOC119591181	DNA damage-binding protein 2-like
+gene-LOC119591190	DNA mismatch repair protein Mlh3-like
+gene-LOC119591191	splicing factor 3B subunit 2-like
+gene-LOC119591204	synergin gamma-like
+gene-LOC119591205	uncharacterized LOC119591205
+gene-LOC119591238	M-phase phosphoprotein 8-like
+gene-LOC119591242	uncharacterized LOC119591242
+gene-LOC119591259	phosphatidylinositide phosphatase SAC2-like
+gene-LOC119591262	polyadenylate-binding protein-interacting protein 2-like
+gene-LOC119591269	protein tramtrack, beta isoform-like
+gene-LOC119591279	collagen alpha-1(I) chain-like
+gene-LOC119591304	pirin-like
+gene-LOC119591307	transcription activator BRG1-like
+gene-LOC119591310	splicing factor 3A subunit 2-like
+gene-LOC119591316	ATP-binding cassette sub-family G member 8-like
+gene-LOC119591319	SH3 domain-containing protein C23A1.17-like
+gene-LOC119591320	39S ribosomal protein L42, mitochondrial-like
+gene-LOC119591353	uncharacterized LOC119591353
+gene-LOC119591361	interaptin-like
+gene-LOC119591367	probable serine racemase
+gene-LOC119591372	glycine-rich cell wall structural protein-like
+gene-LOC119591375	glycerol-3-phosphate acyltransferase 4-like
+gene-LOC119591382	uncharacterized LOC119591382
+gene-LOC119591389	U3 small nucleolar RNA-associated protein 14 homolog A-like
+gene-LOC119591398	serine protease HTRA2, mitochondrial-like
+gene-LOC119591411	peroxisomal membrane protein PEX13-like
+gene-LOC119591412	peroxisomal membrane protein PEX13-like
+gene-LOC119591415	ubiquitin-conjugating enzyme E2 C-like
+gene-LOC119591430	nucleoporin NUP188 homolog
+gene-LOC119591470	endonuclease III-like protein 1
+gene-LOC119591479	ubiquitin-conjugating enzyme E2 1-like
+gene-LOC119591482	translation initiation factor eIF-2B subunit delta-like
+gene-LOC119591484	uncharacterized LOC119591484
+gene-LOC119591485	nucleolar protein dao-5-like
+gene-LOC119591488	trypsin-1-like
+gene-LOC119591496	glycerol-3-phosphate acyltransferase 3-like
+gene-LOC119591501	serine/arginine repetitive matrix protein 2-like
+gene-LOC119591503	uncharacterized LOC119591503
+gene-LOC119591506	gephyrin-like
+gene-LOC119591530	sepiapterin reductase-like
+gene-LOC119591532	neprilysin-1-like
+gene-LOC119591536	pleckstrin homology domain-containing family G member 5-like
+gene-LOC119591539	uncharacterized LOC119591539
+gene-LOC119591542	exosome complex component CSL4-like
+gene-LOC119591544	lysosomal-trafficking regulator-like
+gene-LOC119591549	nuclear transcription factor Y subunit beta-like
+gene-LOC119591552	tubulin polyglutamylase TTLL5-like
+gene-LOC119591556	probable RNA-binding protein 19
+gene-LOC119591558	GRB10-interacting GYF protein 2-like, transcript variant X1
+gene-LOC119591563	2-oxoglutarate and iron-dependent oxygenase domain-containing protein 2-like
+gene-LOC119591566	inactive rhomboid protein 1-like
+gene-LOC119591568	uncharacterized LOC119591568
+gene-LOC119591572	uncharacterized LOC119591572
+gene-LOC119591573	uncharacterized LOC119591573
+gene-LOC119591578	glyoxylate reductase/hydroxypyruvate reductase-like
+gene-LOC119591585	geranylgeranyl transferase type-2 subunit alpha-like
+gene-LOC119591642	NEDD8-conjugating enzyme Ubc12-like
+gene-LOC119591651	uncharacterized LOC119591651
+gene-LOC119591652	uncharacterized LOC119591652, transcript variant X2
+gene-LOC119591660	UPF0764 protein C16orf89 homolog
+gene-LOC119591662	uncharacterized LOC119591662
+gene-LOC119591670	protein SREK1IP1-like
+gene-LOC119591690	carbonic anhydrase-related protein 10-like
+gene-LOC119591692	uncharacterized LOC119591692
+gene-LOC119591700	uncharacterized LOC119591700
+gene-LOC119591718	calphotin-like
+gene-LOC119591725	bidirectional sugar transporter SWEET12-like
+gene-LOC119591726	tubulin-specific chaperone D-like
+gene-LOC119591729	uncharacterized LOC119591729
+gene-LOC119591772	ras GTPase-activating protein raskol-like
+gene-LOC119591794	zinc finger protein 513-like
+gene-LOC119591796	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119591802	RE1-silencing transcription factor B-like
+gene-LOC119591806	gastrula zinc finger protein XlCGF9.1-like
+gene-LOC119591810	zinc finger protein 572-like
+gene-LOC119591812	zinc finger protein 513-like
+gene-LOC119591813	chorion transcription factor Cf2-like
+gene-LOC119591855	mucin-5AC-like
+gene-LOC119591871	proliferating cell nuclear antigen-like
+gene-LOC119591872	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119591874	Bardet-Biedl syndrome 2 protein homolog
+gene-LOC119591881	monocarboxylate transporter 3-like
+gene-LOC119591903	uncharacterized LOC119591903
+gene-LOC119591909	uncharacterized LOC119591909, transcript variant X1
+gene-LOC119591913	metabotropic glutamate receptor 3-like
+gene-LOC119591914	cystathionine beta-synthase-like
+gene-LOC119591915	von Hippel-Lindau-like protein
+gene-LOC119591919	PDZ and LIM domain protein Zasp-like
+gene-LOC119591925	1-acyl-sn-glycerol-3-phosphate acyltransferase alpha-like
+gene-LOC119591942	putative uncharacterized protein DDB_G0277255
+gene-LOC119591944	patatin-like phospholipase domain-containing protein 2
+gene-LOC119591947	uncharacterized LOC119591947
+gene-LOC119591948	CTP synthase 1-A-like
+gene-LOC119591955	ficolin-2-like
+gene-LOC119591957	nucleoside diphosphate kinase 6-like
+gene-LOC119591959	ATP-dependent RNA helicase DDX51-like
+gene-LOC119591964	protein krueppel-like
+gene-LOC119591970	mucin-5AC-like
+gene-LOC119591971	tyrosine-protein phosphatase 10D-like
+gene-LOC119591974	AAC-rich mRNA clone AAC11 protein-like, transcript variant X3
+gene-LOC119591980	serine/threonine-protein phosphatase 4 regulatory subunit 3A-like
+gene-LOC119591983	guanine nucleotide exchange factor for Rab-3A-like, transcript variant X3
+gene-LOC119591988	CWF19-like protein 2
+gene-LOC119591998	phosphoethanolamine N-methyltransferase 3-like
+gene-LOC119592004	uncharacterized LOC119592004
+gene-LOC119592019	multiple PDZ domain protein-like
+gene-LOC119592020	protein lin-7 homolog C-like, transcript variant X3
+gene-LOC119592021	carbohydrate sulfotransferase 1-like, transcript variant X5
+gene-LOC119592026	glucocorticoid-induced transcript 1 protein-like
+gene-LOC119592027	protein IWS1 homolog A-like, transcript variant X2
+gene-LOC119592028	peptidyl-prolyl cis-trans isomerase G-like
+gene-LOC119592031	exonuclease 1-like
+gene-LOC119592033	protein lin-9 homolog
+gene-LOC119592034	peptidyl-prolyl cis-trans isomerase E-like
+gene-LOC119592036	transcription termination factor 4, mitochondrial-like
+gene-LOC119592052	sphingomyelin synthase-related protein 1-like
+gene-LOC119592061	ubiquitin carboxyl-terminal hydrolase CYLD-like
+gene-LOC119592077	beta,beta-carotene 9',10'-oxygenase-like, transcript variant X2
+gene-LOC119592083	longitudinals lacking protein, isoforms H/M/V-like
+gene-LOC119592087	gastrula zinc finger protein XlCGF9.1-like
+gene-LOC119592091	uncharacterized LOC119592091
+gene-LOC119592095	RE1-silencing transcription factor B-like
+gene-LOC119592118	uncharacterized LOC119592118, transcript variant X2
+gene-LOC119592130	large neutral amino acids transporter small subunit 2-like
+gene-LOC119592132	splicing factor 3B subunit 4-like
+gene-LOC119592138	UPF0415 protein C7orf25 homolog
+gene-LOC119592143	uncharacterized LOC119592143
+gene-LOC119592167	holotricin-3-like, transcript variant X2
+gene-LOC119592168	holotricin-3-like
+gene-LOC119592169	holotricin-3-like
+gene-LOC119592175	kelch-like protein diablo, transcript variant X2
+gene-LOC119592179	uncharacterized LOC119592179
+gene-LOC119592185	protein strawberry notch homolog 1-like
+gene-LOC119592189	glutaminase liver isoform, mitochondrial-like
+gene-LOC119592194	another transcription unit protein-like
+gene-LOC119592195	high mobility group nucleosome-binding domain-containing protein 5-like
+gene-LOC119592197	tyrosine-protein phosphatase 10D-like
+gene-LOC119592199	tRNA (uracil(54)-C(5))-methyltransferase homolog
+gene-LOC119592217	rab3 GTPase-activating protein non-catalytic subunit-like
+gene-LOC119592220	uncharacterized LOC119592220
+gene-LOC119592226	acyl-coenzyme A thioesterase 1-like
+gene-LOC119592236	activating transcription factor 3-like
+gene-LOC119592239	helicase domino-like
+gene-LOC119592244	titin-like
+gene-LOC119592246	sarcolemmal membrane-associated protein-like
+gene-LOC119592269	ionotropic receptor 21a-like
+gene-LOC119592270	serine-enriched protein-like
+gene-LOC119592276	probable medium-chain specific acyl-CoA dehydrogenase 1, mitochondrial
+gene-LOC119592299	signal recognition particle 19 kDa protein-like
+gene-LOC119592309	lysophospholipid acyltransferase 5-like
+gene-LOC119592328	cell division cycle 7-related protein kinase-like
+gene-LOC119592334	uncharacterized LOC119592334
+gene-LOC119592339	uncharacterized LOC119592339
+gene-LOC119592371	QRFP-like peptide receptor
+gene-LOC119592395	spondin-2-like
+gene-LOC119592442	exostosin-2-like
+gene-LOC119592449	protein CEPU-1-like
+gene-LOC119592450	transformer-2 protein homolog alpha-like
+gene-LOC119592457	26S proteasome non-ATPase regulatory subunit 13-like
+gene-LOC119592478	pyridoxal kinase-like
+gene-LOC119592482	gastric triacylglycerol lipase-like
+gene-LOC119592483	uncharacterized LOC119592483
+gene-LOC119592490	serine--pyruvate aminotransferase-like
+gene-LOC119592511	nuclear transcription factor Y subunit beta-like
+gene-LOC119592540	uncharacterized LOC119592540
+gene-LOC119592547	kelch domain-containing protein 1-like
+gene-LOC119592554	28S ribosomal protein S18c, mitochondrial-like
+gene-LOC119592564	transcription factor HIVEP3-like
+gene-LOC119592568	cytokine receptor-like
+gene-LOC119592574	nucleolar protein dao-5-like
+gene-LOC119592576	cystinosin-like
+gene-LOC119592582	alpha-amylase-like
+gene-LOC119592586	cohesin subunit SA-2-like
+gene-LOC119592601	alpha-2-macroglobulin-like
+gene-LOC119592629	RNA N6-adenosine-methyltransferase mettl16-like
+gene-LOC119592634	NFX1-type zinc finger-containing protein 1-like
+gene-LOC119592635	hyaluronan mediated motility receptor-like
+gene-LOC119592639	uncharacterized LOC119592639
+gene-LOC119592640	armadillo repeat-containing protein 8-like
+gene-LOC119592641	mitoferrin-1-like
+gene-LOC119592643	mitoferrin-2-like
+gene-LOC119592645	lysophospholipid acyltransferase 5-like
+gene-LOC119592655	alpha-2-macroglobulin-like
+gene-LOC119592665	uncharacterized LOC119592665
+gene-LOC119592671	mediator of RNA polymerase II transcription subunit 13-like
+gene-LOC119592673	xenotropic and polytropic retrovirus receptor 1-like
+gene-LOC119592676	E3 ubiquitin-protein ligase RBBP6-like
+gene-LOC119592677	golgin subfamily A member 4-like
+gene-LOC119592684	aldehyde dehydrogenase, dimeric NADP-preferring-like
+gene-LOC119592685	SH3 and multiple ankyrin repeat domains protein 1-like
+gene-LOC119592691	TOM1-like protein 2
+gene-LOC119592692	NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial-like
+gene-LOC119592693	probable inactive 1-aminocyclopropane-1-carboxylate synthase-like protein 2
+gene-LOC119592695	B-cell CLL/lymphoma 6 member B protein-like, transcript variant X1
+gene-LOC119592698	E3 ubiquitin-protein ligase CCNB1IP1-like
+gene-LOC119592707	exonuclease mut-7 homolog
+gene-LOC119592713	alpha-2-macroglobulin-like
+gene-LOC119592715	pheromone B beta 1 receptor-like
+gene-LOC119592723	zinc finger protein 629-like
+gene-LOC119592728	ubiquitin carboxyl-terminal hydrolase 16-like
+gene-LOC119592730	elongation factor Ts, mitochondrial-like
+gene-LOC119592740	mothers against decapentaplegic homolog 3-like
+gene-LOC119592741	protein bric-a-brac 1-like
+gene-LOC119592743	secreted frizzled-related protein 5-like
+gene-LOC119592746	alpha-1-inhibitor 3-like
+gene-LOC119592749	PHD finger protein rhinoceros-like
+gene-LOC119592754	lipid droplet-associated hydrolase-like
+gene-LOC119592759	glutathione S-transferase C-terminal domain-containing protein homolog
+gene-LOC119592764	ethanolamine-phosphate phospho-lyase-like, transcript variant X2
+gene-LOC119592770	uncharacterized LOC119592770
+gene-LOC119592801	kinesin-like protein KIF3A
+gene-LOC119592828	uncharacterized LOC119592828
+gene-LOC119592830	KAT8 regulatory NSL complex subunit 1-like
+gene-LOC119592853	THAP domain-containing protein 6-like
+gene-LOC119592874	zinc finger protein 69 homolog
+gene-LOC119592887	regucalcin-like
+gene-LOC119592899	collagen alpha-1(XV) chain-like
+gene-LOC119592913	dipeptidyl peptidase 1-like
+gene-LOC119592926	2-oxoisovalerate dehydrogenase subunit beta, mitochondrial-like
+gene-LOC119592960	uncharacterized LOC119592960
+gene-LOC119592995	uncharacterized LOC119592995, transcript variant X2
+gene-LOC119593000	PDZ domain-containing protein GIPC1-like
+gene-LOC119593001	uncharacterized LOC119593001
+gene-LOC119593007	ran GTPase-activating protein 1-like
+gene-LOC119593022	cytochrome c oxidase subunit 12, mitochondrial-like
+gene-LOC119593026	X-ray repair cross-complementing protein 6-like
+gene-LOC119593033	tyrosine-protein phosphatase non-receptor type 4-like
+gene-LOC119593042	MATH and LRR domain-containing protein PFE0570w-like
+gene-LOC119593043	ankyrin repeat domain-containing protein 11-like
+gene-LOC119593045	uncharacterized LOC119593045
+gene-LOC119593047	tubulin beta chain-like
+gene-LOC119593055	rho guanine nucleotide exchange factor 5-like
+gene-LOC119593056	uncharacterized LOC119593056
+gene-LOC119593081	2-oxoisovalerate dehydrogenase subunit beta, mitochondrial-like
+gene-LOC119593083	probable G-protein coupled receptor Mth-like 3
+gene-LOC119593088	glycine-rich protein 1-like
+gene-LOC119593099	putative uncharacterized protein DDB_G0271606
+gene-LOC119593104	uncharacterized LOC119593104
+gene-LOC119593112	adenylate cyclase type 9-like
+gene-LOC119593114	glypican-5-like
+gene-LOC119593116	glypican-5-like
+gene-LOC119593121	leukocyte elastase inhibitor-like
+gene-LOC119593123	transcription factor TFIIIB component B''-like
+gene-LOC119593126	cell division control protein 6 homolog
+gene-LOC119593136	transcription elongation factor A N-terminal and central domain-containing protein 2-like
+gene-LOC119593168	serine/threonine-protein kinase SIK3 homolog
+gene-LOC119593170	guanine nucleotide-binding protein-like 1
+gene-LOC119593197	striatin-interacting protein 1 homolog
+gene-LOC119593252	sorting nexin-32-like
+gene-LOC119593266	GTP cyclohydrolase 1-like
+gene-LOC119593288	genetic suppressor element 1-like
+gene-LOC119593290	protein piccolo-like
+gene-LOC119593326	uncharacterized LOC119593326
+gene-LOC119593327	transmembrane protein 135-like
+gene-LOC119593336	eukaryotic translation initiation factor 5B-like
+gene-LOC119593346	serine/threonine-protein phosphatase 4 regulatory subunit 1-like
+gene-LOC119593349	obscurin-like
+gene-LOC119593351	zinc finger protein OZF-like, transcript variant X2
+gene-LOC119593352	TATA box-binding protein-like 1
+gene-LOC119593357	uncharacterized LOC119593357
+gene-LOC119593362	chloride intracellular channel exc-4-like
+gene-LOC119593367	60S acidic ribosomal protein P2-like
+gene-LOC119593371	3-methyl-2-oxobutanoate dehydrogenase [lipoamide] kinase, mitochondrial-like
+gene-LOC119593374	citron Rho-interacting kinase-like
+gene-LOC119593377	serine/threonine-protein kinase rio2-like
+gene-LOC119593383	tudor and KH domain-containing protein homolog
+gene-LOC119593384	uncharacterized LOC119593384
+gene-LOC119593385	serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform-like
+gene-LOC119593391	hippocampus abundant transcript-like protein 1
+gene-LOC119593392	Krueppel-like factor 13
+gene-LOC119593399	uncharacterized LOC119593399
+gene-LOC119593411	uncharacterized LOC119593411
+gene-LOC119593480	protein kibra-like
+gene-LOC119593482	splicing factor 3A subunit 1-like
+gene-LOC119593506	probable cytochrome P450 49a1
+gene-LOC119593508	putative L-aspartate dehydrogenase
+gene-LOC119593514	aminopeptidase N-like
+gene-LOC119593518	heat shock 70 kDa protein 14-like
+gene-LOC119593577	G protein-coupled receptor kinase 2-like
+gene-LOC119593590	ankyrin repeat domain-containing protein 17-like
+gene-LOC119593621	kynureninase-like
+gene-LOC119593641	relaxin receptor 1-like
+gene-LOC119593643	uncharacterized LOC119593643
+gene-LOC119593653	neuralized-like protein 4
+gene-LOC119593655	amidophosphoribosyltransferase-like
+gene-LOC119593665	S-formylglutathione hydrolase-like, transcript variant X2
+gene-LOC119593669	exosome complex exonuclease RRP44-like
+gene-LOC119593671	exosome complex exonuclease RRP44-like
+gene-LOC119593684	uncharacterized LOC119593684
+gene-LOC119593704	rho family-interacting cell polarization regulator 2-like
+gene-LOC119593706	developmentally-regulated GTP-binding protein 2-like
+gene-LOC119593714	kanadaptin-like
+gene-LOC119593722	transcription elongation factor S-II-like
+gene-LOC119593726	glucose-6-phosphatase 2-like
+gene-LOC119593730	protein krueppel-like
+gene-LOC119593736	probable cation-transporting ATPase 13A3
+gene-LOC119593743	evolutionarily conserved signaling intermediate in Toll pathway, mitochondrial-like
+gene-LOC119593759	cuticle protein AMP4-like
+gene-LOC119593770	YTH domain-containing family protein 3-like
+gene-LOC119593773	nuclear transcription factor Y subunit alpha-like
+gene-LOC119593775	protein draper-like, transcript variant X1
+gene-LOC119593776	uncharacterized LOC119593776
+gene-LOC119593785	endochitinase A1-like
+gene-LOC119593787	transcription factor A, mitochondrial-like
+gene-LOC119593823	tryptophan--tRNA ligase, cytoplasmic-like
+gene-LOC119593824	tubulin alpha-1A chain-like
+gene-LOC119593828	alpha-protein kinase 1-like
+gene-LOC119593830	serine protease 44-like
+gene-LOC119593832	serine/arginine repetitive matrix protein 1-like
+gene-LOC119593839	DNA-binding protein D-ETS-4-like
+gene-LOC119593845	hornerin-like
+gene-LOC119593849	uncharacterized LOC119593849
+gene-LOC119593850	palmitoyltransferase ZDHHC18-like
+gene-LOC119593853	cytochrome P450 3A30-like
+gene-LOC119593860	mitochondrial enolase superfamily member 1-like
+gene-LOC119593878	uncharacterized LOC119593878
+gene-LOC119593887	C-factor-like
+gene-LOC119593888	uncharacterized LOC119593888
+gene-LOC119593895	uncharacterized LOC119593895
+gene-LOC119593896	calmodulin-like protein 4
+gene-LOC119593903	NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 2, mitochondrial-like
+gene-LOC119593907	leucine-rich repeat protein 1-like
+gene-LOC119593908	3'-5' ssDNA/RNA exonuclease TatD-like
+gene-LOC119593929	glutathione peroxidase 2-like
+gene-LOC119593936	MAU2 chromatid cohesion factor homolog
+gene-LOC119593941	uncharacterized LOC119593941
+gene-LOC119593942	E3 ubiquitin-protein ligase Rnf220-like
+gene-LOC119593946	eukaryotic translation initiation factor 3 subunit J-like
+gene-LOC119593948	RNA 3'-terminal phosphate cyclase-like protein
+gene-LOC119593960	nucleoporin SEH1-like
+gene-LOC119593961	zinc finger protein 570-like
+gene-LOC119593968	serine/arginine repetitive matrix protein 2-like
+gene-LOC119593986	receptor-type guanylate cyclase Gyc76C-like
+gene-LOC119593988	serine/arginine repetitive matrix protein 2-like
+gene-LOC119593994	protein virilizer homolog
+gene-LOC119593997	CCAAT/enhancer-binding protein zeta-like
+gene-LOC119594008	uncharacterized LOC119594008
+gene-LOC119594010	nuclear RNA export factor 1-like
+gene-LOC119594016	protein abrupt-like
+gene-LOC119594020	general transcription factor IIH subunit 3-like, transcript variant X2
+gene-LOC119594021	extended synaptotagmin-2-like
+gene-LOC119594022	extended synaptotagmin-2-like
+gene-LOC119594024	frizzled-1-like
+gene-LOC119594033	serine/threonine-protein kinase SIK2-like
+gene-LOC119594037	uncharacterized protein DDB_G0283697-like
+gene-LOC119594040	cleavage stimulation factor subunit 2-like
+gene-LOC119594044	nucleoprotein TPR-like
+gene-LOC119594046	uncharacterized LOC119594046
+gene-LOC119594049	elongation of very long chain fatty acids protein-like
+gene-LOC119594051	protein arginine N-methyltransferase 7-like
+gene-LOC119594057	uncharacterized LOC119594057
+gene-LOC119594059	multiple inositol polyphosphate phosphatase 1-like
+gene-LOC119594080	major facilitator superfamily domain-containing protein 6-like
+gene-LOC119594092	uncharacterized LOC119594092
+gene-LOC119594096	phenoloxidase-activating factor 2-like
+gene-LOC119594101	protein CASC3-like
+gene-LOC119594104	putative inorganic phosphate cotransporter
+gene-LOC119594107	sialin-like
+gene-LOC119594108	putative inorganic phosphate cotransporter
+gene-LOC119594110	queuosine salvage protein-like
+gene-LOC119594117	cytosolic endo-beta-N-acetylglucosaminidase-like
+gene-LOC119594120	sacsin-like
+gene-LOC119594127	lysoplasmalogenase-like
+gene-LOC119594129	4-hydroxyphenylpyruvate dioxygenase-like
+gene-LOC119594130	E3 ubiquitin-protein ligase TRIM9-like
+gene-LOC119594131	E3 ubiquitin-protein ligase TRIM9-like
+gene-LOC119594132	uncharacterized LOC119594132
+gene-LOC119594134	C-1-tetrahydrofolate synthase, cytoplasmic-like
+gene-LOC119594136	uncharacterized LOC119594136
+gene-LOC119594164	probable dolichyl pyrophosphate Glc1Man9GlcNAc2 alpha-1,3-glucosyltransferase
+gene-LOC119594170	ubiquitin-like-conjugating enzyme ATG3
+gene-LOC119594180	transcription initiation factor TFIID subunit 11-like
+gene-LOC119594184	peroxisomal sarcosine oxidase-like
+gene-LOC119594190	TELO2-interacting protein 1 homolog
+gene-LOC119594191	uncharacterized LOC119594191
+gene-LOC119594192	uncharacterized LOC119594192
+gene-LOC119594195	delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, mitochondrial-like
+gene-LOC119594197	DNA/RNA-binding protein KIN17-like
+gene-LOC119594204	sex determination protein fruitless-like
+gene-LOC119594207	immunoglobulin-binding protein 1-like
+gene-LOC119594210	nucleolin-like
+gene-LOC119594211	WW domain-binding protein 11-like
+gene-LOC119594213	28S ribosomal protein S7, mitochondrial-like
+gene-LOC119594217	aspartate beta-hydroxylase domain-containing protein 2-like
+gene-LOC119594218	anillin-like
+gene-LOC119594227	anillin-like
+gene-LOC119594239	uncharacterized LOC119594239
+gene-LOC119594246	receptor-type tyrosine-protein phosphatase C-like
+gene-LOC119594247	uncharacterized LOC119594247
+gene-LOC119594255	protein lava lamp-like
+gene-LOC119594258	uncharacterized LOC119594258
+gene-LOC119594259	ubiquitin carboxyl-terminal hydrolase 22-like
+gene-LOC119594261	probable ATP-dependent RNA helicase DDX20
+gene-LOC119594266	DNA repair protein complementing XP-C cells homolog
+gene-LOC119594268	uncharacterized LOC119594268
+gene-LOC119594272	uncharacterized LOC119594272
+gene-LOC119594273	DIS3-like exonuclease 2
+gene-LOC119594274	uncharacterized LOC119594274
+gene-LOC119594276	uncharacterized LOC119594276
+gene-LOC119594286	cathepsin B-like
+gene-LOC119594304	proto-oncogene tyrosine-protein kinase ROS-like
+gene-LOC119594319	peroxisomal carnitine O-octanoyltransferase-like
+gene-LOC119594375	uncharacterized LOC119594375
+gene-LOC119594377	procollagen-lysine,2-oxoglutarate 5-dioxygenase 1-like
+gene-LOC119594388	proteasome activator complex subunit 4-like
+gene-LOC119594396	uncharacterized LOC119594396
+gene-LOC119594418	uncharacterized LOC119594418
+gene-LOC119594420	uncharacterized LOC119594420
+gene-LOC119594422	uncharacterized protein DDB_G0286299-like
+gene-LOC119594426	uncharacterized protein DDB_G0290685-like
+gene-LOC119594436	ralA-binding protein 1-A-like
+gene-LOC119594438	G protein pathway suppressor 2-like
+gene-LOC119594442	failed axon connections homolog
+gene-LOC119594475	39S ribosomal protein L48, mitochondrial-like
+gene-LOC119594487	uncharacterized LOC119594487
+gene-LOC119594490	E3 ubiquitin-protein ligase ZNF598-like
+gene-LOC119594528	nuclear receptor coactivator 6-like
+gene-LOC119594535	tetratricopeptide repeat protein 9C-like
+gene-LOC119594545	presenilins-associated rhomboid-like protein, mitochondrial
+gene-LOC119594547	uncharacterized LOC119594547
+gene-LOC119594567	anoctamin-8-like
+gene-LOC119594577	PR domain zinc finger protein 8-like
+gene-LOC119594580	aquaporin-3-like
+gene-LOC119594590	cytochrome c oxidase assembly protein COX15 homolog
+gene-LOC119594592	ankyrin repeat domain-containing protein 11-like
+gene-LOC119594594	beta-1,4-glucuronyltransferase 1-like
+gene-LOC119594599	retinol dehydrogenase 11-like
+gene-LOC119594600	lipoma-preferred partner-like
+gene-LOC119594605	uncharacterized LOC119594605
+gene-LOC119594606	uncharacterized LOC119594606
+gene-LOC119594608	puromycin-sensitive aminopeptidase-like
+gene-LOC119594621	TAF6-like RNA polymerase II p300/CBP-associated factor-associated factor 65 kDa subunit 6L
+gene-LOC119594624	zinc metalloproteinase nas-4-like
+gene-LOC119594634	meiosis-specific nuclear structural protein 1-like
+gene-LOC119594645	YTH domain-containing protein 1-like
+gene-LOC119594648	uncharacterized LOC119594648
+gene-LOC119594659	syntaxin-12-like
+gene-LOC119594671	cyclin-T2-like
+gene-LOC119594685	RNA cytidine acetyltransferase-like
+gene-LOC119594686	RNA cytidine acetyltransferase-like
+gene-LOC119594689	oligoribonuclease, mitochondrial-like
+gene-LOC119594703	superoxide dismutase [Cu-Zn]-like
+gene-LOC119594718	serine/threonine-protein phosphatase 6 regulatory subunit 3-A-like
+gene-LOC119594719	succinate--CoA ligase [ADP/GDP-forming] subunit alpha, mitochondrial-like
+gene-LOC119594720	RNA-binding protein 39-like
+gene-LOC119594721	mitochondrial proton/calcium exchanger protein-like
+gene-LOC119594723	uncharacterized LOC119594723
+gene-LOC119594724	von Willebrand factor A domain-containing protein 5A-like, transcript variant X1
+gene-LOC119594732	uncharacterized LOC119594732
+gene-LOC119594738	voltage-gated hydrogen channel 1-like
+gene-LOC119594739	pyrimidodiazepine synthase-like
+gene-LOC119594747	fructose-bisphosphate aldolase-like
+gene-LOC119594753	synaptogyrin-like
+gene-LOC119594755	FACT complex subunit Ssrp1-like
+gene-LOC119594760	uncharacterized LOC119594760
+gene-LOC119594767	dehydrogenase/reductase SDR family protein 7-like
+gene-LOC119594798	acetylcholinesterase-like
+gene-LOC119594806	uncharacterized LOC119594806
+gene-LOC119594807	basement membrane-specific heparan sulfate proteoglycan core protein-like
+gene-LOC119594820	uncharacterized LOC119594820
+gene-LOC119594829	store-operated calcium entry regulator STIMATE-like
+gene-LOC119594843	ERI1 exoribonuclease 3-like
+gene-LOC119594861	Golgi-resident adenosine 3',5'-bisphosphate 3'-phosphatase-like
+gene-LOC119594865	ionotropic receptor 93a-like
+gene-LOC119594874	glutamate dehydrogenase, mitochondrial-like
+gene-LOC119594892	FACT complex subunit Ssrp1-like
+gene-LOC119594899	mucin-5AC-like
+gene-LOC119594919	store-operated calcium entry regulator STIMATE-like
+gene-LOC119594921	PDF receptor-like
+gene-LOC119594923	procyclic form-specific polypeptide B1-alpha-like
+gene-LOC119594938	vegetative cell wall protein gp1-like
+gene-LOC119594947	ryncolin-1-like
+gene-LOC119594953	cilia- and flagella-associated protein 251-like, transcript variant X1
+gene-LOC119594963	anoctamin-10-like
+gene-LOC119594989	exocyst complex component 8-like
+gene-LOC119594990	vacuolar protein-sorting-associated protein 36-like
+gene-LOC119595005	uncharacterized LOC119595005
+gene-LOC119595022	glycine receptor subunit alpha-1-like
+gene-LOC119595023	cullin-4B-like
+gene-LOC119595033	ankyrin-2-like
+gene-LOC119595041	malate dehydrogenase, cytoplasmic-like
+gene-LOC119595045	transforming growth factor-beta-induced protein ig-h3-like
+gene-LOC119595068	protein lifeguard 1-like
+gene-LOC119595073	golgin subfamily B member 1-like
+gene-LOC119595081	SR-related and CTD-associated factor 4-like
+gene-LOC119595089	peptidyl-prolyl cis-trans isomerase D-like
+gene-LOC119595100	uncharacterized LOC119595100
+gene-LOC119595102	splicing factor ESS-2 homolog
+gene-LOC119595114	feline leukemia virus subgroup C receptor-related protein 2-like
+gene-LOC119595121	protein adenylyltransferase SelO-like
+gene-LOC119595125	39S ribosomal protein L4, mitochondrial-like
+gene-LOC119595129	uncharacterized LOC119595129
+gene-LOC119595142	protein bowel-like
+gene-LOC119595147	putative U5 small nuclear ribonucleoprotein 200 kDa helicase
+gene-LOC119595153	tetratricopeptide repeat protein 28-like
+gene-LOC119595168	gastrula zinc finger protein XlCGF71.1-like
+gene-LOC119595169	oocyte zinc finger protein XlCOF19-like
+gene-LOC119595171	zinc finger protein OZF-like
+gene-LOC119595172	zinc finger protein 883-like
+gene-LOC119595174	zinc finger protein 570-like
+gene-LOC119595193	TATA-binding protein-associated factor 172-like
+gene-LOC119595196	acyl-CoA-binding domain-containing protein 5-like
+gene-LOC119595207	uncharacterized LOC119595207
+gene-LOC119595212	Down syndrome cell adhesion molecule-like protein Dscam2
+gene-LOC119595215	uncharacterized LOC119595215
+gene-LOC119595216	coiled-coil domain-containing protein 6-like
+gene-LOC119595241	periaxin-like
+gene-LOC119595263	protein fem-1 homolog A-like
+gene-LOC119595272	uncharacterized LOC119595272
+gene-LOC119595287	fibrous sheath CABYR-binding protein-like
+gene-LOC119595305	angiopoietin-2-like
+gene-LOC119595308	zinc finger protein 271-like
+gene-LOC119595388	60S acidic ribosomal protein P1-like
+gene-LOC119595417	microtubule-associated serine/threonine-protein kinase 1-like
+gene-LOC119595434	longitudinals lacking protein, isoforms H/M/V-like
+gene-LOC119595436	uncharacterized LOC119595436
+gene-LOC119595450	acyl-coenzyme A thioesterase 1-like
+gene-LOC119595454	uncharacterized LOC119595454
+gene-LOC119595457	protein RRP5 homolog
+gene-LOC119595459	nucleolar protein 11-like
+gene-LOC119595505	elongation factor 1-alpha-like
+gene-LOC119595523	transcription factor IIIA-like
+gene-LOC119595569	phosphatidylinositol-glycan biosynthesis class X protein-like
+gene-LOC119595576	probable 3-hydroxyacyl-CoA dehydrogenase B0272.3
+gene-LOC119595582	serine/arginine-rich splicing factor 4-like
+gene-LOC119595622	nuclear factor of activated T-cells 5-like
+gene-LOC119595627	cuticle protein 7-like
+gene-LOC119595653	peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine amidase-like
+gene-LOC119595654	tropomodulin-1-like, transcript variant X1
+gene-LOC119595670	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3-like
+gene-LOC119595671	pro-resilin-like
+gene-LOC119595741	uncharacterized LOC119595741
+gene-LOC119595748	histone-lysine N-methyltransferase MECOM-like, transcript variant X4
+gene-LOC119595791	SPARC-like
+gene-LOC119595793	inter-alpha-trypsin inhibitor heavy chain H3-like
+gene-LOC119595802	cuticle protein 7-like
+gene-LOC119595832	UBX domain-containing protein 4-like, transcript variant X2
+gene-LOC119595865	uncharacterized LOC119595865
+gene-LOC119595871	18S rRNA aminocarboxypropyltransferase-like
+gene-LOC119595876	NK-tumor recognition protein-like
+gene-LOC119595886	cytochrome P450 2L1-like, transcript variant X2
+gene-LOC119596029	thioredoxin, mitochondrial-like, transcript variant X3
+gene-LOC119596033	integrator complex subunit 4-like
+gene-LOC119596041	serine/threonine-protein kinase ATR-like
+gene-LOC119596067	uncharacterized LOC119596067
+gene-LOC119596074	uncharacterized LOC119596074, transcript variant X2
+gene-LOC119596078	DNA replication complex GINS protein SLD5-like
+gene-LOC119596091	CREB-binding protein-like
+gene-LOC119596103	mitogen-activated protein kinase 14-like, transcript variant X3
+gene-LOC119596104	uncharacterized LOC119596104
+gene-LOC119596118	bumetanide-sensitive sodium-(potassium)-chloride cotransporter-like
+gene-LOC119596147	calcium-activated potassium channel slowpoke-like
+gene-LOC119596151	uncharacterized LOC119596151
+gene-LOC119596152	CDK5RAP1-like protein
+gene-LOC119596186	WD40 repeat-containing protein SMU1-like
+gene-LOC119596187	WD40 repeat-containing protein SMU1-like
+gene-LOC119596204	uncharacterized LOC119596204
+gene-LOC119596236	uncharacterized LOC119596236
+gene-LOC119596268	Down syndrome cell adhesion molecule-like protein Dscam2
+gene-LOC119596280	protein FAM200A-like
+gene-LOC119596293	uncharacterized LOC119596293
+gene-LOC119596306	bumetanide-sensitive sodium-(potassium)-chloride cotransporter-like
+gene-LOC119596307	bumetanide-sensitive sodium-(potassium)-chloride cotransporter-like
+gene-LOC119596339	telomerase Cajal body protein 1-like
+gene-LOC119596345	uncharacterized LOC119596345, transcript variant X1
+gene-LOC119596348	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119596354	uncharacterized LOC119596354
+gene-LOC119596355	uncharacterized LOC119596355
+gene-LOC119596409	protein YIF1B-B-like, transcript variant X6
+gene-LOC119596413	uncharacterized LOC119596413, transcript variant X1
+gene-LOC119596446	DNA polymerase zeta catalytic subunit-like
+gene-LOC119596456	40S ribosomal protein S6-like
+gene-LOC119596544	protein ABHD13-like
+gene-LOC119596546	myosin regulatory light chain 2-like
+gene-LOC119596547	myosin regulatory light chain 2-like
+gene-LOC119596568	probable peptidyl-tRNA hydrolase 2
+gene-LOC119596570	histone-lysine N-methyltransferase SETD1B-like, transcript variant X1
+gene-LOC119596571	macoilin-like
+gene-LOC119596573	annexin B9-like
+gene-LOC119596574	alsin-like
+gene-LOC119596577	hemocyte protein-glutamine gamma-glutamyltransferase-like, transcript variant X2
+gene-LOC119596628	E3 ubiquitin-protein ligase RNF170-like
+gene-LOC119596634	uncharacterized LOC119596634
+gene-LOC119596689	calpain-D-like
+gene-LOC119596701	uncharacterized LOC119596701
+gene-LOC119596705	elongation factor 1-alpha-like
+gene-LOC119596766	protein FAM200A-like
+gene-LOC119596779	DNA polymerase zeta catalytic subunit-like
+gene-LOC119596784	alkylglycerol monooxygenase-like
+gene-LOC119596811	mitogen-activated protein kinase kinase kinase 11-like
+gene-LOC119596841	centrosomal protein 43-like
+gene-LOC119596852	protein regulator of cytokinesis 1-like
+gene-LOC119596870	deoxynucleoside kinase-like
+gene-LOC119596874	low-density lipoprotein receptor class A domain-containing protein 3-like, transcript variant X1
+gene-LOC119596880	microtubule-associated protein futsch-like
+gene-LOC119596945	V-type proton ATPase 21 kDa proteolipid subunit-like
+gene-LOC119596954	cuticle protein 8-like
+gene-LOC119596974	nuclear cap-binding protein subunit 1-like
+gene-LOC119596980	ubiquitin conjugation factor E4 B-like
+gene-LOC119597005	period circadian protein-like
+gene-LOC119597035	WD repeat-containing protein 13-like
+gene-LOC119597036	uncharacterized LOC119597036
+gene-LOC119597037	coiled-coil domain-containing protein 134-like
+gene-LOC119597041	max-like protein X
+gene-LOC119597043	transcription factor CP2-like protein 1
+gene-LOC119597048	macrophage mannose receptor 1-like
+gene-LOC119597064	translation initiation factor IF-2-like
+gene-LOC119597065	uncharacterized LOC119597065
+gene-LOC119597102	KICSTOR complex protein SZT2-like, transcript variant X1
+gene-LOC119597118	piezo-type mechanosensitive ion channel component-like
+gene-LOC119597124	probable phosphorylase b kinase regulatory subunit alpha, transcript variant X16
+gene-LOC119597128	probable phosphorylase b kinase regulatory subunit alpha
+gene-LOC119597135	uncharacterized LOC119597135
+gene-LOC119597137	(Lyso)-N-acylphosphatidylethanolamine lipase-like
+gene-LOC119597144	protein-associating with the carboxyl-terminal domain of ezrin-like
+gene-LOC119597147	protein hob3-like, transcript variant X1
+gene-LOC119597151	serine/threonine-protein kinase 3-like, transcript variant X6
+gene-LOC119597153	zinc finger protein 184-like, transcript variant X1
+gene-LOC119597154	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119597207	glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase 1-like
+gene-LOC119597219	galectin-9-like
+gene-LOC119597262	glucose-6-phosphate 1-dehydrogenase-like
+gene-LOC119597299	beta-1,4-galactosyltransferase 4-like
+gene-LOC119597300	guanine nucleotide-binding protein subunit alpha-11-like
+gene-LOC119597307	forkhead box protein B1-like
+gene-LOC119597315	polyglutamine-binding protein 1-like
+gene-LOC119597322	nuclear factor related to kappa-B-binding protein-like
+gene-LOC119597331	uncharacterized LOC119597331
+gene-LOC119597350	SH3 domain-binding glutamic acid-rich protein homolog
+gene-LOC119597361	WD repeat-containing protein 55 homolog
+gene-LOC119597368	nuclear exosome regulator NRDE2-like
+gene-LOC119597382	U-scoloptoxin(01)-Cw1a-like
+gene-LOC119597406	methionine-R-sulfoxide reductase B3, mitochondrial-like, transcript variant X2
+gene-LOC119597410	zinc finger protein OZF-like, transcript variant X1
+gene-LOC119597414	sequestosome-1-like
+gene-LOC119597432	succinate--CoA ligase [GDP-forming] subunit beta, mitochondrial-like
+gene-LOC119597444	putative polypeptide N-acetylgalactosaminyltransferase 9
+gene-LOC119597445	nucleolar complex protein 4 homolog A-like
+gene-LOC119597464	carboxypeptidase B-like
+gene-LOC119597470	spermatogenesis-associated protein 20-like
+gene-LOC119597496	homeobox protein unc-4 homolog
+gene-LOC119597509	vacuolar protein sorting-associated protein 13B-like
+gene-LOC119597519	beta-parvin-like
+gene-LOC119597535	uncharacterized LOC119597535
+gene-LOC119597561	acetoacetyl-CoA synthetase-like
+gene-LOC119597565	polyribonucleotide nucleotidyltransferase 1, mitochondrial-like, transcript variant X2
+gene-LOC119597566	pyrroline-5-carboxylate reductase-like
+gene-LOC119597567	pyrroline-5-carboxylate reductase-like
+gene-LOC119597573	ligand-gated ion channel 50-like
+gene-LOC119597576	uncharacterized LOC119597576
+gene-LOC119597577	patatin-like phospholipase domain-containing protein 7
+gene-LOC119597578	uncharacterized LOC119597578
+gene-LOC119597579	DNA-directed primase/polymerase protein-like
+gene-LOC119597583	uncharacterized LOC119597583, transcript variant X2
+gene-LOC119597585	beta-mannosidase-like
+gene-LOC119597598	high affinity copper uptake protein 1-like
+gene-LOC119597603	ubiquitin carboxyl-terminal hydrolase isozyme L3-like
+gene-LOC119597608	uncharacterized LOC119597608
+gene-LOC119597610	uncharacterized LOC119597610
+gene-LOC119597613	uncharacterized LOC119597613
+gene-LOC119597626	serine/arginine repetitive matrix protein 1-like
+gene-LOC119597648	uncharacterized LOC119597648
+gene-LOC119597689	TBC1 domain family member 2B-like
+gene-LOC119597692	28S ribosomal protein S5, mitochondrial-like
+gene-LOC119597720	zinc finger and BTB domain-containing protein 17-like
+gene-LOC119597745	leucine-rich repeat-containing protein 59-like
+gene-LOC119597762	gastrula zinc finger protein XlCGF8.2DB-like, transcript variant X1
+gene-LOC119597765	transmembrane protein 184B-like
+gene-LOC119597774	zinc transporter foi-like
+gene-LOC119597781	WD repeat-containing protein 86-like, transcript variant X1
+gene-LOC119597784	5'-3' exoribonuclease 1-like
+gene-LOC119597797	arp2/3 complex-activating protein rickA-like
+gene-LOC119597800	NFX1-type zinc finger-containing protein 1-like
+gene-LOC119597802	gastrula zinc finger protein XlCGF8.2DB-like, transcript variant X1
+gene-LOC119597808	protein MAK16 homolog
+gene-LOC119597830	zinc finger protein 271-like, transcript variant X2
+gene-LOC119597846	cholinesterase 1-like
+gene-LOC119597853	gastrula zinc finger protein XlCGF49.1-like, transcript variant X1
+gene-LOC119597854	gastrula zinc finger protein XlCGF49.1-like
+gene-LOC119597868	4-hydroxy-2-oxoglutarate aldolase, mitochondrial-like
+gene-LOC119597915	carbohydrate sulfotransferase 14-like
+gene-LOC119597918	gastrula zinc finger protein XlCGF8.2DB-like
+gene-LOC119597933	epidermal retinol dehydrogenase 2-like
+gene-LOC119597949	large neutral amino acids transporter small subunit 2-like
+gene-LOC119597976	uncharacterized LOC119597976
+gene-LOC119597981	zinc finger protein 271-like
+gene-LOC119598005	protein TANC2-like
+gene-LOC119598007	uncharacterized LOC119598007
+gene-LOC119598047	pre-mRNA-splicing factor 18-like
+gene-LOC119598073	protein LTV1 homolog
+gene-LOC119598077	vinculin-like
+gene-LOC119598095	general transcription and DNA repair factor IIH helicase subunit XPD-like
+gene-LOC119598102	monocarboxylate transporter 14-like
+gene-LOC119598109	eukaryotic translation initiation factor 3 subunit D-like
+gene-LOC119598120	alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase-like
+gene-LOC119598121	integrin alpha-7-like
+gene-LOC119598122	tubulin--tyrosine ligase-like protein 12
+gene-LOC119598132	regulator of G-protein signaling 20-like
+gene-LOC119598140	polypeptide N-acetylgalactosaminyltransferase 1-like
+gene-LOC119598203	BTB/POZ domain-containing protein KCTD9-like, transcript variant X1
+gene-LOC119598209	solute carrier family 23 member 2-like
+gene-LOC119598222	cilia- and flagella-associated protein 251-like
+gene-LOC119598225	cleft lip and palate transmembrane protein 1-like protein, transcript variant X1
+gene-LOC119598240	28S ribosomal protein S18b, mitochondrial-like
+gene-LOC119598247	mitochondrial amidoxime-reducing component 1-like, transcript variant X3
+gene-LOC119598261	E3 ubiquitin-protein ligase TRIM71-like
+gene-LOC119598265	zinc finger protein 271-like, transcript variant X1
+gene-LOC119598277	circadian locomoter output cycles protein kaput-like
+gene-LOC119598296	cilia- and flagella-associated protein 251-like
+gene-LOC119598349	protein EFR3 homolog B-like
+gene-LOC119598375	histone H1-beta, late embryonic-like
+gene-LOC119598376	histone H1-beta, late embryonic-like
+gene-LOC119598378	glutamate receptor ionotropic, NMDA 2B-like
+gene-LOC119598420	tripartite motif-containing protein 2-like
+gene-LOC119598452	poly [ADP-ribose] polymerase 1-like
+gene-LOC119598473	serine/threonine-protein phosphatase 1 regulatory subunit 10-like
+gene-LOC119598479	molybdenum cofactor biosynthesis protein 1-like
+gene-LOC119598503	serine/threonine-protein kinase mTOR-like, transcript variant X2
+gene-LOC119598525	maternal embryonic leucine zipper kinase-like
+gene-LOC119598540	alpha/beta hydrolase domain-containing protein 17B-like
+gene-LOC119598546	zinc finger CCCH domain-containing protein 18-like, transcript variant X2
+gene-LOC119598548	poly [ADP-ribose] polymerase 1-like
+gene-LOC119598571	follistatin-related protein 1-like
+gene-LOC119598579	alpha-ketoglutarate-dependent dioxygenase alkB homolog 6-like
+gene-LOC119598587	cysteine-rich motor neuron 1 protein-like
+gene-LOC119598606	uncharacterized LOC119598606
+gene-LOC119598610	EKC/KEOPS complex subunit Tprkb-like, transcript variant X2
+gene-LOC119598705	patatin-like phospholipase domain-containing protein 2
+gene-LOC119598713	14-3-3 protein epsilon-like, transcript variant X2
+gene-LOC119598736	cell division cycle protein 27 homolog
+gene-LOC119598747	serine/threonine-protein phosphatase alpha-2 isoform-like
+gene-LOC119598748	serine/threonine-protein phosphatase alpha-2 isoform
+gene-LOC119598827	protein zyg-11 homolog B-like
+gene-LOC119598874	venom carboxylesterase-6-like, transcript variant X2
+gene-LOC119598879	tRNA N(3)-methylcytidine methyltransferase METTL2-like
+gene-LOC119598889	translation initiation factor IF-2-like
+gene-LOC119598908	uncharacterized LOC119598908
+gene-LOC119598928	zinc finger protein 91-like
+gene-LOC119598937	golgin subfamily A member 6-like protein 22
+gene-LOC119598939	lymphokine-activated killer T-cell-originated protein kinase-like
+gene-LOC119598967	SCY1-like protein 2
+gene-LOC119598968	NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial-like
+gene-LOC119598970	ankyrin repeat domain-containing protein 54-like
+gene-LOC119598979	low-density lipoprotein receptor-related protein-like
+gene-LOC119598986	histidine-rich glycoprotein-like
+gene-LOC119598987	uncharacterized histidine-rich protein DDB_G0274557-like
+gene-LOC119599015	solute carrier family 2, facilitated glucose transporter member 1-like
+gene-LOC119599022	rRNA 2'-O-methyltransferase fibrillarin-like
+gene-LOC119599042	vitellogenin-like
+gene-LOC119599062	nuclear export mediator factor NEMF-like
+gene-LOC119599097	uncharacterized LOC119599097
+gene-LOC119599098	cholinesterase-like
+gene-LOC119599099	DNA endonuclease RBBP8-like
+gene-LOC119599112	WD repeat and FYVE domain-containing protein 3-like
+gene-LOC119599116	gem-associated protein 7-like
+gene-LOC119599121	46 kDa FK506-binding nuclear protein-like
+gene-LOC119599165	uridine-cytidine kinase 2-A-like
+gene-LOC119599182	probable phosphoserine aminotransferase
+gene-LOC119599210	uncharacterized LOC119599210
+gene-LOC119599218	peroxiredoxin-4-like
+gene-LOC119599250	vascular endothelial growth factor receptor kdr-like
+gene-LOC119599266	uncharacterized LOC119599266
+gene-LOC119599284	DNA topoisomerase I, mitochondrial-like
+gene-LOC119599351	glycosaminoglycan xylosylkinase-like
+gene-LOC119599352	tumor protein 63-like
+gene-LOC119599353	cellular tumor antigen p53-like
+gene-LOC119599357	ubiquitin-associated domain-containing protein 1-like
+gene-LOC119599369	adenosine deaminase-like protein
+gene-LOC119599373	vascular endothelial growth factor receptor 3-like
+gene-LOC119599376	importin-13-like
+gene-LOC119599387	46 kDa FK506-binding nuclear protein-like
+gene-LOC119599431	C-type lectin domain family 4 member D-like
+gene-LOC119599446	condensin complex subunit 1-like
+gene-LOC119599447	uncharacterized LOC119599447
+gene-LOC119599450	vesicle-fusing ATPase 1-like
+gene-LOC119599452	calpain-11-like
+gene-LOC119599467	sex determination protein fruitless-like
+gene-LOC119599512	histone H1-delta-like
+gene-LOC119599517	maternal embryonic leucine zipper kinase-like
+gene-ND3	NADH dehydrogenase subunit 3

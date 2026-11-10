@@ -1,0 +1,339 @@
+{
+  "coding_genes": 24011,
+  "recovery": {
+    "transcript_exonic": 13411,
+    "orf_exonic": 12747,
+    "sequence": 11470,
+    "conditional_pct": 85.5
+  },
+  "housekeeping": {
+    "rows": {
+      "ATP synthase": {
+        "n": 24,
+        "expressed": 22,
+        "sequence": 20,
+        "sequence_expressed": 20,
+        "transcribed": 21,
+        "orf": 20
+      },
+      "RNA polymerase": {
+        "n": 92,
+        "expressed": 76,
+        "sequence": 68,
+        "sequence_expressed": 66,
+        "transcribed": 79,
+        "orf": 75
+      },
+      "actin": {
+        "n": 109,
+        "expressed": 30,
+        "sequence": 37,
+        "sequence_expressed": 30,
+        "transcribed": 40,
+        "orf": 38
+      },
+      "chaperone": {
+        "n": 16,
+        "expressed": 11,
+        "sequence": 12,
+        "sequence_expressed": 11,
+        "transcribed": 12,
+        "orf": 12
+      },
+      "cytochrome c oxidase": {
+        "n": 28,
+        "expressed": 26,
+        "sequence": 19,
+        "sequence_expressed": 19,
+        "transcribed": 26,
+        "orf": 21
+      },
+      "glycolytic": {
+        "n": 9,
+        "expressed": 6,
+        "sequence": 6,
+        "sequence_expressed": 6,
+        "transcribed": 7,
+        "orf": 7
+      },
+      "histone": {
+        "n": 160,
+        "expressed": 73,
+        "sequence": 75,
+        "sequence_expressed": 68,
+        "transcribed": 84,
+        "orf": 83
+      },
+      "proteasome": {
+        "n": 38,
+        "expressed": 37,
+        "sequence": 34,
+        "sequence_expressed": 34,
+        "transcribed": 38,
+        "orf": 38
+      },
+      "ribosomal protein": {
+        "n": 160,
+        "expressed": 158,
+        "sequence": 154,
+        "sequence_expressed": 154,
+        "transcribed": 158,
+        "orf": 156
+      },
+      "spliceosome": {
+        "n": 99,
+        "expressed": 79,
+        "sequence": 65,
+        "sequence_expressed": 63,
+        "transcribed": 80,
+        "orf": 78
+      },
+      "translation factor": {
+        "n": 163,
+        "expressed": 101,
+        "sequence": 90,
+        "sequence_expressed": 85,
+        "transcribed": 110,
+        "orf": 107
+      },
+      "tubulin": {
+        "n": 44,
+        "expressed": 35,
+        "sequence": 31,
+        "sequence_expressed": 30,
+        "transcribed": 37,
+        "orf": 34
+      },
+      "ubiquitin": {
+        "n": 225,
+        "expressed": 190,
+        "sequence": 185,
+        "sequence_expressed": 179,
+        "transcribed": 202,
+        "orf": 200
+      }
+    },
+    "n": 1167,
+    "sequence": 796,
+    "pct": 68.2,
+    "expressed": 844,
+    "sequence_expressed": 765,
+    "pct_expressed_of_family": 72.3,
+    "pct_recovery_of_expressed": 90.6
+  },
+  "not_in_hemocytes": {
+    "rows": {
+      "chemoreceptor": {
+        "n": 4,
+        "expressed": 3,
+        "sequence": 3,
+        "sequence_expressed": 3,
+        "transcribed": 3,
+        "orf": 3
+      },
+      "cuticle": {
+        "n": 632,
+        "expressed": 28,
+        "sequence": 81,
+        "sequence_expressed": 28,
+        "transcribed": 89,
+        "orf": 83
+      },
+      "muscle myosin": {
+        "n": 26,
+        "expressed": 2,
+        "sequence": 4,
+        "sequence_expressed": 2,
+        "transcribed": 6,
+        "orf": 6
+      },
+      "opsin / visual": {
+        "n": 87,
+        "expressed": 2,
+        "sequence": 8,
+        "sequence_expressed": 1,
+        "transcribed": 12,
+        "orf": 9
+      },
+      "sperm / testis": {
+        "n": 24,
+        "expressed": 12,
+        "sequence": 15,
+        "sequence_expressed": 12,
+        "transcribed": 15,
+        "orf": 15
+      },
+      "vitellogenin / egg": {
+        "n": 34,
+        "expressed": 9,
+        "sequence": 13,
+        "sequence_expressed": 7,
+        "transcribed": 17,
+        "orf": 15
+      }
+    },
+    "n": 807,
+    "sequence": 124,
+    "pct": 15.4,
+    "expressed": 56,
+    "sequence_expressed": 53,
+    "pct_expressed_of_family": 6.9,
+    "pct_recovery_of_expressed": 94.6
+  },
+  "immune": {
+    "rows": {
+      "C-type lectin": {
+        "n": 31,
+        "expressed": 4,
+        "sequence": 9,
+        "sequence_expressed": 4,
+        "transcribed": 9,
+        "orf": 9
+      },
+      "Dscam": {
+        "n": 32,
+        "expressed": 1,
+        "sequence": 5,
+        "sequence_expressed": 1,
+        "transcribed": 9,
+        "orf": 5
+      },
+      "JAK / STAT": {
+        "n": 2,
+        "expressed": 2,
+        "sequence": 1,
+        "sequence_expressed": 1,
+        "transcribed": 2,
+        "orf": 2
+      },
+      "NF-kB / Relish / IKK": {
+        "n": 7,
+        "expressed": 5,
+        "sequence": 5,
+        "sequence_expressed": 5,
+        "transcribed": 5,
+        "orf": 5
+      },
+      "Toll / TLR": {
+        "n": 10,
+        "expressed": 5,
+        "sequence": 4,
+        "sequence_expressed": 4,
+        "transcribed": 4,
+        "orf": 4
+      },
+      "anti-LPS factor": {
+        "n": 13,
+        "expressed": 10,
+        "sequence": 11,
+        "sequence_expressed": 10,
+        "transcribed": 11,
+        "orf": 11
+      },
+      "caspase": {
+        "n": 22,
+        "expressed": 14,
+        "sequence": 14,
+        "sequence_expressed": 13,
+        "transcribed": 15,
+        "orf": 15
+      },
+      "clip-domain protease": {
+        "n": 9,
+        "expressed": 8,
+        "sequence": 8,
+        "sequence_expressed": 8,
+        "transcribed": 8,
+        "orf": 8
+      },
+      "hemocyanin": {
+        "n": 22,
+        "expressed": 1,
+        "sequence": 1,
+        "sequence_expressed": 1,
+        "transcribed": 2,
+        "orf": 1
+      },
+      "lysozyme": {
+        "n": 9,
+        "expressed": 3,
+        "sequence": 3,
+        "sequence_expressed": 3,
+        "transcribed": 3,
+        "orf": 3
+      },
+      "penaeidin": {
+        "n": 3,
+        "expressed": 3,
+        "sequence": 3,
+        "sequence_expressed": 3,
+        "transcribed": 3,
+        "orf": 3
+      },
+      "prophenoloxidase": {
+        "n": 22,
+        "expressed": 11,
+        "sequence": 13,
+        "sequence_expressed": 10,
+        "transcribed": 15,
+        "orf": 15
+      },
+      "serpin": {
+        "n": 4,
+        "expressed": 2,
+        "sequence": 2,
+        "sequence_expressed": 2,
+        "transcribed": 2,
+        "orf": 2
+      }
+    },
+    "n": 186,
+    "sequence": 79,
+    "pct": 42.5,
+    "expressed": 69,
+    "sequence_expressed": 65,
+    "pct_expressed_of_family": 37.1,
+    "pct_recovery_of_expressed": 94.2
+  },
+  "sequence_failure_modes": {
+    "no_hit": 114,
+    "fragmented_low_qcov": 1121,
+    "divergent_low_identity": 36,
+    "both": 6
+  },
+  "never_transcribed": {
+    "n": 10600,
+    "uncharacterized": 3912,
+    "uncharacterized_all_coding": 7071,
+    "top_words": {
+      "variant": 776,
+      "transcript": 775,
+      "cuticle": 529,
+      "rich": 500,
+      "receptor": 371,
+      "cell": 259,
+      "zinc": 236,
+      "finger": 224,
+      "alpha": 220,
+      "wall": 216,
+      "resilin": 210,
+      "glycine": 196,
+      "serine": 195,
+      "proline": 180,
+      "extensin": 177,
+      "transporter": 171,
+      "kinase": 158,
+      "repeat": 138,
+      "mucin": 137,
+      "beta": 132,
+      "structural": 128,
+      "binding": 121,
+      "dependent": 120,
+      "member": 116
+    }
+  },
+  "verdict_housekeeping_pct": 68.2,
+  "housekeeping_recovery_of_expressed": 90.6,
+  "control_separation_points": 65.4,
+  "expressed_denominator_used": true
+}

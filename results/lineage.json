@@ -1,0 +1,108 @@
+{
+  "evalue": 0.001,
+  "seed": 20261106,
+  "restricted_max_rank": 3,
+  "panel": {
+    "r1": "Decapoda",
+    "r2": "Crustacea",
+    "r3": "Arthropoda",
+    "r4": "Ecdysozoa",
+    "r5": "Protostomia",
+    "r6": "Bilateria",
+    "r7": "Metazoa",
+    "r8": "Eukaryota",
+    "r9": "Cellular organisms"
+  },
+  "targets": {
+    "n": 328,
+    "restricted": 167,
+    "fraction": 0.5091463414634146,
+    "ci": [
+      0.45525301314147887,
+      0.5628279102616041
+    ],
+    "distribution": {
+      "0": 59,
+      "1": 86,
+      "2": 6,
+      "3": 16,
+      "4": 4,
+      "5": 21,
+      "6": 31,
+      "7": 78,
+      "8": 22,
+      "9": 5
+    }
+  },
+  "control": {
+    "n": 1567,
+    "restricted": 715,
+    "fraction": 0.4562858966177409,
+    "ci": [
+      0.4317613569959965,
+      0.48102424003200206
+    ],
+    "distribution": {
+      "0": 193,
+      "1": 401,
+      "2": 26,
+      "3": 95,
+      "4": 19,
+      "5": 72,
+      "6": 102,
+      "7": 407,
+      "8": 222,
+      "9": 30
+    }
+  },
+  "background": {
+    "n": 656,
+    "restricted": 226,
+    "fraction": 0.3445121951219512,
+    "ci": [
+      0.30914735850503006,
+      0.38168746665757136
+    ],
+    "distribution": {
+      "0": 89,
+      "1": 77,
+      "2": 7,
+      "3": 53,
+      "4": 3,
+      "5": 14,
+      "6": 26,
+      "7": 162,
+      "8": 179,
+      "9": 46
+    }
+  },
+  "vs_background": {
+    "odds_ratio": 1.9712750907264265,
+    "fisher_p": 8.863414210569934e-07,
+    "interpretation": "whole proteome \u2014 conflates restriction with the selection criterion"
+  },
+  "vs_control": {
+    "odds_ratio": 1.2357397996161943,
+    "fisher_p": 0.08828982979920222,
+    "interpretation": "uncharacterised but not STAT-dependent \u2014 selection criterion held constant"
+  },
+  "structural_check": {
+    "status": "reported",
+    "max_struct_rank": 4,
+    "n_targets": 328,
+    "with_deep_structural_hit": 214,
+    "seq_restricted": 167,
+    "seq_restricted_with_deep_structure": 73,
+    "overcall_fraction": 0.437125748502994,
+    "overcall_ci": [
+      0.364145359910648,
+      0.5129336574571958
+    ],
+    "seq_unrestricted": 161,
+    "seq_unrestricted_with_deep_structure": 141,
+    "restricted_fraction_sequence_only": 0.5091463414634146,
+    "restricted_fraction_after_structure": 0.2865853658536585,
+    "note": "An over-call is a protein with no detectable sequence homolog outside Arthropoda but a structural relative there. The adjusted fraction is a lower bound on true restriction: structure search has its own detection limit, so proteins counted as restricted after it may still have undetected relatives."
+  },
+  "caveat": "Strata are inferred from detectable sequence homology. Absence of detection is not absence of homolog, and this study shows sequence search failing on exactly these proteins. Confirm with the structural arm before claiming lineage restriction. The structural arm quantifies this: 73 of the 167 targets called restricted have a structural relative beyond Arthropoda (43.7%), so the sequence-only figure of 50.9% falls to at most 28.7%."
+}

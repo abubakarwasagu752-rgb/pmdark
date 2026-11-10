@@ -1,0 +1,29 @@
+{
+  "pep": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/transdecoder/merged_filtered.cDNA.fasta.transdecoder.pep",
+  "genome_gff3": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/proteins/transdecoder/merged_filtered.cDNA.fasta.transdecoder.genome.gff3",
+  "n_proteins": 25255,
+  "categories": {
+    "novel": 2108,
+    "known_pc": 22362,
+    "unplaced": 345,
+    "known_nc": 211,
+    "antisense": 229
+  },
+  "band_70_99": {
+    "known_pc": 1249,
+    "novel": 593,
+    "unplaced": 129,
+    "known_nc": 109,
+    "antisense": 69
+  },
+  "reference": {
+    "n_genes": 28261,
+    "n_protein_coding": 24011
+  },
+  "recovery": {
+    "genes_hit": 13137,
+    "pct_of_protein_coding": 54.71
+  },
+  "busco": null,
+  "busco_lineage": "arthropoda_odb10"
+}

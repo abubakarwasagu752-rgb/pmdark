@@ -1,0 +1,384 @@
+gene	max_tpm	class	n_exons	product
+gene-LOC119590397	4079.49	TRANSCRIPT_NO_ORF	3	60S ribosomal protein L38-like
+gene-COX2	3380.74	MITO_GENETIC_CODE	1	cytochrome c oxidase subunit II
+gene-COX3	2034.55	MITO_GENETIC_CODE	1	cytochrome c oxidase subunit III
+gene-LOC119590024	1955.61	LOW_IDENTITY	2	prostatic spermine-binding protein-like
+gene-COX1	1161.03	MITO_GENETIC_CODE	1	cytochrome c oxidase subunit I
+gene-LOC119594415	1016.31	SEQ_MATCH_ELSEWHERE	6	glutathione peroxidase 2-like, transcript variant X2
+gene-LOC119591027	925.64	SEQ_MATCH_ELSEWHERE	2	uncharacterized LOC119591027
+gene-LOC119575372	772.18	SEQ_MATCH_ELSEWHERE	2	protein KRI1 homolog
+gene-ATP6	766.28	MITO_GENETIC_CODE	1	ATP synthase F0 subunit 6
+gene-LOC119580164	758.64	TRANSCRIPT_NO_ORF	4	selenoprotein W-like, transcript variant X1
+gene-LOC119584191	722.85	TRANSCRIPT_NO_ORF	2	cysteine-rich motor neuron 1 protein-like
+gene-ND4	675.13	MITO_GENETIC_CODE	1	NADH dehydrogenase subunit 4
+gene-LOC119572990	632.36	TRANSCRIPT_NO_ORF	3	modifier of protein aggregation 4-like
+gene-LOC119583675	609.20	TRANSCRIPT_NO_ORF	1	eukaryotic translation initiation factor 1-like
+gene-LOC119569255	532.15	SEQ_MATCH_ELSEWHERE	4	selenoprotein M-like
+gene-CYTB	505.98	MITO_GENETIC_CODE	1	cytochrome b
+gene-ND1	441.38	MITO_GENETIC_CODE	1	NADH dehydrogenase subunit 1
+gene-LOC119583108	421.89	SEQ_MATCH_ELSEWHERE	1	U6 snRNA-associated Sm-like protein LSm6
+gene-ND5	403.05	MITO_GENETIC_CODE	1	NADH dehydrogenase subunit 5
+gene-LOC119577720	321.69	TRANSCRIPT_NO_ORF	3	U6 snRNA-associated Sm-like protein LSm2
+gene-LOC119571531	319.78	TRANSCRIPT_NO_ORF	1	trafficking protein particle complex subunit 3-like
+gene-LOC119582603	296.23	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119582603
+gene-LOC119593113	268.11	TRANSCRIPT_NO_ORF	2	protein BUD31 homolog
+gene-LOC119598251	241.99	TRANSCRIPT_NO_ORF	1	U1 small nuclear ribonucleoprotein C-like
+gene-LOC119598930	236.56	LOW_IDENTITY	6	esterase OVCA2-like
+gene-LOC119569179	231.95	SEQ_MATCH_ELSEWHERE	1	U6 snRNA-associated Sm-like protein LSm6
+gene-LOC119570358	221.93	TRANSCRIPT_NO_ORF	2	MICOS complex subunit MIC10-like
+gene-LOC119581815	203.07	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119581815
+gene-LOC119589879	200.67	TRANSCRIPT_NO_ORF	2	cyclin-dependent kinases regulatory subunit-like
+gene-LOC119575294	189.45	SEQ_MATCH_ELSEWHERE	2	tRNA selenocysteine 1-associated protein 1-like
+gene-LOC119577089	187.09	LOW_IDENTITY	11	obg-like ATPase 1
+gene-LOC119569180	183.56	SEQ_MATCH_ELSEWHERE	1	U6 snRNA-associated Sm-like protein LSm6
+gene-LOC119569675	179.07	SEQ_MATCH_ELSEWHERE	4	cAMP-responsive element-binding protein-like 2
+gene-LOC119598639	168.86	TRANSCRIPT_NO_ORF	3	protein CutA homolog
+gene-LOC119570526	165.20	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119570526
+gene-LOC119578964	160.50	LOW_IDENTITY	3	small integral membrane protein 4-like
+gene-LOC119591297	159.38	TRANSCRIPT_NO_ORF	2	28S ribosomal protein S36, mitochondrial-like
+gene-LOC119593953	158.29	LOW_IDENTITY	8	uncharacterized LOC119593953
+gene-LOC119569361	154.67	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119569361
+gene-LOC119591977	146.64	LOW_IDENTITY	3	NEDD8-conjugating enzyme Ubc12-like
+gene-LOC119585874	143.71	TRANSCRIPT_NO_ORF	2	centromere protein X-like
+gene-ND2	140.10	MITO_GENETIC_CODE	1	NADH dehydrogenase subunit 2
+gene-LOC119575167	137.48	SEQ_MATCH_ELSEWHERE	2	MAPK regulated corepressor interacting protein 2-like
+gene-LOC119592871	136.97	LOW_IDENTITY	11	cAMP-dependent protein kinase catalytic subunit 1
+gene-LOC119577164	134.21	LOW_IDENTITY	5	uncharacterized LOC119577164, transcript variant X2
+gene-LOC119597827	128.70	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119597827
+gene-LOC119581898	122.77	TRANSCRIPT_NO_ORF	1	uncharacterized protein DDB_G0287625-like
+gene-LOC119577148	119.89	SEQ_MATCH_ELSEWHERE	3	signal peptidase complex subunit 1-like
+gene-LOC119577960	118.54	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119577960
+gene-LOC119586348	117.90	LOW_IDENTITY	3	pre-mRNA 3'-end-processing factor FIP1-like
+gene-LOC119592558	115.34	LOW_IDENTITY	6	uncharacterized LOC119592558
+gene-LOC119594220	114.65	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119594220
+gene-LOC119572816	103.56	SEQ_MATCH_ELSEWHERE	3	uncharacterized LOC119572816
+gene-LOC119587801	98.31	NO_TRANSCRIPT	1	uncharacterized LOC119587801
+gene-LOC119581730	94.82	SEQ_MATCH_ELSEWHERE	2	polyadenylate-binding protein-interacting protein 1-like
+gene-LOC119588601	91.80	SEQ_MATCH_ELSEWHERE	5	U6 snRNA-associated Sm-like protein LSm8
+gene-LOC119595655	89.89	SEQ_MATCH_ELSEWHERE	1	tropomodulin-1-like
+gene-LOC119593774	89.47	SEQ_MATCH_ELSEWHERE	3	nuclear transcription factor Y subunit alpha-like
+gene-LOC119597786	87.75	TRANSCRIPT_NO_ORF	2	adenosine deaminase-like
+gene-LOC119586715	83.23	TRANSCRIPT_NO_ORF	1	venom protein 302-like
+gene-LOC119594068	76.20	TRANSCRIPT_NO_ORF	1	dynactin subunit 5-like
+gene-LOC119578664	76.00	LOW_IDENTITY	11	integrin alpha pat-2-like
+gene-LOC119589063	73.28	SEQ_MATCH_ELSEWHERE	1	mitochondrial carnitine/acylcarnitine carrier protein-like
+gene-LOC119586410	72.49	TRANSCRIPT_NO_ORF	2	mediator of RNA polymerase II transcription subunit 8-like
+gene-LOC119590653	69.25	LOW_IDENTITY	15	inner centromere protein A-like
+gene-LOC119569712	68.72	TRANSCRIPT_NO_ORF	1	succinate dehydrogenase cytochrome b560 subunit, mitochondrial-like
+gene-ATP8	68.10	MITO_GENETIC_CODE	1	ATP synthase F0 subunit 8
+gene-LOC119594991	64.51	TRANSCRIPT_NO_ORF	4	BLOC-1-related complex subunit 7-like
+gene-LOC119578825	61.10	TRANSCRIPT_NO_ORF	2	protein KTI12 homolog
+gene-LOC119597351	55.70	TRANSCRIPT_NO_ORF	5	probable U3 small nucleolar RNA-associated protein 11
+gene-LOC119583624	54.80	SEQ_MATCH_ELSEWHERE	1	ceramide-1-phosphate transfer protein-like
+gene-LOC119595806	53.98	TRANSCRIPT_NO_ORF	2	L-seryl-tRNA(Sec) kinase-like
+gene-LOC119581711	53.92	LOW_IDENTITY	1	mesoderm induction early response protein 1-like
+gene-LOC119584550	53.40	LOW_IDENTITY	7	protein pelota-like
+gene-LOC119594745	53.23	LOW_IDENTITY	9	double-strand-break repair protein rad21 homolog
+gene-LOC119596851	52.46	SEQ_MATCH_ELSEWHERE	5	protein mono-ADP-ribosyltransferase PARP12-like
+gene-LOC119586836	52.44	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119586836
+gene-LOC119570831	51.08	LOW_IDENTITY	2	basic salivary proline-rich protein 4-like
+gene-LOC119574953	50.92	LOW_IDENTITY	10	nucleoporin p54-like
+gene-LOC119599460	49.73	TRANSCRIPT_NO_ORF	4	proteasomal ubiquitin receptor ADRM1-like
+gene-LOC119586796	49.16	SEQ_MATCH_ELSEWHERE	1	protein C19orf12 homolog
+gene-LOC119585478	48.76	SEQ_MATCH_ELSEWHERE	3	serine/threonine-protein phosphatase 4 regulatory subunit 1-like
+gene-LOC119594548	47.82	TRANSCRIPT_NO_ORF	6	transcription initiation factor TFIID subunit 10-like
+gene-LOC119586817	47.77	LOW_IDENTITY	5	NADH dehydrogenase (ubiquinone) complex I, assembly factor 6-like
+gene-LOC119586264	46.30	TRANSCRIPT_NO_ORF	7	ABC transporter F family member 4-like
+gene-LOC119582012	45.82	ORF_WRONG_STRAND	10	WD repeat-containing protein 5
+gene-LOC119584613	45.74	LOW_IDENTITY	4	metallothionein-like
+gene-LOC119591210	45.31	LOW_IDENTITY	12	striatin-3-like
+gene-LOC119580496	45.03	TRANSCRIPT_NO_ORF	2	RING finger protein 227-like
+gene-LOC119578513	44.92	SEQ_MATCH_ELSEWHERE	4	uncharacterized LOC119578513
+gene-LOC119582040	44.30	TRANSCRIPT_NO_ORF	3	microsomal glutathione S-transferase 1-like
+gene-LOC119596335	43.49	SEQ_MATCH_ELSEWHERE	1	cytochrome c oxidase assembly factor 7 homolog
+gene-LOC119595135	42.70	SEQ_MATCH_ELSEWHERE	1	ER membrane protein complex subunit 1-like
+gene-LOC119577484	41.21	SEQ_MATCH_ELSEWHERE	2	mitochondrial import inner membrane translocase subunit Tim16-like
+gene-LOC119597157	38.37	SEQ_MATCH_ELSEWHERE	1	transmembrane protein 41B-like
+gene-LOC119572024	38.36	SEQ_MATCH_ELSEWHERE	1	leptin receptor gene-related protein-like
+gene-LOC119591355	38.26	SEQ_MATCH_ELSEWHERE	1	heterochromatin protein 1-like
+gene-LOC119592729	37.62	LOW_IDENTITY	1	GDNF-inducible zinc finger protein 1-like
+gene-LOC119598956	37.50	NO_TRANSCRIPT	1	vacuolar protein sorting-associated protein 18 homolog
+gene-LOC119583669	36.04	SEQ_MATCH_ELSEWHERE	2	disks large homolog 4-like
+gene-LOC119571830	35.91	SEQ_MATCH_ELSEWHERE	1	cilia- and flagella-associated protein 20
+gene-LOC119592182	35.79	SEQ_MATCH_ELSEWHERE	4	D-aminoacyl-tRNA deacylase-like
+gene-LOC119571831	35.73	SEQ_MATCH_ELSEWHERE	1	cilia- and flagella-associated protein 20
+gene-LOC119588709	34.04	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119588709
+gene-LOC119587868	33.04	LOW_IDENTITY	11	protein DEK-like
+gene-ND4L	32.60	MITO_GENETIC_CODE	1	NADH dehydrogenase subunit 4L
+gene-LOC119587604	32.47	SEQ_MATCH_ELSEWHERE	1	protein argonaute-4-like
+gene-LOC119589987	31.98	LOW_IDENTITY	4	nucleotide exchange factor SIL1-like
+gene-LOC119571305	31.24	SEQ_MATCH_ELSEWHERE	5	G patch domain-containing protein 4-like
+gene-LOC119569930	30.56	SEQ_MATCH_ELSEWHERE	8	FYVE and coiled-coil domain-containing protein 1-like
+gene-LOC119595118	30.31	SEQ_MATCH_ELSEWHERE	7	uncharacterized LOC119595118, transcript variant X1
+gene-LOC119579459	30.00	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119579459
+gene-LOC119572975	29.73	LOW_IDENTITY	8	exocyst complex component 5-like
+gene-LOC119585008	28.98	TRANSCRIPT_NO_ORF	1	corrinoid adenosyltransferase-like
+gene-LOC119586399	28.57	SEQ_MATCH_ELSEWHERE	3	uncharacterized LOC119586399
+gene-LOC119579521	28.55	SEQ_MATCH_ELSEWHERE	2	phosphotriesterase-related protein-like
+gene-LOC119590859	27.95	LOW_IDENTITY	17	uncharacterized LOC119590859
+gene-LOC119581856	26.82	NO_TRANSCRIPT	1	nicastrin-like
+gene-LOC119597324	26.21	TRANSCRIPT_NO_ORF	6	persulfide dioxygenase ETHE1, mitochondrial-like
+gene-LOC119572549	26.12	TRANSCRIPT_NO_ORF	4	protein FAM133-like
+gene-LOC119582708	25.84	LOW_IDENTITY	10	glycerol-3-phosphate acyltransferase 1, mitochondrial-like
+gene-LOC119591799	25.76	SEQ_MATCH_ELSEWHERE	1	protein krueppel-like
+gene-LOC119589664	25.55	LOW_IDENTITY	17	uncharacterized LOC119589664
+gene-LOC119570141	25.49	LOW_IDENTITY	3	SR-related and CTD-associated factor 4-like
+gene-LOC119599426	25.28	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119599426
+gene-LOC119579015	24.55	LOW_IDENTITY	4	uncharacterized LOC119579015
+gene-LOC119587603	23.93	ORF_WRONG_STRAND	1	protein argonaute-4-like
+gene-LOC119587714	23.78	SEQ_MATCH_ELSEWHERE	13	leucine--tRNA ligase, cytoplasmic-like
+gene-LOC119578942	23.23	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119578942
+gene-LOC119573212	23.16	SEQ_MATCH_ELSEWHERE	2	dnaJ homolog subfamily C member 22-like
+gene-LOC119576697	23.13	TRANSCRIPT_NO_ORF	3	uncharacterized LOC119576697
+gene-LOC119590357	23.03	SEQ_MATCH_ELSEWHERE	2	CD2-associated protein-like
+gene-LOC119580394	23.01	LOW_IDENTITY	7	probable ATP-dependent RNA helicase DDX23
+gene-LOC119584430	21.89	TRANSCRIPT_NO_ORF	1	trafficking protein particle complex subunit 10-like
+gene-LOC119591082	21.57	SEQ_MATCH_ELSEWHERE	4	uncharacterized LOC119591082
+gene-LOC119583446	21.55	LOW_IDENTITY	6	dual specificity protein kinase TTK-like
+gene-LOC119597741	21.17	TRANSCRIPT_NO_ORF	7	uncharacterized LOC119597741
+gene-LOC119571304	20.49	LOW_IDENTITY	5	G patch domain-containing protein 4-like
+gene-LOC119596093	20.43	TRANSCRIPT_NO_ORF	3	uncharacterized LOC119596093
+gene-LOC119578518	20.31	TRANSCRIPT_NO_ORF	5	mediator of RNA polymerase II transcription subunit 24-like
+gene-LOC119586965	20.03	SEQ_MATCH_ELSEWHERE	2	ATP-dependent RNA helicase DHX33-like
+gene-LOC119569114	19.78	SEQ_MATCH_ELSEWHERE	2	ADP-ribosylation factor-like protein 5B
+gene-LOC119568397	19.67	SEQ_MATCH_ELSEWHERE	2	activating signal cointegrator 1 complex subunit 2 homolog
+gene-LOC119580464	19.60	SEQ_MATCH_ELSEWHERE	2	protein O-mannose kinase-like
+gene-LOC119599049	19.59	TRANSCRIPT_NO_ORF	3	splicing regulatory glutamine/lysine-rich protein 1-like
+gene-LOC119590562	19.42	SEQ_MATCH_ELSEWHERE	1	phosphatidylserine synthase 1-like
+gene-LOC119575193	19.18	TRANSCRIPT_NO_ORF	4	UPF0235 protein C15orf40 homolog
+gene-LOC119571302	19.04	SEQ_MATCH_ELSEWHERE	2	inhibitor of Bruton tyrosine kinase-like
+gene-LOC119579390	18.30	TRANSCRIPT_NO_ORF	3	uncharacterized LOC119579390
+gene-LOC119572366	18.09	TRANSCRIPT_NO_ORF	1	general transcription factor 3C polypeptide 2-like
+gene-LOC119581804	17.57	LOW_IDENTITY	11	protein polybromo-1-like
+gene-LOC119590805	17.41	SEQ_MATCH_ELSEWHERE	6	uncharacterized LOC119590805, transcript variant X7
+gene-LOC119580497	17.31	TRANSCRIPT_NO_ORF	1	protein C10-like
+gene-LOC119599274	17.06	LOW_IDENTITY	7	DNA-binding protein Ewg-like
+gene-LOC119593786	17.01	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119593786
+gene-LOC119594949	16.93	TRANSCRIPT_NO_ORF	1	mortality factor 4-like protein 1
+gene-LOC119574304	16.74	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119574304
+gene-LOC119594349	16.54	TRANSCRIPT_NO_ORF	5	mitochondrial ribosome-associated GTPase 1-like
+gene-LOC119589069	16.28	LOW_IDENTITY	28	dnaJ homolog subfamily C member 13-like
+gene-LOC119593006	16.05	LOW_IDENTITY	2	DNA polymerase iota-like
+gene-LOC119582028	16.02	SEQ_MATCH_ELSEWHERE	5	RNA-binding protein 25-like
+gene-LOC119578028	15.94	LOW_IDENTITY	4	mitochondrial 2-oxodicarboxylate carrier-like
+gene-LOC119592642	15.87	SEQ_MATCH_ELSEWHERE	1	mitoferrin-1-like
+gene-LOC119578690	15.82	LOW_IDENTITY	1	ankyrin repeat domain-containing protein 27-like
+gene-LOC119581266	15.46	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119581266
+gene-LOC119582715	15.43	SEQ_MATCH_ELSEWHERE	2	protein mono-ADP-ribosyltransferase PARP11-like
+gene-LOC119585935	15.30	LOW_IDENTITY	5	uncharacterized LOC119585935
+gene-LOC119581750	15.18	TRANSCRIPT_NO_ORF	9	glyoxal reductase-like
+gene-LOC119570142	15.18	LOW_IDENTITY	3	SR-related and CTD-associated factor 4-like
+gene-LOC119575342	15.17	LOW_IDENTITY	15	inactive phospholipase C-like protein 1
+gene-LOC119590736	15.12	LOW_IDENTITY	2	zinc finger protein 2-like
+gene-LOC119594508	15.05	LOW_IDENTITY	8	uncharacterized LOC119594508
+gene-LOC119568473	14.55	LOW_IDENTITY	4	uncharacterized LOC119568473
+gene-LOC119597902	14.41	TRANSCRIPT_NO_ORF	25	uncharacterized LOC119597902, transcript variant X33
+gene-LOC119587452	14.33	LOW_IDENTITY	6	mediator of DNA damage checkpoint protein 1-like
+gene-LOC119568399	14.25	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119568399
+gene-LOC119597362	14.14	SEQ_MATCH_ELSEWHERE	1	transmembrane protein 161B-like
+gene-LOC119585134	13.99	LOW_IDENTITY	12	synaptojanin-1-like
+gene-LOC119589406	13.73	LOW_IDENTITY	23	valine--tRNA ligase-like
+gene-LOC119574305	13.48	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119574305
+gene-LOC119578935	13.25	SEQ_MATCH_ELSEWHERE	1	oxidoreductase HTATIP2-like
+gene-LOC119594070	12.98	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119594070, transcript variant X1
+gene-LOC119596581	12.92	SEQ_MATCH_ELSEWHERE	2	uncharacterized LOC119596581
+gene-LOC119586407	12.36	LOW_IDENTITY	10	HEAT repeat-containing protein 6-like
+gene-LOC119568477	12.30	LOW_IDENTITY	1	zinc finger protein 271-like
+gene-LOC119587984	12.12	TRANSCRIPT_NO_ORF	3	DNA-directed RNA polymerase II subunit RPB1-like
+gene-LOC119586492	12.03	TRANSCRIPT_NO_ORF	8	chromatin assembly factor 1 subunit A-B-like
+gene-LOC119585624	11.97	LOW_IDENTITY	9	uncharacterized LOC119585624, transcript variant X2
+gene-LOC119579430	11.48	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119579430
+gene-LOC119572273	11.40	TRANSCRIPT_NO_ORF	2	protein expanded-like
+gene-LOC119581806	11.28	SEQ_MATCH_ELSEWHERE	5	dolichol kinase-like, transcript variant X1
+gene-LOC119571289	11.19	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119571289
+gene-LOC119594392	11.04	TRANSCRIPT_NO_ORF	2	BBSome-interacting protein 1-like
+gene-LOC119589434	10.64	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119589434
+gene-LOC119589183	10.47	LOW_IDENTITY	12	aminopeptidase N-like
+gene-LOC119590594	10.36	SEQ_MATCH_ELSEWHERE	2	adhesion G-protein coupled receptor G2-like
+gene-LOC119599381	10.36	SEQ_MATCH_ELSEWHERE	4	retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta-like, transcript variant X1
+gene-LOC119587869	10.18	SEQ_MATCH_ELSEWHERE	4	protein DEK-like
+gene-LOC119595330	9.92	SEQ_MATCH_ELSEWHERE	3	uncharacterized LOC119595330, transcript variant X2
+gene-LOC119590741	9.88	TRANSCRIPT_NO_ORF	2	putative transferase CAF17 homolog, mitochondrial
+gene-LOC119588519	9.88	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119588519
+gene-LOC119592844	9.55	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119592844
+gene-LOC119597513	9.45	SEQ_MATCH_ELSEWHERE	3	uncharacterized LOC119597513
+gene-LOC119569702	9.40	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119569702
+gene-LOC119594042	9.11	ORF_WRONG_STRAND	3	uncharacterized LOC119594042, transcript variant X1
+gene-LOC119581256	9.05	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119581256
+gene-LOC119575381	9.01	SEQ_MATCH_ELSEWHERE	3	thyrotroph embryonic factor-like
+gene-LOC119591186	9.00	SEQ_MATCH_ELSEWHERE	8	tRNA pseudouridine synthase-like 1
+gene-LOC119569821	8.94	TRANSCRIPT_NO_ORF	2	H/ACA ribonucleoprotein complex non-core subunit NAF1-like
+gene-LOC119574060	8.88	TRANSCRIPT_NO_ORF	1	cyclin-Q-like
+gene-LOC119591818	8.77	SEQ_MATCH_ELSEWHERE	4	transmembrane protein 18-like
+gene-LOC119570478	8.76	SEQ_MATCH_ELSEWHERE	2	ERI1 exoribonuclease 3-like
+gene-LOC119597054	8.73	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119597054
+gene-LOC119575798	8.51	SEQ_MATCH_ELSEWHERE	4	transmembrane protein 165-like
+gene-LOC119587769	8.38	TRANSCRIPT_NO_ORF	1	transmembrane protein 60-like
+gene-LOC119575128	8.22	LOW_IDENTITY	4	uncharacterized LOC119575128, transcript variant X2
+gene-LOC119587786	8.07	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119587786
+gene-LOC119575922	8.04	TRANSCRIPT_NO_ORF	3	tubulin-specific chaperone A-like
+gene-LOC119581795	7.88	NO_TRANSCRIPT	1	cGMP-dependent protein kinase 1-like
+gene-LOC119589051	7.88	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119589051
+gene-LOC119582047	7.87	SEQ_MATCH_ELSEWHERE	4	amino acid transporter AVT1D-like
+gene-LOC119586310	7.86	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119586310
+gene-LOC119597327	7.65	TRANSCRIPT_NO_ORF	6	uncharacterized LOC119597327
+gene-LOC119582713	7.61	LOW_IDENTITY	4	DET1 homolog
+gene-LOC119590011	7.56	SEQ_MATCH_ELSEWHERE	1	post-GPI attachment to proteins factor 2-like
+gene-LOC119580083	7.56	NO_TRANSCRIPT	5	LETM1 domain-containing protein 1-like
+gene-LOC119588211	7.54	TRANSCRIPT_NO_ORF	8	uncharacterized LOC119588211
+gene-LOC119582679	7.52	SEQ_MATCH_ELSEWHERE	1	transcription factor E2F4-like
+gene-LOC119597586	7.52	LOW_IDENTITY	9	alpha-(1,3)-fucosyltransferase C-like, transcript variant X1
+gene-LOC119591362	7.51	SEQ_MATCH_ELSEWHERE	2	graves disease carrier protein-like
+gene-LOC119579596	7.37	TRANSCRIPT_NO_ORF	2	protein PXR1-like
+gene-LOC119585629	7.35	LOW_IDENTITY	4	uncharacterized LOC119585629
+gene-LOC119583414	7.35	SEQ_MATCH_ELSEWHERE	2	post-GPI attachment to proteins factor 2-like
+gene-LOC119584806	7.31	LOW_IDENTITY	12	zinc finger MYM-type protein 4-like
+gene-LOC119592705	7.13	NO_TRANSCRIPT	1	zinc finger protein 358-like
+gene-LOC119574118	7.12	TRANSCRIPT_NO_ORF	1	centrosomal protein of 164 kDa-like
+gene-LOC119596353	7.07	LOW_IDENTITY	4	ribonuclease Oy-like, transcript variant X2
+gene-LOC119592039	7.06	SEQ_MATCH_ELSEWHERE	30	integrator complex subunit 7-like
+gene-LOC119594079	6.99	TRANSCRIPT_NO_ORF	4	histone H3.v1-like
+gene-LOC119584414	6.97	TRANSCRIPT_NO_ORF	6	uncharacterized LOC119584414
+gene-LOC119584858	6.95	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119584858
+gene-LOC119575191	6.90	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119575191
+gene-LOC119574303	6.80	SEQ_MATCH_ELSEWHERE	2	pre-mRNA-splicing factor CWC21-like
+gene-LOC119590438	6.76	LOW_IDENTITY	2	uncharacterized LOC119590438, transcript variant X2
+gene-LOC119568594	6.63	SEQ_MATCH_ELSEWHERE	1	gastrula zinc finger protein XlCGF57.1-like
+gene-LOC119572147	6.54	TRANSCRIPT_NO_ORF	7	uncharacterized LOC119572147, transcript variant X2
+gene-LOC119574284	6.52	SEQ_MATCH_ELSEWHERE	1	neurofilament heavy polypeptide-like
+gene-LOC119585559	6.48	LOW_IDENTITY	1	uncharacterized LOC119585559
+gene-LOC119591399	6.44	LOW_IDENTITY	4	importin subunit alpha-9-like, transcript variant X1
+gene-LOC119593817	6.43	TRANSCRIPT_NO_ORF	6	forkhead box protein B2-like
+gene-LOC119591395	6.41	LOW_IDENTITY	4	importin subunit alpha-9-like
+gene-LOC119586345	6.39	TRANSCRIPT_NO_ORF	2	venom protein 302-like
+gene-LOC119586964	6.36	TRANSCRIPT_NO_ORF	1	protein transport protein Sec24A-like
+gene-LOC119592633	6.32	SEQ_MATCH_ELSEWHERE	5	trypsin-2-like
+gene-LOC119594007	6.03	LOW_IDENTITY	2	probable ATP-dependent RNA helicase DDX20
+gene-LOC119576029	6.01	SEQ_MATCH_ELSEWHERE	5	uncharacterized LOC119576029
+gene-LOC119576762	5.97	TRANSCRIPT_NO_ORF	2	putative uncharacterized protein DDB_G0271982
+gene-LOC119589378	5.90	LOW_IDENTITY	6	uncharacterized LOC119589378
+gene-LOC119597398	5.87	LOW_IDENTITY	4	uncharacterized LOC119597398
+gene-LOC119591495	5.67	LOW_IDENTITY	3	uncharacterized LOC119591495
+gene-LOC119588985	5.52	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119588985
+gene-LOC119579441	5.50	LOW_IDENTITY	8	serine/threonine-protein kinase SMG1-like
+gene-LOC119571942	5.45	SEQ_MATCH_ELSEWHERE	3	zinc finger protein 300-like
+gene-LOC119568088	5.41	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119568088
+gene-LOC119587104	5.38	SEQ_MATCH_ELSEWHERE	2	serine/threonine-protein phosphatase 1 regulatory subunit 10-like
+gene-LOC119584229	5.34	TRANSCRIPT_NO_ORF	3	metallothionein-1
+gene-LOC119576182	5.27	LOW_IDENTITY	2	uncharacterized LOC119576182
+gene-LOC119588431	5.25	TRANSCRIPT_NO_ORF	4	neuropeptide-like protein 31
+gene-LOC119589248	5.21	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119589248
+gene-LOC119597950	5.19	SEQ_MATCH_ELSEWHERE	1	cystine/glutamate transporter-like
+gene-LOC119593781	5.09	TRANSCRIPT_NO_ORF	4	uncharacterized LOC119593781
+gene-LOC119583636	5.09	LOW_IDENTITY	4	RAB11-binding protein RELCH homolog
+gene-LOC119587154	4.92	TRANSCRIPT_NO_ORF	5	uncharacterized LOC119587154
+gene-LOC119586516	4.89	TRANSCRIPT_NO_ORF	2	transmembrane protein 186-like, transcript variant X2
+gene-LOC119586544	4.86	LOW_IDENTITY	6	ankyrin repeat and SOCS box protein 15-like
+gene-LOC119594228	4.67	NO_TRANSCRIPT	2	zinc finger protein 432-like
+gene-LOC119575308	4.53	TRANSCRIPT_NO_ORF	2	oocyte zinc finger protein XlCOF19-like
+gene-LOC119574881	4.52	LOW_IDENTITY	4	translation initiation factor IF-2, mitochondrial-like
+gene-LOC119585474	4.51	TRANSCRIPT_NO_ORF	1	extensin-like
+gene-LOC119581748	4.46	LOW_IDENTITY	3	anaphase-promoting complex subunit 15B-like
+gene-LOC119575089	4.41	LOW_IDENTITY	3	uncharacterized LOC119575089
+gene-LOC119571099	4.30	SEQ_MATCH_ELSEWHERE	5	baculoviral IAP repeat-containing protein 3-like
+gene-LOC119579186	4.26	LOW_IDENTITY	5	delta-sarcoglycan-like
+gene-LOC119568076	4.25	LOW_COVERAGE	2	iron-regulated protein FrpC-like
+gene-LOC119578366	4.24	SEQ_MATCH_ELSEWHERE	1	KRAB-A domain-containing protein 2-like
+gene-LOC119589425	4.24	LOW_IDENTITY	6	uncharacterized LOC119589425
+gene-LOC119579460	4.23	LOW_IDENTITY	4	serine/threonine-protein kinase fray2-like
+gene-LOC119587841	4.21	SEQ_MATCH_ELSEWHERE	1	serine/arginine repetitive matrix protein 1-like
+gene-LOC119577687	4.17	SEQ_MATCH_ELSEWHERE	3	zinc finger protein 2-like
+gene-LOC119595444	4.13	SEQ_MATCH_ELSEWHERE	6	serine/threonine-protein kinase Kist-like
+gene-LOC119574628	4.13	LOW_IDENTITY	3	transient receptor potential cation channel subfamily A member 1-like
+gene-LOC119570272	4.12	SEQ_MATCH_ELSEWHERE	2	nucleolar protein 6-like
+gene-LOC119570863	4.01	SEQ_MATCH_ELSEWHERE	4	uncharacterized LOC119570863, transcript variant X3
+gene-LOC119588738	3.88	SEQ_MATCH_ELSEWHERE	1	phospholipid phosphatase 1-like
+gene-LOC119583595	3.88	SEQ_MATCH_ELSEWHERE	1	piggyBac transposable element-derived protein 4-like
+gene-LOC119594584	3.88	ORF_UNPLACED	1	uncharacterized LOC119594584
+gene-LOC119582021	3.86	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119582021
+gene-LOC119588547	3.79	TRANSCRIPT_NO_ORF	7	insulin-like growth factor-binding protein-related protein 1
+gene-LOC119568923	3.79	SEQ_MATCH_ELSEWHERE	4	uncharacterized LOC119568923, transcript variant X3
+gene-LOC119588645	3.77	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119588645
+gene-LOC119582573	3.68	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119582573
+gene-LOC119588955	3.63	SEQ_MATCH_ELSEWHERE	2	zinc finger protein 728-like
+gene-LOC119585061	3.62	SEQ_MATCH_ELSEWHERE	2	uncharacterized LOC119585061
+gene-LOC119583112	3.57	TRANSCRIPT_NO_ORF	2	gastrula zinc finger protein XlCGF62.1-like
+gene-LOC119593962	3.50	SEQ_MATCH_ELSEWHERE	4	gastrula zinc finger protein XlCGF57.1-like, transcript variant X1
+gene-LOC119587860	3.47	LOW_IDENTITY	13	armadillo-like helical domain-containing protein 3
+gene-LOC119583866	3.45	TRANSCRIPT_NO_ORF	4	uncharacterized LOC119583866
+gene-LOC119591907	3.44	TRANSCRIPT_NO_ORF	2	ankyrin repeat and sterile alpha motif domain-containing protein 1B-like
+gene-LOC119586431	3.38	TRANSCRIPT_NO_ORF	7	uncharacterized LOC119586431
+gene-LOC119588853	3.34	TRANSCRIPT_NO_ORF	7	trichohyalin-like
+gene-LOC119575990	3.28	SEQ_MATCH_ELSEWHERE	2	uncharacterized LOC119575990
+gene-LOC119590626	3.25	TRANSCRIPT_NO_ORF	2	proline-rich receptor-like protein kinase PERK2
+gene-LOC119577997	3.24	TRANSCRIPT_NO_ORF	4	uncharacterized LOC119577997
+gene-LOC119598124	3.14	SEQ_MATCH_ELSEWHERE	1	tubulin--tyrosine ligase-like protein 12
+gene-LOC119573307	3.09	SEQ_MATCH_ELSEWHERE	4	triosephosphate isomerase, cytosolic-like
+gene-LOC119594017	3.05	TRANSCRIPT_NO_ORF	2	motor neuron and pancreas homeobox protein 1-like
+gene-LOC119581800	3.00	TRANSCRIPT_NO_ORF	2	uncharacterized LOC119581800
+gene-LOC119599000	2.98	LOW_IDENTITY	4	major facilitator superfamily domain-containing protein 6-like
+gene-LOC119583594	2.93	SEQ_MATCH_ELSEWHERE	2	piggyBac transposable element-derived protein 4-like
+gene-LOC119579489	2.93	TRANSCRIPT_NO_ORF	2	discoidin domain-containing receptor tyrosine kinase B-like
+gene-LOC119592149	2.93	SEQ_MATCH_ELSEWHERE	1	zinc finger protein 19-like
+gene-LOC119578862	2.93	NO_TRANSCRIPT	20	protein fantom-like
+gene-LOC119578084	2.92	LOW_COVERAGE	11	alpha-1,3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase B-like
+gene-LOC119594750	2.86	SEQ_MATCH_ELSEWHERE	1	U11/U12 small nuclear ribonucleoprotein 35 kDa protein-like
+gene-LOC119575311	2.78	TRANSCRIPT_NO_ORF	1	heme transporter hrg1-A-like
+gene-LOC119594669	2.77	SEQ_MATCH_ELSEWHERE	1	tubulin alpha-8 chain-like
+gene-LOC119592086	2.76	LOW_IDENTITY	2	zinc finger protein 513-like
+gene-LOC119593963	2.68	SEQ_MATCH_ELSEWHERE	1	zinc finger protein 501-like
+gene-LOC119585292	2.51	TRANSCRIPT_NO_ORF	6	low-density lipoprotein receptor-related protein 2-like
+gene-LOC119583440	2.45	NO_TRANSCRIPT	12	cytoplasmic dynein 2 light intermediate chain 1-like, transcript variant X4
+gene-LOC119570572	2.44	SEQ_MATCH_ELSEWHERE	1	metalloendopeptidase OMA1, mitochondrial-like
+gene-LOC119584367	2.44	SEQ_MATCH_ELSEWHERE	1	cytochrome c oxidase subunit 7A2, mitochondrial-like
+gene-LOC119581962	2.42	SEQ_MATCH_ELSEWHERE	1	ceramide synthase 3-like
+gene-LOC119589756	2.40	LOW_IDENTITY	4	ionotropic receptor 93a-like
+gene-LOC119568291	2.36	LOW_IDENTITY	3	uncharacterized LOC119568291
+gene-LOC119585701	2.27	LOW_COVERAGE	28	multiple epidermal growth factor-like domains protein 6
+gene-LOC119593912	2.27	LOW_IDENTITY	2	serine/threonine-protein kinase Nek8-like
+gene-LOC119590589	2.22	ORF_WRONG_STRAND	3	piggyBac transposable element-derived protein 4-like, transcript variant X2
+gene-LOC119568459	2.17	SEQ_MATCH_ELSEWHERE	1	zinc finger protein 525-like
+gene-LOC119591945	2.15	SEQ_MATCH_ELSEWHERE	1	1-acylglycerol-3-phosphate O-acyltransferase Pnpla3-like
+gene-LOC119594015	2.12	LOW_IDENTITY	2	broad-complex core protein isoforms 1/2/3/4/5-like
+gene-LOC119590749	2.11	LOW_IDENTITY	1	uncharacterized LOC119590749
+gene-LOC119581088	2.08	LOW_IDENTITY	3	solute carrier family 41 member 1-like
+gene-LOC119568462	2.02	SEQ_MATCH_ELSEWHERE	1	protein krueppel-like
+gene-LOC119574500	1.84	SEQ_MATCH_ELSEWHERE	6	uncharacterized LOC119574500, transcript variant X2
+gene-LOC119598495	1.83	SEQ_MATCH_ELSEWHERE	4	myb-like protein AA
+gene-LOC119583550	1.78	SEQ_MATCH_ELSEWHERE	2	uncharacterized LOC119583550, transcript variant X2
+gene-LOC119588554	1.76	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119588554
+gene-LOC119581244	1.71	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119581244
+gene-LOC119585618	1.67	LOW_IDENTITY	35	multiple epidermal growth factor-like domains protein 6
+gene-LOC119591143	1.60	TRANSCRIPT_NO_ORF	1	uncharacterized LOC119591143
+gene-LOC119587402	1.60	SEQ_MATCH_ELSEWHERE	4	protein FAM200B-like
+gene-LOC119575460	1.56	SEQ_MATCH_ELSEWHERE	11	uncharacterized LOC119575460, transcript variant X4
+gene-LOC119597376	1.56	SEQ_MATCH_ELSEWHERE	5	titin-like
+gene-LOC119583419	1.55	NO_TRANSCRIPT	1	nicotinamide riboside kinase 2-like
+gene-LOC119590644	1.53	NO_TRANSCRIPT	2	uncharacterized LOC119590644
+gene-LOC119569586	1.51	SEQ_MATCH_ELSEWHERE	1	uncharacterized LOC119569586
+gene-LOC119596780	1.49	LOW_COVERAGE	7	uncharacterized LOC119596780
+gene-LOC119572413	1.49	SEQ_MATCH_ELSEWHERE	4	carbohydrate sulfotransferase 3-like, transcript variant X2
+gene-LOC119585268	1.46	NO_TRANSCRIPT	3	antifreeze protein Maxi-like
+gene-LOC119574056	1.46	LOW_IDENTITY	28	protein eyes shut-like
+gene-LOC119583514	1.45	SEQ_MATCH_ELSEWHERE	7	serine/threonine-protein kinase NIM1-like
+gene-LOC119594941	1.42	LOW_IDENTITY	18	uncharacterized LOC119594941
+gene-LOC119568181	1.42	NO_TRANSCRIPT	2	uncharacterized LOC119568181
+gene-LOC119580465	1.41	SEQ_MATCH_ELSEWHERE	1	protein O-mannose kinase-like
+gene-LOC119594203	1.41	NO_TRANSCRIPT	3	uncharacterized LOC119594203
+gene-LOC119581714	1.37	LOW_IDENTITY	9	uncharacterized LOC119581714
+gene-LOC119582928	1.36	LOW_IDENTITY	15	neural-cadherin-like
+gene-LOC119575426	1.35	NO_TRANSCRIPT	15	uncharacterized LOC119575426, transcript variant X2
+gene-LOC119594244	1.32	SEQ_MATCH_ELSEWHERE	3	frizzled-1-like
+gene-LOC119581793	1.31	NO_TRANSCRIPT	3	uncharacterized LOC119581793
+gene-LOC119572015	1.29	SEQ_MATCH_ELSEWHERE	2	1,4-alpha-glucan-branching enzyme-like
+gene-LOC119589542	1.28	ORF_WRONG_STRAND	11	protein tilB homolog
+gene-LOC119587775	1.27	SEQ_MATCH_ELSEWHERE	18	MAM and LDL-receptor class A domain-containing protein 1-like
+gene-LOC119580019	1.27	SEQ_MATCH_ELSEWHERE	1	toll-like receptor Tollo
+gene-LOC119596381	1.26	SEQ_MATCH_ELSEWHERE	4	homeobox protein abdominal-A homolog
+gene-LOC119585197	1.23	NO_TRANSCRIPT	5	transmembrane protein 211-like
+gene-LOC119572163	1.23	NO_TRANSCRIPT	2	uncharacterized LOC119572163
+gene-LOC119597554	1.22	SEQ_MATCH_ELSEWHERE	15	rap guanine nucleotide exchange factor 4-like
+gene-LOC119587875	1.17	SEQ_MATCH_ELSEWHERE	10	uncharacterized LOC119587875, transcript variant X1
+gene-LOC119595873	1.17	SEQ_MATCH_ELSEWHERE	9	protein dhs-3-like
+gene-LOC119577801	1.11	NO_TRANSCRIPT	2	uncharacterized LOC119577801
+gene-LOC119592512	1.05	SEQ_MATCH_ELSEWHERE	9	insulin gene enhancer protein ISL-1-like

@@ -1,0 +1,1112 @@
+#!/usr/bin/env python3
+"""Confidence intervals on the calibration numbers, and the homology baseline.
+
+    python scripts/36_bootstrap_baseline.py                      # both parts
+    python scripts/36_bootstrap_baseline.py --part bootstrap
+    python scripts/36_bootstrap_baseline.py --part baseline
+    python scripts/36_bootstrap_baseline.py --replicates 5000
+
+WHY THIS EXISTS
+
+  Three claims in the results table are not yet claims.
+
+  1. "ProtT5 + whitening reaches Fmax 0.679 on the orphan tier, +0.062
+     over untransformed." The orphan tier has 94 queries. A gain of 0.062
+     on 94 proteins is not a difference until it has an interval, and if
+     the interval crosses zero then the sentence in the paper has to
+     change. This computes a percentile bootstrap over queries, and --
+     more importantly -- a PAIRED bootstrap for the difference, which is
+     the only correct way to compare two methods scored on the same
+     proteins.
+
+  2. "Embedding transfer annotates proteins homology cannot reach." No
+     reviewer will accept that without a DIAMOND baseline run through the
+     same tiers, the same masking and the same Fmax code. This builds it
+     from the alignments already on disk.
+
+  3. "Embedding transfer is more accurate than homology transfer." That
+     needs both arms on the same queries AND an interval on the
+     difference, which parts 1 and 2 do not give together. Part 3 pairs
+     them per tier, and drops the tiers where homology cannot answer --
+     see below, because that exclusion is the whole ballgame.
+
+WHAT THE BASELINE CAN AND CANNOT SHOW
+
+  Read this before writing the comparison into the paper.
+
+  ORPHAN_nohit is DEFINED as the queries with no DIAMOND hit. Homology
+  transfer there is not inaccurate, it is undefined -- there is nothing to
+  transfer from. Reporting "DIAMOND 0.000 vs ProtT5 0.679" on that tier as
+  an accuracy comparison would be circular, and this script refuses to
+  print it that way. What the orphan tier legitimately shows is COVERAGE:
+  the fraction of proteins each method can say anything at all about.
+
+  The accuracy comparison lives on I90/I50/I30/I20/Inone, where both
+  methods see the same permitted reference set and both can answer. That
+  is the table a reviewer wants.
+
+METHOD NOTES
+
+  Fmax picks the threshold that maximises F on the data being scored.
+  That is the CAFA convention and it is what the results table reports, so
+  each bootstrap replicate re-picks its own threshold. The interval is
+  therefore an interval on "Fmax as reported", optimistic bias included,
+  which is the quantity being compared.
+
+  Neighbour selection for query i depends only on the reference set, never
+  on the other queries, so predictions are computed once per
+  (model, transform, tier) and only the query sample is resampled. The
+  per-protein, per-threshold counts are precomputed, which makes a
+  replicate a pair of numpy reductions rather than 100k set operations.
+
+  The bootstrap reuses run_tier() from 31_calibrate.py rather than
+  reimplementing the scoring. A reimplementation that drifted by so much
+  as a tie-break would produce an interval around a number that is not in
+  the table.
+"""
+
+from __future__ import annotations
+
+import argparse
+import gzip
+import importlib.util
+import json
+import sys
+import time
+from pathlib import Path
+
+import numpy as np
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[0] / "src"))
+
+from pmdark import config as cfgmod                              # noqa: E402
+from pmdark.goeval import (GOGraph, ROOTS, evaluate, fmax,            # noqa: E402
+                           precision_at_recall)                     # noqa: E402
+from pmdark.transfer import center, whiten                       # noqa: E402
+
+THRESHOLDS = np.arange(0.01, 1.00, 0.01)      # must match goeval.fmax
+
+
+def log(m: str) -> None:
+    print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
+
+
+def load_calib():
+    """Import 31_calibrate.py as a module (the name starts with a digit)."""
+    path = HERE / "31_calibrate.py"
+    spec = importlib.util.spec_from_file_location("pmdark_calib", path)
+    if spec is None or spec.loader is None:
+        raise SystemExit(f"cannot import {path}")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    for need in ("run_tier", "tier_mask", "load_embeddings"):
+        if not hasattr(mod, need):
+            raise SystemExit(f"{path.name} has no {need}() — did it change?")
+    return mod
+
+
+# ---------------------------------------------------------------------------
+# Fmax over a resampled index set
+# ---------------------------------------------------------------------------
+
+def threshold_counts(
+    q_order: list[str],
+    truth: dict[str, set[str]],
+    scored: dict[str, dict[str, float]],
+) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Per protein and per threshold: true positives and predictions made.
+
+    Returns (tp, npred, ntrue) with shapes (n, T), (n, T), (n,).
+
+    These do not depend on which proteins end up in a bootstrap replicate,
+    so they are computed once. For protein i and threshold tau:
+
+        npred[i, j] = |{t : score(t) >= tau}|
+        tp[i, j]    = |{t : score(t) >= tau} & truth|
+
+    Computed by sorting each protein's scores once and using searchsorted,
+    rather than rescanning every term at all 99 thresholds.
+    """
+    n, T = len(q_order), len(THRESHOLDS)
+    tp = np.zeros((n, T), dtype=np.float64)
+    npred = np.zeros((n, T), dtype=np.float64)
+    ntrue = np.zeros(n, dtype=np.float64)
+
+    for i, q in enumerate(q_order):
+        true = truth[q]
+        ntrue[i] = len(true)
+        terms = scored.get(q) or {}
+        if not terms:
+            continue
+        items = sorted(terms.items(), key=lambda kv: kv[1])     # ascending
+        s = np.fromiter((v for _, v in items), dtype=np.float64,
+                        count=len(items))
+        hit = np.fromiter((1.0 if t in true else 0.0 for t, _ in items),
+                          dtype=np.float64, count=len(items))
+        # suffix sums: suffix[p] = sum(hit[p:])
+        suffix = np.concatenate([np.cumsum(hit[::-1])[::-1], [0.0]])
+        # index of first score >= tau
+        cut = np.searchsorted(s, THRESHOLDS, side="left")
+        npred[i] = len(items) - cut
+        tp[i] = suffix[cut]
+    return tp, npred, ntrue
+
+
+def fmax_from_counts(
+    tp: np.ndarray, npred: np.ndarray, ntrue: np.ndarray,
+    idx: np.ndarray | None = None,
+) -> dict:
+    """Protein-centric Fmax from precomputed counts.
+
+    Reproduces pmdark.goeval.fmax exactly, including the conventions that
+    matter and are easy to get wrong:
+
+      * precision is averaged over proteins that made a prediction,
+        recall over all proteins
+      * a threshold where nothing was predicted is skipped, not scored 0
+      * ties go to the lowest threshold (strict > in goeval, first
+        argmax here)
+    """
+    if idx is not None:
+        tp, npred, ntrue = tp[idx], npred[idx], ntrue[idx]
+    m = len(ntrue)
+    if m == 0:
+        return {"fmax": 0.0, "threshold": 0.0, "coverage": 0.0,
+                "precision": 0.0, "recall": 0.0, "n": 0}
+
+    has = npred > 0
+    cnt = has.sum(axis=0)                                  # predicted proteins
+    prec_sum = np.where(has, tp / np.maximum(npred, 1.0), 0.0).sum(axis=0)
+    pr = np.where(cnt > 0, prec_sum / np.maximum(cnt, 1), 0.0)
+    rc = (tp / ntrue[:, None]).sum(axis=0) / m
+
+    denom = pr + rc
+    f = np.where(denom > 0, 2.0 * pr * rc / np.maximum(denom, 1e-300), 0.0)
+    f = np.where(cnt > 0, f, 0.0)                          # skipped thresholds
+
+    j = int(np.argmax(f))
+    return {"fmax": float(f[j]), "threshold": float(THRESHOLDS[j]),
+            "coverage": float(cnt[j] / m), "precision": float(pr[j]),
+            "recall": float(rc[j]), "n": m}
+
+
+def par_from_counts(
+    tp: np.ndarray, npred: np.ndarray, ntrue: np.ndarray,
+    idx: np.ndarray | None = None, target: float = 0.5,
+) -> float:
+    """Precision at the highest threshold still reaching `target` recall.
+
+    Mirrors goeval.precision_at_recall, which walks tau downward from 0.99
+    and returns at the first threshold whose mean recall clears the target.
+    """
+    if idx is not None:
+        tp, npred, ntrue = tp[idx], npred[idx], ntrue[idx]
+    m = len(ntrue)
+    if m == 0:
+        return 0.0
+    has = npred > 0
+    cnt = has.sum(axis=0)
+    prec_sum = np.where(has, tp / np.maximum(npred, 1.0), 0.0).sum(axis=0)
+    pr = np.where(cnt > 0, prec_sum / np.maximum(cnt, 1), 0.0)
+    rc = (tp / ntrue[:, None]).sum(axis=0) / m
+
+    last = 0.0
+    for j in range(len(THRESHOLDS) - 1, -1, -1):           # high tau -> low
+        if cnt[j] == 0:
+            continue
+        if rc[j] >= target:
+            return float(pr[j])
+        last = float(pr[j])
+    return last
+
+
+def verify_counts(label: str, q_order, truth, scored, tp, npred, ntrue,
+                  reported: float | None) -> None:
+    """Point estimate from the fast path must equal the real function.
+
+    Fmax is checked exactly: goeval.fmax and threshold_counts walk the same
+    np.arange(0.01, 1.00, 0.01) grid, so there is no float excuse for a
+    mismatch and any difference means the fast path is wrong.
+
+    P@R0.5 is checked loosely on purpose. goeval.precision_at_recall builds
+    its own grid with np.arange(0.99, 0.0, -0.01), whose values differ from
+    the ascending grid in the last bits, so a term scoring exactly on a
+    threshold can land either side. Fmax is the number being bootstrapped;
+    P@R is reported alongside it.
+    """
+    ref_par = precision_at_recall(truth, scored, 0.5)
+    got_par = par_from_counts(tp, npred, ntrue)
+    if abs(ref_par - got_par) > 1e-3:
+        log(f"  NOTE {label}: P@R0.5 fast {got_par:.4f} vs goeval "
+            f"{ref_par:.4f} — threshold-grid rounding, Fmax is unaffected")
+
+    ref = fmax(truth, scored)["fmax"]
+    got = fmax_from_counts(tp, npred, ntrue)["fmax"]
+    if abs(ref - got) > 1e-9:
+        raise SystemExit(
+            f"{label}: fast Fmax {got:.6f} != goeval.fmax {ref:.6f}. "
+            "The bootstrap would describe a different quantity than the "
+            "table. Refusing to continue."
+        )
+    msg = f"  {label}: Fmax {got:.4f} (matches goeval)"
+    if reported is not None:
+        drift = abs(reported - got)
+        msg += f", table says {reported:.4f}"
+        if drift > 1e-3:
+            msg += f"  <-- DRIFT {drift:.4f}, results file is stale"
+    log(msg)
+
+
+# ---------------------------------------------------------------------------
+# shared setup
+# ---------------------------------------------------------------------------
+
+class Bench:
+    """Everything both parts need, loaded once."""
+
+    def __init__(self, cfg, calib):
+        self.cfg, self.calib = cfg, calib
+        self.dir = cfg.p("proteins", "benchmark")
+
+        meta_path = self.dir / "benchmark.json.gz"
+        if not meta_path.exists():
+            raise SystemExit(f"missing {meta_path} — scripts/30_build_benchmark.py")
+        log(f"loading {meta_path.name}")
+        with gzip.open(meta_path, "rt") as fh:
+            meta = json.load(fh)
+        self.q_meta, self.r_meta = meta["query"], meta["reference"]
+
+        ident_path = self.dir / "identity_tiers.json.gz"
+        if not ident_path.exists():
+            raise SystemExit(
+                f"missing {ident_path.name} — python scripts/30b_identity_tiers.py")
+        with gzip.open(ident_path, "rt") as fh:
+            payload = json.load(fh)
+        self.ident_excl = payload["exclusions"]
+        self.ident_evalue = payload.get("evalue")
+        log(f"  identity tiers: {', '.join(self.ident_excl)} "
+            f"(DIAMOND e-value {self.ident_evalue})")
+
+        obo = cfg.p("raw", "benchmark") / "go-basic.obo"
+        log(f"loading {obo.name}")
+        self.graph = GOGraph.from_obo(obo)
+
+        self._emb: dict[str, tuple[list[str], np.ndarray]] = {}
+        self._ids_ready = False
+
+    # -- embeddings ------------------------------------------------------
+    def embeddings(self, model: str):
+        if model not in self._emb:
+            log(f"loading {model} embeddings")
+            q_ids, q_emb = self.calib.load_embeddings(
+                self.cfg, model, self.dir / "query.faa")
+            r_ids, r_emb = self.calib.load_embeddings(
+                self.cfg, model, self.dir / "reference.faa")
+            q_keep = [a for a in q_ids if a in self.q_meta]
+            r_keep = [a for a in r_ids if a in self.r_meta]
+            qi = {a: i for i, a in enumerate(q_ids)}
+            ri = {a: i for i, a in enumerate(r_ids)}
+            q_emb = q_emb[[qi[a] for a in q_keep]]
+            r_emb = r_emb[[ri[a] for a in r_keep]]
+            log(f"  query {q_emb.shape}  reference {r_emb.shape}")
+            self._emb[model] = (q_keep, q_emb, r_keep, r_emb)
+            if not self._ids_ready:
+                self.q_ids, self.r_ids = q_keep, r_keep
+                self._ids_ready = True
+        return self._emb[model]
+
+    def ids(self):
+        """Query/reference accession lists. Needs one model loaded, or
+        falls back to the benchmark metadata order for the baseline, which
+        uses no embeddings at all."""
+        if not self._ids_ready:
+            self.q_ids = list(self.q_meta)
+            self.r_ids = list(self.r_meta)
+            self._ids_ready = True
+        return self.q_ids, self.r_ids
+
+    # -- orphan stratum --------------------------------------------------
+    def orphans(self) -> list[str]:
+        """Queries with no DIAMOND hit at all — the same definition
+        31_calibrate.py uses, read from the same file."""
+        q_ids, _ = self.ids()
+        inone = self.ident_excl.get("Inone", {})
+        hit = {q for q in inone if inone.get(q)}
+        return [a for a in q_ids if a not in hit]
+
+    def hits(self) -> dict[str, dict[str, float]]:
+        """DIAMOND alignments, loaded once and shared by the baseline and
+        the paired comparison."""
+        if not hasattr(self, "_hits"):
+            log("reading alignments")
+            self._hits = load_hits(self.dir / "diamond_hits.tsv")
+        return self._hits
+
+    def register_subset(self, name: str, mask_tier: str,
+                        ids: list[str]) -> None:
+        """Let another script score an arbitrary query subset through the
+        same path ORPHAN_nohit uses, instead of reimplementing it.
+
+        scripts/37_harden_orphans.py registers the jackhmmer-survivor
+        subset this way. The caller is responsible for making `name`
+        unique to the subset's contents, because it becomes part of the
+        prediction cache key.
+        """
+        if not hasattr(self, "_subsets"):
+            self._subsets: dict[str, tuple[str, list[str]]] = {}
+        self._subsets[name] = (mask_tier, list(ids))
+
+    def resolve(self, tier: str) -> tuple[str, list[str]]:
+        """(mask tier, query subset). ORPHAN_nohit is T0_full on a subset,
+        exactly as 31_calibrate.py builds it."""
+        subs = getattr(self, "_subsets", {})
+        if tier in subs:
+            return subs[tier]
+        q_ids, _ = self.ids()
+        if tier == "ORPHAN_nohit":
+            return "T0_full", self.orphans()
+        return tier, q_ids
+
+
+def transform_pair(q_emb: np.ndarray, r_emb: np.ndarray, how: str):
+    """Fit on the reference, apply to both — as 31_calibrate.py does."""
+    if how == "center":
+        r, mu = center(r_emb.astype(np.float32))
+        q, _ = center(q_emb.astype(np.float32), mu)
+    elif how == "whiten":
+        r, st = whiten(r_emb.astype(np.float32))
+        q, _ = whiten(q_emb.astype(np.float32), st)
+    elif how == "none":
+        q, r = q_emb.astype(np.float32), r_emb.astype(np.float32)
+    else:
+        raise SystemExit(f"unknown transform {how}")
+    return q, r
+
+
+def reported_fmax(cfg, model: str, transform: str, tier: str) -> float | None:
+    """What the results table currently says, for a drift check."""
+    p = cfg.p("results") / f"calibration_{model}_{transform}.json"
+    if not p.exists():
+        return None
+    try:
+        d = json.loads(p.read_text())
+        return float(d["results"][tier]["metrics"]["overall"]["fmax"])
+    except (KeyError, ValueError, TypeError):
+        return None
+
+
+# ---------------------------------------------------------------------------
+# predictions, with a cache
+# ---------------------------------------------------------------------------
+
+def predictions(bench: Bench, model: str, transform: str, tier: str,
+                k: int, sim_floor: float, power: float, block: int,
+                use_cache: bool = True):
+    """(q_order, truth, prop) for one cell of the grid."""
+    cache = bench.cfg.p("results") / "cache_preds" / \
+        f"{model}_{transform}_{tier}_k{k}_f{sim_floor}_p{power}.json.gz"
+    if use_cache and cache.exists():
+        with gzip.open(cache, "rt") as fh:
+            d = json.load(fh)
+        truth = {q: set(v) for q, v in d["truth"].items()}
+        return d["order"], truth, d["prop"]
+
+    q_keep, q_emb, r_keep, r_emb = bench.embeddings(model)
+    qt, rt = transform_pair(q_emb, r_emb, transform)
+    mask_tier, subset = bench.resolve(tier)
+
+    qi = {a: i for i, a in enumerate(q_keep)}
+    subset = [a for a in subset if a in qi]
+    sub_emb = qt[[qi[a] for a in subset]]
+    sub_meta = {a: bench.q_meta[a] for a in subset}
+
+    out = bench.calib.run_tier(
+        mask_tier, subset, sub_emb, sub_meta, r_keep, rt, bench.r_meta,
+        bench.graph, k, sim_floor, power, block, bench.ident_excl,
+        return_predictions=True)
+    if len(out) != 4:
+        raise SystemExit(
+            "run_tier() did not return predictions. scripts/31_calibrate.py "
+            "needs the return_predictions patch.")
+    _metrics, _diag, truth, prop = out
+
+    order = [a for a in subset if a in truth]       # truth non-empty only
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    with gzip.open(cache, "wt") as fh:
+        json.dump({"order": order,
+                   "truth": {q: sorted(truth[q]) for q in order},
+                   "prop": {q: prop.get(q, {}) for q in order}}, fh)
+    return order, truth, {q: prop.get(q, {}) for q in order}
+
+
+# ---------------------------------------------------------------------------
+# part 1: bootstrap
+# ---------------------------------------------------------------------------
+
+def boot_p(d: np.ndarray) -> float:
+    """Two-sided bootstrap p-value for a difference being zero."""
+    return float(min(1.0, 2 * min((d <= 0).mean(), (d >= 0).mean())))
+
+
+def fmt_p(p: float, replicates: int) -> str:
+    """Never print p=0.000.
+
+    A bootstrap with R replicates cannot resolve a two-sided p below 2/R,
+    so zero replicates on the wrong side means 'p < 2/R', not 'p = 0'.
+    Printing 0.000 claims precision the resampling does not have.
+    """
+    floor = 2.0 / max(1, replicates)
+    return f"<{floor:.4f}" if p < floor else f"{p:.3f}"
+
+
+def paired_delta(A: tuple, B: tuple, idx: np.ndarray, replicates: int,
+                 seed: int, alpha: float) -> dict:
+    """Paired bootstrap of Fmax(A) - Fmax(B) over the queries in `idx`.
+
+    Resampling happens WITHIN idx, so this works for the full query set and
+    for a subset (such as the queries the baseline could answer) without
+    two code paths that might diverge.
+    """
+    n = len(idx)
+    rng = np.random.default_rng(seed)
+    d = np.empty(replicates)
+    for b in range(replicates):
+        pick = idx[rng.integers(0, n, size=n)]
+        d[b] = (fmax_from_counts(*A, pick)["fmax"]
+                - fmax_from_counts(*B, pick)["fmax"])
+    fa = fmax_from_counts(*A, idx)
+    fb = fmax_from_counts(*B, idx)
+    lo, hi = ci(d, alpha)
+    p = boot_p(d)
+    return {"n": n, "a_fmax": fa["fmax"], "a_coverage": fa["coverage"],
+            "b_fmax": fb["fmax"], "b_coverage": fb["coverage"],
+            "delta": fa["fmax"] - fb["fmax"], "ci": [lo, hi],
+            "p_two_sided": p, "p_display": fmt_p(p, replicates),
+            "excludes_zero": bool(lo > 0 or hi < 0)}
+
+
+def single_ci(A: tuple, idx: np.ndarray, replicates: int, seed: int,
+              alpha: float) -> dict:
+    """Bootstrap CI for one arm's Fmax over the queries in `idx`."""
+    n = len(idx)
+    rng = np.random.default_rng(seed)
+    v = np.empty(replicates)
+    for b in range(replicates):
+        v[b] = fmax_from_counts(*A, idx[rng.integers(0, n, size=n)])["fmax"]
+    point = fmax_from_counts(*A, idx)
+    lo, hi = ci(v, alpha)
+    return {"n": n, "fmax": point["fmax"], "coverage": point["coverage"],
+            "ci": [lo, hi]}
+
+
+def ci(v: np.ndarray, alpha: float = 0.05) -> tuple[float, float]:
+    lo = float(np.percentile(v, 100 * alpha / 2))
+    hi = float(np.percentile(v, 100 * (1 - alpha / 2)))
+    return lo, hi
+
+
+def run_bootstrap(bench: Bench, args) -> dict:
+    models = [m.strip() for m in args.models.split(",") if m.strip()]
+    transforms = [t.strip() for t in args.transforms.split(",") if t.strip()]
+    tiers = [t.strip() for t in args.boot_tiers.split(",") if t.strip()]
+
+    print("\n" + "=" * 78)
+    print(f"BOOTSTRAP  {args.replicates} replicates, seed {args.seed}")
+    print("=" * 78)
+
+    # Pin the query universe to the embedded set before resolving any tier,
+    # so the orphan count logged here is the one 31_calibrate.py scored and
+    # not the (larger) metadata key list.
+    if models:
+        bench.embeddings(models[0])
+
+    cells: dict[tuple, dict] = {}
+    report: dict = {"replicates": args.replicates, "seed": args.seed,
+                    "alpha": args.alpha, "cells": {}, "deltas": {}}
+
+    for tier in tiers:
+        _, subset = bench.resolve(tier)
+        log(f"--- {tier} ({len(subset)} queries) ---")
+        for model in models:
+            for tf in transforms:
+                label = f"{model}/{tf}/{tier}"
+                order, truth, prop = predictions(
+                    bench, model, tf, tier, args.k, args.sim_floor,
+                    args.power, args.block, not args.no_cache)
+                if not order:
+                    log(f"  {label}: no scorable queries, skipped")
+                    continue
+                tp, npred, ntrue = threshold_counts(order, truth, prop)
+                verify_counts(label, order, truth, prop, tp, npred, ntrue,
+                              reported_fmax(bench.cfg, model, tf, tier))
+
+                rng = np.random.default_rng(args.seed)
+                n = len(order)
+                fs = np.empty(args.replicates)
+                ps = np.empty(args.replicates)
+                for b in range(args.replicates):
+                    idx = rng.integers(0, n, size=n)
+                    fs[b] = fmax_from_counts(tp, npred, ntrue, idx)["fmax"]
+                    ps[b] = par_from_counts(tp, npred, ntrue, idx)
+
+                point = fmax_from_counts(tp, npred, ntrue)
+                flo, fhi = ci(fs, args.alpha)
+                plo, phi = ci(ps, args.alpha)
+                cells[(model, tf, tier)] = {
+                    "order": order, "tp": tp, "npred": npred, "ntrue": ntrue}
+                report["cells"][label] = {
+                    "n": n, "fmax": point["fmax"],
+                    "fmax_ci": [flo, fhi], "fmax_se": float(fs.std(ddof=1)),
+                    "par50": par_from_counts(tp, npred, ntrue),
+                    "par50_ci": [plo, phi],
+                    "coverage": point["coverage"],
+                    "threshold": point["threshold"],
+                }
+                log(f"    Fmax {point['fmax']:.3f}  "
+                    f"95% CI [{flo:.3f}, {fhi:.3f}]  "
+                    f"width {fhi - flo:.3f}")
+
+    # -- paired differences ---------------------------------------------
+    # Independent intervals on two arms scored over the SAME proteins
+    # overstate the uncertainty of their difference. Resampling one index
+    # set and applying it to both arms is what licenses "+0.062".
+    print("\n" + "-" * 78)
+    print("PAIRED DIFFERENCES  (same resampled queries in both arms)")
+    print("-" * 78)
+
+    pairs: list[tuple[tuple, tuple, str]] = []
+    base = args.delta_base
+    for tier in tiers:
+        for model in models:
+            for tf in transforms:
+                if tf == base:
+                    continue
+                pairs.append(((model, tf, tier), (model, base, tier),
+                              f"{model}/{tier}: {tf} - {base}"))
+    if args.delta_models:
+        parts = [x.strip() for x in args.delta_models.split(":")]
+        if len(parts) != 2 or not all(parts):
+            raise SystemExit(
+                f"--delta-models wants 'a:b', got {args.delta_models!r}")
+        a, b = parts
+        for tier in tiers:
+            for tf in transforms:
+                pairs.append(((a, tf, tier), (b, tf, tier),
+                              f"{tf}/{tier}: {a} - {b}"))
+
+    for key_a, key_b, label in pairs:
+        if key_a not in cells or key_b not in cells:
+            continue
+        A, B = cells[key_a], cells[key_b]
+        if A["order"] != B["order"]:
+            common = [q for q in A["order"] if q in set(B["order"])]
+            if not common:
+                log(f"  {label}: no shared queries, skipped")
+                continue
+            ia = np.array([A["order"].index(q) for q in common])
+            ib = np.array([B["order"].index(q) for q in common])
+            log(f"  {label}: restricted to {len(common)} shared queries")
+        else:
+            ia = ib = np.arange(len(A["order"]))
+
+        n = len(ia)
+        rng = np.random.default_rng(args.seed + 1)
+        d = np.empty(args.replicates)
+        for b in range(args.replicates):
+            pick = rng.integers(0, n, size=n)
+            fa = fmax_from_counts(A["tp"], A["npred"], A["ntrue"], ia[pick])["fmax"]
+            fb = fmax_from_counts(B["tp"], B["npred"], B["ntrue"], ib[pick])["fmax"]
+            d[b] = fa - fb
+
+        pa = fmax_from_counts(A["tp"], A["npred"], A["ntrue"], ia)["fmax"]
+        pb = fmax_from_counts(B["tp"], B["npred"], B["ntrue"], ib)["fmax"]
+        lo, hi = ci(d, args.alpha)
+        # two-sided bootstrap p-value: how often the sign flips or ties
+        p_two = boot_p(d)
+        verdict = "excludes 0" if (lo > 0 or hi < 0) else "CROSSES 0"
+        report["deltas"][label] = {
+            "n": n, "delta": pa - pb, "ci": [lo, hi],
+            "p_two_sided": p_two,
+            "p_display": fmt_p(p_two, args.replicates),
+            "p_resolution_floor": 2.0 / max(1, args.replicates),
+            "excludes_zero": bool(lo > 0 or hi < 0),
+        }
+        print(f"  {label:<38} {pa - pb:+.3f}  "
+              f"[{lo:+.3f}, {hi:+.3f}]  "
+              f"p={fmt_p(p_two, args.replicates):<7} {verdict}")
+
+    out = bench.cfg.p("results") / "bootstrap_ci.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, indent=2))
+    log(f"wrote {out}")
+
+    crossing = [k for k, v in report["deltas"].items() if not v["excludes_zero"]]
+    if crossing:
+        print("\n  These differences are NOT established and must not be")
+        print("  written as effects:")
+        for k in crossing:
+            print(f"    {k}")
+    return report
+
+
+# ---------------------------------------------------------------------------
+# part 2: DIAMOND homology-transfer baseline
+# ---------------------------------------------------------------------------
+
+def load_hits(path: Path) -> dict[str, dict[str, float]]:
+    """query -> {subject: best bitscore}. Columns are
+    qseqid sseqid pident length evalue bitscore (scripts/30b)."""
+    if not path.exists():
+        raise SystemExit(
+            f"missing {path.name} — python scripts/30b_identity_tiers.py")
+    best: dict[str, dict[str, float]] = {}
+    n = 0
+    with path.open() as fh:
+        for line in fh:
+            p = line.rstrip("\n").split("\t")
+            if len(p) < 6:
+                continue
+            q, s = p[0], p[1]
+            if q == s:
+                continue
+            try:
+                bits = float(p[5])
+            except ValueError:
+                continue
+            d = best.setdefault(q, {})
+            if bits > d.get(s, -1.0):
+                d[s] = bits
+            n += 1
+    log(f"  {n:,} alignments, {len(best):,} queries with a hit")
+    return best
+
+
+def homology_scores(bench: Bench, tier: str, hits, mode: str, k: int):
+    """Transfer GO from DIAMOND hits, masked by the tier the PLM arm uses.
+
+    mode 'best'  : every term of the top-bitscore permitted subject, score 1
+    mode 'topk'  : bitscore-weighted vote over the top k permitted subjects,
+                   which is the PLM method with cosine swapped for bitscore
+                   and therefore the fair accuracy comparison
+    """
+    mask_tier, subset = bench.resolve(tier)
+    q_ids, r_ids = bench.ids()
+    ref_acc = np.array(r_ids)
+    ref_taxid = np.array([bench.r_meta[a]["taxid"] for a in r_ids])
+    ref_order = np.array([bench.r_meta[a]["order"] for a in r_ids])
+    ref_arth = np.array([bool(bench.r_meta[a]["phylum"]) for a in r_ids])
+    ref_index = {a: i for i, a in enumerate(r_ids)}
+    ref_go = {a: set(bench.r_meta[a]["go"]) for a in r_ids}
+
+    scored: dict[str, dict[str, float]] = {}
+    n_nohit = 0
+    for q in subset:
+        qm = bench.q_meta[q]
+        cand = [(s, b) for s, b in hits.get(q, {}).items() if s in ref_index]
+        if not cand:
+            scored[q] = {}
+            n_nohit += 1
+            continue
+        allowed = bench.calib.tier_mask(
+            mask_tier, qm["taxid"], qm["order"], bool(qm["phylum"]), q,
+            ref_acc, ref_taxid, ref_order, ref_arth,
+            bench.ident_excl, ref_index)
+        cand = [(s, b) for s, b in cand if allowed[ref_index[s]]]
+        if not cand:
+            scored[q] = {}
+            n_nohit += 1
+            continue
+        cand.sort(key=lambda sb: -sb[1])
+
+        if mode == "best":
+            scored[q] = {t: 1.0 for t in ref_go[cand[0][0]]}
+            continue
+        top = cand[:k]
+        total = sum(b for _, b in top)
+        if total <= 0:
+            scored[q] = {}
+            n_nohit += 1
+            continue
+        votes: dict[str, float] = {}
+        for s, b in top:
+            for t in ref_go[s]:
+                votes[t] = votes.get(t, 0.0) + b
+        scored[q] = {t: v / total for t, v in votes.items()
+                     if v / total >= 0.01}
+
+    # same ancestor-max propagation as run_tier
+    prop: dict[str, dict[str, float]] = {}
+    for q, terms in scored.items():
+        p: dict[str, float] = {}
+        for t, s in terms.items():
+            for anc in bench.graph.ancestors(t):
+                if anc in ROOTS:
+                    continue
+                if s > p.get(anc, 0.0):
+                    p[anc] = s
+        prop[q] = p
+
+    truth = {a: bench.graph.propagate(bench.q_meta[a]["go"]) for a in subset}
+    truth = {a: v for a, v in truth.items() if v}
+    prop = {a: prop.get(a, {}) for a in truth}
+    return truth, prop, n_nohit, len(subset)
+
+
+def run_baseline(bench: Bench, args) -> dict:
+    print("\n" + "=" * 78)
+    print("DIAMOND HOMOLOGY-TRANSFER BASELINE")
+    print("=" * 78)
+
+    # Both arms must be scored on the same proteins or the Fmax columns are
+    # not comparable. Pin the query universe to the embedded set; if the
+    # embeddings are absent, fall back to the metadata and say so, because
+    # a silent difference in denominator is exactly the kind of thing that
+    # makes a baseline table wrong in a way nobody notices.
+    first = (args.models.split(",") or [""])[0].strip()
+    if first:
+        try:
+            bench.embeddings(first)
+        except SystemExit as e:
+            print(f"  WARNING: could not pin the query set to {first} ({e}).")
+            print("  Scoring every query in the benchmark metadata instead;")
+            print("  the Fmax column may not be comparable to the PLM table.")
+
+    hits = bench.hits()
+
+    tiers = [t.strip() for t in args.base_tiers.split(",") if t.strip()]
+    report: dict = {"modes": ["best", "topk"], "k": args.k,
+                    "diamond_evalue": bench.ident_evalue, "tiers": {}}
+
+    for tier in tiers:
+        row: dict = {}
+        for mode in ("best", "topk"):
+            truth, prop, n_nohit, n_total = homology_scores(
+                bench, tier, hits, mode, args.k)
+            if not truth:
+                row[mode] = {"note": "no scorable queries"}
+                continue
+            res = evaluate(truth, prop, bench.graph)
+            o = res["overall"]
+            answered = sum(1 for v in prop.values() if v)
+            row[mode] = {
+                "fmax": o["fmax"], "smin": o["smin"],
+                "precision_at_recall_0.5": o["precision_at_recall_0.5"],
+                "fmax_coverage": o["coverage"],
+                "answerable": answered, "n_scored": len(truth),
+                "answerable_frac": answered / max(1, len(truth)),
+                "no_permitted_hit": n_nohit, "n_queries": n_total,
+                "BP": res.get("BP", {}).get("fmax"),
+                "MF": res.get("MF", {}).get("fmax"),
+                "CC": res.get("CC", {}).get("fmax"),
+            }
+        report["tiers"][tier] = row
+
+        b, t = row.get("best", {}), row.get("topk", {})
+        if "fmax" in b:
+            print(f"  {tier:<14} best-hit Fmax {b['fmax']:.3f}   "
+                  f"top{args.k} Fmax {t.get('fmax', float('nan')):.3f}   "
+                  f"answerable {b['answerable']}/{b['n_scored']} "
+                  f"({100 * b['answerable_frac']:.1f}%)")
+        else:
+            print(f"  {tier:<14} {b.get('note', 'no result')}")
+
+    # -- the circularity warning, printed where it cannot be missed -----
+    # Two tiers are structurally undefined for homology transfer, not
+    # merely hard. ORPHAN_nohit is the queries DIAMOND found nothing for,
+    # and Inone masks every DIAMOND hit a query has. In both the baseline
+    # scores ~0 because there is nothing to transfer from, so quoting it
+    # against the PLM number as accuracy is circular. Detected from the
+    # data rather than hardcoded, so a new tier cannot slip through.
+    undefined, measured = [], []
+    for tier, row in report["tiers"].items():
+        b = row.get("best", {})
+        if "answerable_frac" not in b:
+            continue
+        (undefined if b["answerable_frac"] < 0.05 else measured).append(
+            (tier, b))
+    report["undefined_by_construction"] = [t for t, _ in undefined]
+    report["accuracy_comparable"] = [t for t, _ in measured]
+
+    if undefined:
+        print("\n" + "-" * 78)
+        print("UNDEFINED BY CONSTRUCTION — READ BEFORE QUOTING THESE")
+        print("-" * 78)
+        for tier, b in undefined:
+            print(f"  {tier:<14} {b['answerable']}/{b['n_scored']} queries had "
+                  f"any permitted hit to transfer from")
+        print()
+        print("  These tiers are DEFINED by the absence of DIAMOND hits:")
+        print("  ORPHAN_nohit is the queries DIAMOND found nothing for, and")
+        print("  Inone masks every hit a query has. Their Fmax is therefore")
+        print("  not a measurement of homology transfer's accuracy and must")
+        print("  never be quoted as one. The legitimate claim is COVERAGE:")
+        print("  homology transfer is inapplicable to these proteins,")
+        print("  embedding transfer is not.")
+        print()
+        if measured:
+            print("  The accuracy comparison is these tiers only, where both")
+            print("  methods see the same permitted references:")
+            print(f"    {', '.join(t for t, _ in measured)}")
+        else:
+            print("  WARNING: no tier here supports an accuracy comparison.")
+        print()
+        print("  Note also that 'orphan' means no DIAMOND hit at e-value")
+        print(f"  {bench.ident_evalue} under --ultra-sensitive. A reviewer may ask")
+        print("  for jackhmmer or Foldseek before accepting the set as")
+        print("  genuinely homolog-free. That check is still open.")
+
+    out = bench.cfg.p("results") / "homology_baseline.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, indent=2))
+    log(f"wrote {out}")
+    return report
+
+
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# part 3: PLM vs homology, paired, on the tiers where both can answer
+# ---------------------------------------------------------------------------
+
+def run_compare(bench: Bench, args) -> dict:
+    """Paired bootstrap of embedding transfer against DIAMOND transfer.
+
+    This is the comparison the paper turns on, and it needs three things
+    the first two parts do not provide together:
+
+      * both arms scored on the SAME queries, so the Fmax columns mean the
+        same thing
+      * an interval on the DIFFERENCE, from one resampled index set applied
+        to both arms -- marginal intervals on two methods scored over the
+        same proteins overlap even when the difference is solid
+      * the tiers restricted to those where homology transfer is defined.
+        I20, Inone and ORPHAN_nohit are excluded automatically: a tier
+        where DIAMOND cannot answer measures coverage, not accuracy, and
+        quoting it as accuracy is circular.
+    """
+    hits = bench.hits()
+    tiers = [t.strip() for t in args.cmp_tiers.split(",") if t.strip()]
+    models = [m.strip() for m in args.cmp_models.split(",") if m.strip()]
+    transform = args.cmp_transform
+
+    print("\n" + "=" * 78)
+    print(f"PLM vs DIAMOND, PAIRED   transform={transform}  "
+          f"baseline={args.baseline_mode}")
+    print("=" * 78)
+
+    report: dict = {"transform": transform, "baseline_mode": args.baseline_mode,
+                    "replicates": args.replicates, "tiers": {}}
+    skipped: list[str] = []
+
+    for tier in tiers:
+        # -- homology arm first: if it cannot answer, the tier is not a
+        #    valid accuracy comparison and is dropped before any PLM work.
+        h_truth, h_prop, _nohit, _n = homology_scores(
+            bench, tier, hits, args.baseline_mode, args.k)
+        if not h_truth:
+            skipped.append(f"{tier} (no scorable queries)")
+            continue
+        h_answer = sum(1 for v in h_prop.values() if v) / max(1, len(h_truth))
+        if h_answer < args.min_answerable:
+            skipped.append(
+                f"{tier} (DIAMOND answers {100 * h_answer:.1f}% — "
+                "undefined by construction)")
+            continue
+
+        row: dict = {"diamond_answerable_frac": h_answer, "models": {}}
+        print(f"\n  --- {tier} ---")
+
+        for model in models:
+            p_order, p_truth, p_prop = predictions(
+                bench, model, transform, tier, args.k, args.sim_floor,
+                args.power, args.block, not args.no_cache)
+            if not p_order:
+                continue
+
+            common = [q for q in p_order if q in h_truth]
+            if not common:
+                continue
+            # The ground truth must be identical in both arms or the
+            # difference is not a difference. It is built from the same
+            # metadata and graph in both, so a mismatch is a bug.
+            for q in common[: min(len(common), 50)]:
+                if p_truth[q] != h_truth[q]:
+                    raise SystemExit(
+                        f"{tier}/{model}: ground truth differs between arms "
+                        f"for {q}. The comparison would be meaningless.")
+
+            P = threshold_counts(common, p_truth, p_prop)
+            H = threshold_counts(common, h_truth, h_prop)
+            R, S, al = args.replicates, args.seed + 2, args.alpha
+
+            # ---- (a) all queries: coverage and accuracy added together ----
+            # This is the number that looks like the headline and is the
+            # easiest to overclaim. Fmax averages recall over ALL proteins,
+            # so queries the baseline cannot answer contribute zero recall
+            # and depress its Fmax. The gap therefore mixes "more accurate"
+            # with "abstains less", and on its own cannot separate them.
+            allq = np.arange(len(common))
+            full = paired_delta(P, H, allq, R, S, al)
+
+            # ---- (b) where the baseline CAN answer: accuracy alone -------
+            # Conditioning on the baseline having a permitted hit removes
+            # the coverage term. This is a CONDITIONAL comparison, not a
+            # random subsample: it answers "among the proteins homology
+            # could annotate at all, which method annotates them better".
+            ans = np.flatnonzero(
+                np.array([bool(h_prop.get(q)) for q in common]))
+            acc = (paired_delta(P, H, ans, R, S + 1, al)
+                   if len(ans) >= args.min_stratum else None)
+
+            # ---- (c) where it CANNOT: coverage, quantified ---------------
+            # PLM's standalone Fmax on the queries homology left empty. This
+            # is the number behind "annotates proteins homology cannot
+            # reach", and unlike (a) it is not a difference at all, so it
+            # cannot be read as an accuracy comparison.
+            un = np.flatnonzero(
+                np.array([not h_prop.get(q) for q in common]))
+            miss = (single_ci(P, un, R, S + 2, al)
+                    if len(un) >= args.min_stratum else None)
+
+            row["models"][model] = {
+                "all_queries": full, "diamond_answerable": acc,
+                "diamond_unanswerable": miss,
+                "n_answerable": int(len(ans)), "n_unanswerable": int(len(un)),
+            }
+
+            v = "excludes 0" if full["excludes_zero"] else "CROSSES 0"
+            print(f"    {model:<9} PLM {full['a_fmax']:.3f} "
+                  f"(cov {full['a_coverage']:.2f})  "
+                  f"DIAMOND {full['b_fmax']:.3f} "
+                  f"(cov {full['b_coverage']:.2f})")
+            print(f"      all {len(common):>4} q   D {full['delta']:+.3f} "
+                  f"[{full['ci'][0]:+.3f}, {full['ci'][1]:+.3f}]  "
+                  f"p={full['p_display']:<8} {v}   <- coverage + accuracy")
+            if acc:
+                v2 = "excludes 0" if acc["excludes_zero"] else "CROSSES 0"
+                share = (acc["delta"] / full["delta"]
+                         if abs(full["delta"]) > 1e-9 else float("nan"))
+                print(f"      hit {acc['n']:>4} q   D {acc['delta']:+.3f} "
+                      f"[{acc['ci'][0]:+.3f}, {acc['ci'][1]:+.3f}]  "
+                      f"p={acc['p_display']:<8} {v2}   <- accuracy alone "
+                      f"({100 * share:.0f}% of the gap)")
+            if miss:
+                print(f"      nohit {miss['n']:>3} q   PLM alone "
+                      f"{miss['fmax']:.3f} "
+                      f"[{miss['ci'][0]:.3f}, {miss['ci'][1]:.3f}]"
+                      f"            <- coverage alone")
+
+        report["tiers"][tier] = row
+
+    print("\n" + "-" * 78)
+    print("HOW TO READ THE THREE ROWS")
+    print("-" * 78)
+    print("  all    every query in the tier. Mixes two effects and is the")
+    print("         row most likely to be overclaimed: a method that")
+    print("         abstains loses recall, so part of the gap is simply")
+    print("         that homology produced nothing. Do not quote this as")
+    print("         an accuracy difference.")
+    print("  hit    only the queries homology COULD annotate. This is the")
+    print("         accuracy comparison. It is conditional on the baseline")
+    print("         finding a hit, so describe it that way -- 'among the")
+    print("         proteins homology could annotate at all'.")
+    print("  nohit  PLM's Fmax, alone, on the queries homology left empty.")
+    print("         Not a difference. This is the coverage claim with a")
+    print("         number attached, and it is the one that supports")
+    print("         'annotates proteins homology cannot reach'.")
+    print()
+    print("  If 'hit' is small and 'nohit' is high, the result is about")
+    print("  coverage, which is a real and defensible claim -- but a")
+    print("  different claim than being more accurate. Report both.")
+
+    report["skipped"] = skipped
+    if skipped:
+        print("\n  Excluded from the accuracy comparison:")
+        for s in skipped:
+            print(f"    {s}")
+        print("  These tiers speak to COVERAGE only. Homology transfer is")
+        print("  inapplicable there by construction, which is a different")
+        print("  and stronger claim than being less accurate.")
+
+    out = bench.cfg.p("results") / "plm_vs_homology.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, indent=2))
+    log(f"wrote {out}")
+    return report
+
+
+# ---------------------------------------------------------------------------
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--part", default="all",
+                    choices=["all", "both", "bootstrap", "baseline", "compare"],
+                    help="'all' runs the bootstrap, the baseline and the "
+                         "paired PLM-vs-DIAMOND comparison")
+    ap.add_argument("--models", default="esm2,prott5,prostt5")
+    ap.add_argument("--transforms", default="none,center,whiten")
+    ap.add_argument("--boot-tiers", default="ORPHAN_nohit,T0_full,I50,I30",
+                    help="tiers to bootstrap; the orphan tier is the claim, "
+                         "I50/I30 are where the homology baseline collapses")
+    ap.add_argument("--base-tiers",
+                    default="T0_full,I90,I50,I30,I20,Inone,ORPHAN_nohit",
+                    help="tiers for the homology baseline")
+    ap.add_argument("--cmp-tiers", default="T0_full,I90,I50,I30,I20",
+                    help="candidate tiers for the paired comparison; any "
+                         "where DIAMOND cannot answer are dropped")
+    ap.add_argument("--cmp-models", default="esm2,prott5,prostt5")
+    ap.add_argument("--cmp-transform", default="whiten",
+                    choices=["none", "center", "whiten"])
+    ap.add_argument("--baseline-mode", default="topk", choices=["best", "topk"],
+                    help="'topk' is the PLM method with cosine swapped for "
+                         "bitscore, so it isolates the embedding contribution")
+    ap.add_argument("--min-stratum", type=int, default=20,
+                    help="smallest stratum to report a bootstrap for; below "
+                         "this the interval is not worth quoting")
+    ap.add_argument("--min-answerable", type=float, default=0.25,
+                    help="a tier where DIAMOND answers less than this "
+                         "fraction is a coverage result, not an accuracy one")
+    ap.add_argument("--delta-base", default="none",
+                    help="transform each other transform is differenced against")
+    ap.add_argument("--delta-models", default="prott5:esm2",
+                    help="'a:b' for a paired model difference, or empty to skip")
+    ap.add_argument("--replicates", type=int, default=2000)
+    ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--alpha", type=float, default=0.05)
+    # must match the frozen parameters in scripts/32_sweep.py
+    ap.add_argument("--k", type=int, default=25)
+    ap.add_argument("--sim-floor", type=float, default=0.0)
+    ap.add_argument("--power", type=float, default=3.0)
+    ap.add_argument("--block", type=int, default=512)
+    ap.add_argument("--no-cache", action="store_true",
+                    help="recompute predictions instead of reusing the cache")
+    args = ap.parse_args()
+
+    cfg = cfgmod.load()
+    calib = load_calib()
+    bench = Bench(cfg, calib)
+
+    print("=" * 78)
+    print("PARAMS  k={} sim_floor={} power={}".format(
+        args.k, args.sim_floor, args.power))
+    print("  These must match the frozen values used for the results table.")
+    print("  sim_floor is an ABSOLUTE cosine cut: whitening compresses the")
+    print("  cosine scale, so a floor tuned on raw embeddings silently")
+    print("  deletes most neighbours after whitening. 0.0 is the fair value.")
+    print("=" * 78)
+
+    every = args.part in ("all", "both")
+    if every or args.part == "bootstrap":
+        run_bootstrap(bench, args)
+    if every or args.part == "baseline":
+        run_baseline(bench, args)
+    if every or args.part == "compare":
+        run_compare(bench, args)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

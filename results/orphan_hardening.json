@@ -1,0 +1,121 @@
+{
+  "model": "esm2",
+  "transform": "whiten",
+  "jackhmmer": {
+    "exe": "/storage/slurm/home/68090800301@cpe.kmutt.ac.th/pmdark_work/envs/pmbio/bin/jackhmmer",
+    "iterations": 5,
+    "report_evalue": 10.0
+  },
+  "diamond_evalue": 10.0,
+  "n_orphan_diamond": 94,
+  "survival": {
+    "1e-20": {
+      "with_hit": 18,
+      "still_orphan": 76
+    },
+    "1e-10": {
+      "with_hit": 22,
+      "still_orphan": 72
+    },
+    "1e-05": {
+      "with_hit": 22,
+      "still_orphan": 72
+    },
+    "0.001": {
+      "with_hit": 24,
+      "still_orphan": 70
+    },
+    "0.01": {
+      "with_hit": 30,
+      "still_orphan": 64
+    },
+    "0.1": {
+      "with_hit": 43,
+      "still_orphan": 51
+    },
+    "1": {
+      "with_hit": 50,
+      "still_orphan": 44
+    },
+    "10": {
+      "with_hit": 51,
+      "still_orphan": 43
+    }
+  },
+  "harden_at": 0.001,
+  "n_survivors": 70,
+  "n_dropped": 24,
+  "dropped": [
+    "A0A348G5W1",
+    "A0A348G5W2",
+    "A0A3G5BIC2",
+    "A0A6B9KZ30",
+    "A0A6P3CW73",
+    "A6P331",
+    "B0FHH8",
+    "C0HJV5",
+    "P01501",
+    "P0C8X9",
+    "P0DJE5",
+    "P0DJE6",
+    "P0DJE7",
+    "P0DQI9",
+    "P0DSJ5",
+    "P0DXZ4",
+    "P36235",
+    "P41046",
+    "P68424",
+    "P83563",
+    "Q95RQ8",
+    "Q9VL14",
+    "Q9VN91",
+    "Q9VPD5"
+  ],
+  "strata": {
+    "DIAMOND-orphan": {
+      "n": 94,
+      "fmax": 0.6640243692731718,
+      "coverage": 0.925531914893617,
+      "ci": [
+        0.5988461757566954,
+        0.7315903652019805
+      ],
+      "threshold": 0.3,
+      "precision": 0.8056560632477611,
+      "recall": 0.5647441922165896,
+      "BP": 0.32687662144719526,
+      "MF": 0.4345780650744499,
+      "CC": 0.8067953401081854
+    },
+    "HARDENED": {
+      "n": 70,
+      "fmax": 0.6251412628432951,
+      "coverage": 0.9,
+      "ci": [
+        0.5418771677580718,
+        0.7056173282270669
+      ],
+      "threshold": 0.3,
+      "precision": 0.8615515201158975,
+      "recall": 0.4905374817061951,
+      "BP": 0.32373996169181607,
+      "MF": 0.3819963781610796,
+      "CC": 0.7672655186907635
+    },
+    "dropped (had a profile hit)": {
+      "n": 24,
+      "fmax": 0.7344038399351667,
+      "coverage": 1.0,
+      "ci": [
+        0.6468087286156724,
+        0.8627733832706073
+      ],
+      "threshold": 0.37,
+      "precision": 0.6930077163862943,
+      "recall": 0.7810596582583802,
+      "BP": 0.3830416999272388,
+      "MF": 0.6103713734530586,
+      "CC": 0.9096620299498093
+    }
+  }
+}

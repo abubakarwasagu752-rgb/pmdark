@@ -1,0 +1,34 @@
+# Release metadata for GitHub and Zenodo.
+# Written by scripts/46_release.py from its command-line flags —
+# pass them again to change anything. No need to edit this by hand.
+
+github:
+  owner: Abubakarwasagu752-rgb
+  repo: pmdark
+  private: false
+  default_branch: main
+zenodo:
+  mode: reserve
+  sandbox_first: false
+  upload_type: software
+  access_right: open
+  keywords:
+  - protein language model
+  - function annotation
+  - dark proteome
+  - Penaeus monodon
+  - whitening
+  - Gene Ontology
+licence:
+  code: MIT
+  data: CC-BY-4.0
+authors:
+- name: Saadu, Abubakar
+  affiliation: Department of Microbiology, Faculty of Science, King Mongkut's University
+    of Technology Thonburi, Bangkok 10140, Thailand
+  orcid: 0009-0002-2116-9289
+- name: Jongruja, Nujarin
+  affiliation: Department of Microbiology, Faculty of Science, King Mongkut's University
+    of Technology Thonburi, Bangkok 10140, Thailand
+  orcid: 0000-0002-8839-2568
+corresponding: nujarin.jon@kmutt.ac.th

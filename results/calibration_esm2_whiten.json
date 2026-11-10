@@ -1,0 +1,343 @@
+{
+  "model": "esm2",
+  "params": {
+    "k": 25,
+    "sim_floor": 0.0,
+    "power": 3.0,
+    "transform": "whiten"
+  },
+  "n_query": 1087,
+  "n_reference": 19304,
+  "results": {
+    "T0_full": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.8151079685479674,
+          "threshold": 0.38,
+          "coverage": 0.9917203311867525,
+          "precision": 0.8620915695222862,
+          "recall": 0.7729808609245958,
+          "n": 1087,
+          "smin": 129.0165272942778,
+          "precision_at_recall_0.5": 0.991778012709679,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.6555059633578159,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.8768718801996672,
+          "precision": 0.7679350897549018,
+          "recall": 0.5717929256669744,
+          "n": 601,
+          "precision_at_recall_0.5": 0.8470852449783965
+        },
+        "MF": {
+          "fmax": 0.8366979819390317,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.9042089985486212,
+          "precision": 0.8759340053893885,
+          "recall": 0.8008262853081377,
+          "n": 689,
+          "precision_at_recall_0.5": 0.9782788885091516
+        },
+        "CC": {
+          "fmax": 0.8818615305080908,
+          "threshold": 0.39,
+          "coverage": 0.9879963065558633,
+          "precision": 0.8942797063487485,
+          "recall": 0.8697835144808368,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9975970357326289
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.734398603439331,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "I90": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.8119224777969465,
+          "threshold": 0.38,
+          "coverage": 0.9917203311867525,
+          "precision": 0.8587833207373824,
+          "recall": 0.7699110860850605,
+          "n": 1087,
+          "smin": 129.7214941683446,
+          "precision_at_recall_0.5": 0.9864502921683972,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.6488990868216788,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.8685524126455907,
+          "precision": 0.7653753883206379,
+          "recall": 0.5631915165447506,
+          "n": 601,
+          "precision_at_recall_0.5": 0.8310704908158774
+        },
+        "MF": {
+          "fmax": 0.8340499985842512,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.9013062409288825,
+          "precision": 0.8750307806679847,
+          "recall": 0.7967360359348695,
+          "n": 689,
+          "precision_at_recall_0.5": 0.977037848849285
+        },
+        "CC": {
+          "fmax": 0.881521562600854,
+          "threshold": 0.39,
+          "coverage": 0.9879963065558633,
+          "precision": 0.8937616806277578,
+          "recall": 0.8696121734743452,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9975670455389644
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.6699054837226868,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "I50": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.775260760006737,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9908003679852806,
+          "precision": 0.8282467596897802,
+          "recall": 0.7286465528666983,
+          "n": 1087,
+          "smin": 138.34443852806302,
+          "precision_at_recall_0.5": 0.979045833759627,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.616914148028676,
+          "threshold": 0.3,
+          "coverage": 0.8668885191347754,
+          "precision": 0.7076469220386985,
+          "recall": 0.5468042338441153,
+          "n": 601,
+          "precision_at_recall_0.5": 0.7785295939454304
+        },
+        "MF": {
+          "fmax": 0.7878152798166176,
+          "threshold": 0.33,
+          "coverage": 0.8751814223512336,
+          "precision": 0.8330968313859701,
+          "recall": 0.7472023743622328,
+          "n": 689,
+          "precision_at_recall_0.5": 0.9425208597207584
+        },
+        "CC": {
+          "fmax": 0.8667178086593069,
+          "threshold": 0.39,
+          "coverage": 0.984302862419206,
+          "precision": 0.8841441875154613,
+          "recall": 0.8499650957176473,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9973629901398763
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.4574742913246155,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "I30": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.7208736880488124,
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9889604415823368,
+          "precision": 0.7970744678092352,
+          "recall": 0.6579712557504441,
+          "n": 1087,
+          "smin": 155.8696292583278,
+          "precision_at_recall_0.5": 0.9405841242570727,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.5228897676310178,
+          "threshold": 0.25,
+          "coverage": 0.7870216306156406,
+          "precision": 0.6176176095447274,
+          "recall": 0.4533557807921371,
+          "n": 601,
+          "precision_at_recall_0.5": 0.5266145522747522
+        },
+        "MF": {
+          "fmax": 0.6748299517096025,
+          "threshold": 0.25,
+          "coverage": 0.8374455732946299,
+          "precision": 0.7124303867597662,
+          "recall": 0.6409994756393909,
+          "n": 689,
+          "precision_at_recall_0.5": 0.8200039751147886
+        },
+        "CC": {
+          "fmax": 0.8398574438557576,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.9806094182825484,
+          "precision": 0.8679574594118038,
+          "recall": 0.8135198395206619,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9917800453514739
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.34023183584213257,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "I20": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.6973774313720258,
+          "threshold": 0.26,
+          "coverage": 0.9806807727690893,
+          "precision": 0.8132817210173243,
+          "recall": 0.6103883518224998,
+          "n": 1087,
+          "smin": 167.34876367368756,
+          "precision_at_recall_0.5": 0.9112368240839254,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.48547513724899316,
+          "threshold": 0.18000000000000002,
+          "coverage": 0.8202995008319468,
+          "precision": 0.5478445622511283,
+          "recall": 0.4358551583636428,
+          "n": 601,
+          "precision_at_recall_0.5": 0.45369504073164685
+        },
+        "MF": {
+          "fmax": 0.5985595751714172,
+          "threshold": 0.21000000000000002,
+          "coverage": 0.8098693759071117,
+          "precision": 0.6521204427118918,
+          "recall": 0.553129195118736,
+          "n": 689,
+          "precision_at_recall_0.5": 0.6915891995274904
+        },
+        "CC": {
+          "fmax": 0.8313279189821655,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.9667590027700831,
+          "precision": 0.890913004221872,
+          "recall": 0.7792134061136968,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9917934588919045
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.2933955192565918,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "Inone": {
+      "metrics": {
+        "overall": {
+          "fmax": 0.6968468303038947,
+          "threshold": 0.26,
+          "coverage": 0.9806807727690893,
+          "precision": 0.8133751847223283,
+          "recall": 0.6095233488898484,
+          "n": 1087,
+          "smin": 167.66121394410092,
+          "precision_at_recall_0.5": 0.9087390956052006,
+          "n_proteins": 1087
+        },
+        "BP": {
+          "fmax": 0.48556093153923774,
+          "threshold": 0.18000000000000002,
+          "coverage": 0.8186356073211315,
+          "precision": 0.548903406290529,
+          "recall": 0.4353251814940092,
+          "n": 601,
+          "precision_at_recall_0.5": 0.4540302348041701
+        },
+        "MF": {
+          "fmax": 0.5954096249868568,
+          "threshold": 0.21000000000000002,
+          "coverage": 0.8084179970972424,
+          "precision": 0.6495442519349703,
+          "recall": 0.5496042457190571,
+          "n": 689,
+          "precision_at_recall_0.5": 0.6878622067879648
+        },
+        "CC": {
+          "fmax": 0.8308468787476558,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.9658356417359187,
+          "precision": 0.8917361391509738,
+          "recall": 0.777741374759394,
+          "n": 1083,
+          "precision_at_recall_0.5": 0.9925464340828923
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.29190072417259216,
+        "median_usable_neighbours": 25.0
+      }
+    },
+    "ORPHAN_nohit": {
+      "n": 94,
+      "metrics": {
+        "overall": {
+          "fmax": 0.6640243692731717,
+          "threshold": 0.3,
+          "coverage": 0.925531914893617,
+          "precision": 0.8056560632477611,
+          "recall": 0.5647441922165896,
+          "n": 94,
+          "smin": 115.41746589766353,
+          "precision_at_recall_0.5": 0.832826216856037,
+          "n_proteins": 94
+        },
+        "BP": {
+          "fmax": 0.32687662144719526,
+          "threshold": 0.26,
+          "coverage": 0.6521739130434783,
+          "precision": 0.47163612482267436,
+          "recall": 0.25011018245723715,
+          "n": 46,
+          "precision_at_recall_0.5": 0.15623459857612323
+        },
+        "MF": {
+          "fmax": 0.4345780650744499,
+          "threshold": 0.36000000000000004,
+          "coverage": 0.4634146341463415,
+          "precision": 0.67096551539276,
+          "recall": 0.321359940872136,
+          "n": 41,
+          "precision_at_recall_0.5": 0.36952204307544506
+        },
+        "CC": {
+          "fmax": 0.8067953401081854,
+          "threshold": 0.39,
+          "coverage": 0.9468085106382979,
+          "precision": 0.8940478615309321,
+          "recall": 0.7350589697577781,
+          "n": 94,
+          "precision_at_recall_0.5": 0.9804471390678288
+        }
+      },
+      "diagnostics": {
+        "no_neighbour": 0,
+        "median_top_sim": 0.3512742817401886,
+        "median_usable_neighbours": 25.0
+      }
+    }
+  }
+}

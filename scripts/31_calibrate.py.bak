@@ -1,0 +1,372 @@
+#!/usr/bin/env python3
+"""Run the four-tier calibration benchmark. Produces Figure 2 of the paper.
+
+    python scripts/31_calibrate.py --model esm2
+    python scripts/31_calibrate.py --model esm2 --k 25 --sim-floor 0.5
+
+WHAT IT MEASURES
+
+  For each tier, how well embedding-based GO transfer recovers experimental
+  annotations when progressively more of the query's relatives are hidden
+  from the reference:
+
+    T0_full        reference keeps everything but the query itself
+    T1_no_species  the query's own species removed
+    T2_no_order    its whole taxonomic order removed
+    T3_no_phylum   all Arthropoda removed     <-- the orphan condition
+
+  T3 is the number that licenses the paper's claims. Our shrimp dark
+  proteins have no annotated relative, so whatever precision T3 shows is
+  the precision we may claim for them — not T0's.
+
+DESIGN NOTE
+
+  Similarity is computed ONCE as a query x reference matrix, then each tier
+  applies its own mask and re-selects top-k from what remains. Recomputing
+  embeddings or neighbours per tier would be four times the work for
+  identical numbers.
+"""
+
+from __future__ import annotations
+
+import argparse
+import gzip
+import json
+import sys
+import time
+from pathlib import Path
+
+import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from pmdark import config as cfgmod                      # noqa: E402
+from pmdark.goeval import GOGraph, ROOTS, evaluate        # noqa: E402
+from pmdark.shards import ShardStore, fasta_checksum, plan_shards, read_fasta  # noqa: E402
+from pmdark.transfer import center, l2_normalise, whiten   # noqa: E402
+
+
+def log(m: str) -> None:
+    print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
+
+
+def load_embeddings(cfg, model: str, fasta: Path) -> tuple[list[str], np.ndarray]:
+    records = read_fasta(fasta)
+    shards = plan_shards(records, cfg["compute"]["shard_size"])
+    store = ShardStore(cfg.p("embeddings", model, fasta.stem),
+                       checksum=fasta_checksum(records), n_shards=len(shards))
+    done, total = store.progress()
+    if done < total:
+        raise SystemExit(
+            f"{fasta.stem}: only {done}/{total} shards embedded.\n"
+            f"  bash slurm/embed_fanout.sh {model} {fasta}"
+        )
+    ids, mat = store.load_all()
+    return ids, mat
+
+
+def tier_mask(
+    tier: str,
+    q_taxid: str, q_order: str, q_arth: bool, q_acc: str,
+    ref_acc: np.ndarray, ref_taxid: np.ndarray,
+    ref_order: np.ndarray, ref_arth: np.ndarray,
+    ident_excl: dict | None = None, ref_index: dict | None = None,
+) -> np.ndarray:
+    """True where a reference protein may be used for this query.
+
+    Two tier families:
+      T* taxonomy  — hide relatives by rank
+      I* identity  — hide anything above a DIAMOND identity ceiling
+
+    The identity family is the one that answers our real question. See
+    scripts/30b_identity_tiers.py for why.
+    """
+    allowed = ref_acc != q_acc              # never let a query see itself
+
+    if tier.startswith("I"):
+        if ident_excl is None or ref_index is None:
+            raise ValueError(f"{tier} needs identity_tiers.json.gz "
+                             "— run scripts/30b_identity_tiers.py")
+        for s in ident_excl.get(tier, {}).get(q_acc, ()):
+            j = ref_index.get(s)
+            if j is not None:
+                allowed[j] = False
+        return allowed
+
+    if tier == "T1_no_species":
+        allowed &= ref_taxid != q_taxid
+    elif tier == "T2_no_order":
+        if q_order:
+            allowed &= ref_order != q_order
+        else:                                # order unresolved: fall back
+            allowed &= ref_taxid != q_taxid
+    elif tier == "T3_no_phylum":
+        allowed &= ~ref_arth
+    return allowed
+
+
+def run_tier(
+    tier: str,
+    q_ids: list[str], q_emb: np.ndarray, q_meta: dict,
+    r_ids: list[str], r_emb: np.ndarray, r_meta: dict,
+    graph: GOGraph, k: int, sim_floor: float, power: float, block: int,
+    ident_excl: dict | None = None,
+) -> tuple[dict, dict]:
+    ref_acc = np.array(r_ids)
+    ref_taxid = np.array([r_meta[a]["taxid"] for a in r_ids])
+    ref_order = np.array([r_meta[a]["order"] for a in r_ids])
+    ref_arth = np.array([bool(r_meta[a]["phylum"]) for a in r_ids])
+    ref_go = [set(r_meta[a]["go"]) for a in r_ids]
+    ref_index = {a: i for i, a in enumerate(r_ids)}
+
+    # q_emb / r_emb arrive already centred (or whitened) by main(); only
+    # L2-normalise here so the dot product is a cosine.
+    qn = l2_normalise(q_emb.astype(np.float32))
+    rn = l2_normalise(r_emb.astype(np.float32))
+
+    scored: dict[str, dict[str, float]] = {}
+    diag = {"no_neighbour": 0, "top_sim": [], "n_usable": []}
+
+    for start in range(0, len(q_ids), block):
+        stop = min(start + block, len(q_ids))
+        sims = qn[start:stop] @ rn.T                      # (b, R)
+
+        for bi in range(stop - start):
+            qi = start + bi
+            qacc = q_ids[qi]
+            qm = q_meta[qacc]
+            allowed = tier_mask(tier, qm["taxid"], qm["order"],
+                                bool(qm["phylum"]), qacc,
+                                ref_acc, ref_taxid, ref_order, ref_arth,
+                                ident_excl, ref_index)
+
+            row = sims[bi].copy()
+            row[~allowed] = -1.0                          # exclude, don't delete
+
+            kk = min(k, int(allowed.sum()))
+            if kk <= 0:
+                scored[qacc] = {}
+                diag["no_neighbour"] += 1
+                continue
+
+            top = np.argpartition(-row, kth=kk - 1)[:kk]
+            top = top[np.argsort(-row[top])]
+            tsim = row[top]
+
+            diag["top_sim"].append(float(tsim[0]))
+            w = np.clip(tsim - sim_floor, 0.0, None) ** power
+            total = float(w.sum())
+            diag["n_usable"].append(int((w > 0).sum()))
+
+            if total <= 0:
+                # No neighbour clears the floor. Emitting nothing is the
+                # honest answer; it costs recall, not precision.
+                scored[qacc] = {}
+                diag["no_neighbour"] += 1
+                continue
+
+            votes: dict[str, float] = {}
+            for j, wj in zip(top, w):
+                if wj <= 0:
+                    continue
+                for term in ref_go[int(j)]:
+                    votes[term] = votes.get(term, 0.0) + float(wj)
+            scored[qacc] = {t: v / total for t, v in votes.items()
+                            if v / total >= 0.01}
+
+    # Propagate both sides up the DAG before scoring. Parent terms take the
+    # max over their descendants — a parent is at least as likely as its
+    # most likely child.
+    prop: dict[str, dict[str, float]] = {}
+    for qacc, terms in scored.items():
+        p: dict[str, float] = {}
+        for t, s in terms.items():
+            for anc in graph.ancestors(t):
+                if anc in ROOTS:
+                    continue
+                if s > p.get(anc, 0.0):
+                    p[anc] = s
+        prop[qacc] = p
+
+    truth = {a: graph.propagate(q_meta[a]["go"]) for a in q_ids}
+    truth = {a: v for a, v in truth.items() if v}
+
+    summary = {
+        "no_neighbour": diag["no_neighbour"],
+        "median_top_sim": float(np.median(diag["top_sim"])) if diag["top_sim"] else 0.0,
+        "median_usable_neighbours": float(np.median(diag["n_usable"])) if diag["n_usable"] else 0.0,
+    }
+    return evaluate(truth, prop, graph), summary
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--model", default="esm2")
+    ap.add_argument("--k", type=int, default=25)
+    ap.add_argument("--sim-floor", type=float, default=0.5)
+    ap.add_argument("--power", type=float, default=3.0)
+    ap.add_argument("--block", type=int, default=512)
+    ap.add_argument("--tiers", default="T0_full,T1_no_species,T2_no_order,T3_no_phylum")
+    ap.add_argument("--transform", default="center",
+                    choices=["none", "center", "whiten"],
+                    help="embedding transform before cosine. 'none' reproduces "
+                         "the anisotropic baseline where every pair scores ~0.99")
+    args = ap.parse_args()
+
+    cfg = cfgmod.load()
+    bench_dir = cfg.p("proteins", "benchmark")
+    meta_path = bench_dir / "benchmark.json.gz"
+    if not meta_path.exists():
+        raise SystemExit(f"missing {meta_path} — run scripts/30_build_benchmark.py")
+
+    log(f"loading {meta_path.name}")
+    with gzip.open(meta_path, "rt") as fh:
+        meta = json.load(fh)
+    log(f"  {meta['n_query']:,} queries, {meta['n_reference']:,} references")
+
+    ident_path = bench_dir / "identity_tiers.json.gz"
+    ident_excl = None
+    if ident_path.exists():
+        with gzip.open(ident_path, "rt") as fh:
+            ident_excl = json.load(fh)["exclusions"]
+        log(f"  identity tiers: {', '.join(ident_excl)}")
+    elif any(x.strip().startswith("I") for x in args.tiers.split(",")):
+        raise SystemExit(
+            f"identity tiers requested but {ident_path.name} is missing.\n"
+            "  python scripts/30b_identity_tiers.py"
+        )
+
+    obo = cfg.p("raw", "benchmark") / "go-basic.obo"
+    log(f"loading {obo.name}")
+    graph = GOGraph.from_obo(obo)
+    log(f"  {len(graph.parents):,} terms")
+
+    log(f"loading {args.model} embeddings")
+    q_ids, q_emb = load_embeddings(cfg, args.model, bench_dir / "query.faa")
+    r_ids, r_emb = load_embeddings(cfg, args.model, bench_dir / "reference.faa")
+    log(f"  query {q_emb.shape}  reference {r_emb.shape}")
+
+    # ---- fix anisotropy -------------------------------------------------
+    # Raw mean-pooled ESM-2 cosines sit at ~0.99 for every pair, so the
+    # similarity metric cannot separate a close homolog from an unrelated
+    # protein. Statistics are fit on the REFERENCE set and applied to both,
+    # otherwise query and reference land in different spaces.
+    if args.transform == "center":
+        r_emb, mu = center(r_emb.astype(np.float32))
+        q_emb, _ = center(q_emb.astype(np.float32), mu)
+        log("  embeddings centred on the reference mean")
+    elif args.transform == "whiten":
+        r_emb, st = whiten(r_emb.astype(np.float32))
+        q_emb, _ = whiten(q_emb.astype(np.float32), st)
+        log("  embeddings whitened on reference statistics")
+    else:
+        log("  WARNING: --transform none; cosines will be anisotropic (~0.99)")
+
+    # Report the dynamic range so the effect is visible in the log.
+    _qn = l2_normalise(q_emb[:200].astype(np.float32))
+    _rn = l2_normalise(r_emb.astype(np.float32))
+    _s = _qn @ _rn.T
+    log(f"  similarity range on 200 queries: "
+        f"min {_s.min():.3f}  median {np.median(_s):.3f}  max {_s.max():.3f}")
+
+    q_meta, r_meta = meta["query"], meta["reference"]
+    q_ids = [a for a in q_ids if a in q_meta]
+    r_ids = [a for a in r_ids if a in r_meta]
+
+    results = {}
+    for tier in args.tiers.split(","):
+        tier = tier.strip()
+        log(f"--- {tier} ---")
+        t0 = time.time()
+        res, diag = run_tier(tier, q_ids, q_emb, q_meta, r_ids, r_emb, r_meta,
+                             graph, args.k, args.sim_floor, args.power,
+                             args.block, ident_excl)
+        o = res["overall"]
+        log(f"  Fmax {o['fmax']:.3f}  P@R0.5 {o['precision_at_recall_0.5']:.3f}  "
+            f"Smin {o['smin']:.2f}  cov {o['coverage']:.2f}  "
+            f"[{time.time()-t0:.0f}s]")
+        log(f"  median top similarity {diag['median_top_sim']:.3f}, "
+            f"{diag['no_neighbour']} queries with no usable neighbour")
+        results[tier] = {"metrics": res, "diagnostics": diag}
+
+    # ---- orphan stratum ------------------------------------------------
+    # Queries with NO DIAMOND hit anywhere are already orphans: every tier
+    # treats them identically, nothing is masked, and they are the closest
+    # natural analogue of the P. monodon dark proteome. Their T0_full score
+    # is therefore the most defensible number in the whole benchmark.
+    orphan_report = None
+    if ident_excl and "T0_full" in results:
+        hit_queries = {q for q in ident_excl.get("Inone", {})
+                       if ident_excl["Inone"].get(q)}
+        no_hit = [a for a in q_ids if a not in hit_queries]
+        if len(no_hit) >= 20:
+            log(f"--- orphan stratum: {len(no_hit)} queries with no DIAMOND hit ---")
+            sub_meta = {a: q_meta[a] for a in no_hit}
+            res, diag = run_tier("T0_full", no_hit, 
+                                 q_emb[[q_ids.index(a) for a in no_hit]],
+                                 sub_meta, r_ids, r_emb, r_meta,
+                                 graph, args.k, args.sim_floor, args.power,
+                                 args.block, ident_excl)
+            o = res["overall"]
+            log(f"  Fmax {o['fmax']:.3f}  P@R0.5 "
+                f"{o['precision_at_recall_0.5']:.3f}  cov {o['coverage']:.2f}")
+            orphan_report = {"n": len(no_hit), "metrics": res,
+                             "diagnostics": diag}
+            results["ORPHAN_nohit"] = orphan_report
+        else:
+            log(f"  orphan stratum too small ({len(no_hit)}) to report")
+
+    out = cfg.p("results") / f"calibration_{args.model}_{args.transform}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({
+        "model": args.model,
+        "params": {"k": args.k, "sim_floor": args.sim_floor,
+                   "power": args.power, "transform": args.transform},
+        "n_query": len(q_ids), "n_reference": len(r_ids),
+        "results": results,
+    }, indent=2))
+
+    print("\n" + "=" * 78)
+    print(f"CALIBRATION — {args.model}  (k={args.k}, floor={args.sim_floor})")
+    print("=" * 78)
+    print(f"{'tier':<16}{'Fmax':>7}{'P@R.5':>8}{'Smin':>8}{'cov':>7}"
+          f"{'BP':>7}{'MF':>7}{'CC':>7}{'noNN':>7}")
+    print("-" * 78)
+    for tier, r in results.items():
+        m = r["metrics"]
+        o = m["overall"]
+        print(f"{tier:<16}{o['fmax']:>7.3f}{o['precision_at_recall_0.5']:>8.3f}"
+              f"{o['smin']:>8.2f}{o['coverage']:>7.2f}"
+              f"{m.get('BP',{}).get('fmax',0):>7.3f}"
+              f"{m.get('MF',{}).get('fmax',0):>7.3f}"
+              f"{m.get('CC',{}).get('fmax',0):>7.3f}"
+              f"{r['diagnostics']['no_neighbour']:>7}")
+    print("-" * 78)
+
+    # Interpret against the hardest tier that actually ran. Identity tiers
+    # outrank taxonomy tiers because they measure the condition we care
+    # about; see scripts/30b_identity_tiers.py.
+    order = ["Inone", "I20", "I30", "I50", "I90", "T3_no_phylum",
+             "T2_no_order", "T1_no_species"]
+    hardest = next((t_ for t_ in order if t_ in results), None)
+    if "T0_full" in results and hardest:
+        f0 = results["T0_full"]["metrics"]["overall"]["fmax"]
+        fh_ = results[hardest]["metrics"]["overall"]["fmax"]
+        ph = results[hardest]["metrics"]["overall"]["precision_at_recall_0.5"]
+        nn = results[hardest]["diagnostics"]["no_neighbour"]
+        drop = 100 * (f0 - fh_) / f0 if f0 else 0
+        print(f"\nFmax falls {drop:.0f}% from T0_full to {hardest} "
+              f"({f0:.3f} -> {fh_:.3f}).")
+        print(f"{hardest} precision at 50% recall: {ph:.3f}")
+        print(f"{hardest} queries with no usable neighbour: {nn}")
+        print(f"\n{hardest} is the orphan condition. Annotations transferred to")
+        print("the P. monodon dark proteome inherit THIS error rate, not T0's.")
+        print("Quote it in the abstract.")
+
+    print(f"\nwrote {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
